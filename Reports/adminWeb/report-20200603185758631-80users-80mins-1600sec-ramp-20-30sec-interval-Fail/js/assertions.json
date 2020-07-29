@@ -1,0 +1,10 @@
+{
+  "simulation": "uk.gov.hmcts.reform.simulation.adminWebCalls",
+  "simulationId": "report",
+  "start": 1591210678631,
+  "description": "VH-Admin-Web-Perf-Test",
+  "scenarios": ["Admin-Web-Perf-Test"],
+  "assertions": [
+
+  ]
+}

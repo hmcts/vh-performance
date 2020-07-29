@@ -1,0 +1,36 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "3.3.0"
+}
+
+repositories {
+//    mavenCentral()
+    jcenter()
+}
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'vh-admin-web-perf-test', 'Implementation-Version': 0.1
+    }
+//
+    dependencies {
+        compile group: 'gradle.plugin.com.github.lkishalmi.gatling', name: 'gradle-gatling-plugin', version: '3.3.0'
+        compile group: 'io.gatling.highcharts', name: 'gatling-highcharts', version: '3.3.1', ext: 'pom'
+        compile group: 'io.gatling', name: 'gatling-compiler', version: '3.3.1'
+        compile group: 'io.gatling', name: 'gatling-core', version: '3.3.1'
+    }
+}
+gatling {
+//    toolVersion = '3.3.1'
+//    scalaVersion '2.12.8'
+    jvmArgs = ['-Xms1024m', '-Xmx2048m', '-XX:+UseConcMarkSweepGC']
+    // do not include classes and resources from src/main
+    includeMainOutput = true
+    // do not include classes and resources from src/test
+    includeTestOutput = true
+}
+
+ScalaCompileOptions.metaClass.daemonServer = true
+ScalaCompileOptions.metaClass.fork = true
+ScalaCompileOptions.metaClass.useAnt = false
+ScalaCompileOptions.metaClass.useCompileDaemon = false
+
+ext ['netty.version'] = '4.1.49.Final'

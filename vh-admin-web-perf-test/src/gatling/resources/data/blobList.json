@@ -1,0 +1,6 @@
+{
+  "Url": "?comp=list",
+  "StorageAccountName": "${storageAccountName}",
+  "StorageAccountKey" : "${StorageAccountKey}",
+  "Method" : "Get"
+}

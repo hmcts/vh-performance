@@ -1,0 +1,51 @@
+[
+  {
+    "key": "ABOUT_YOU",
+    "answer": "true",
+    "extended_answer": "Performance Test info"
+  },
+  {
+    "key": "CONSENT",
+    "answer": "true"
+  },
+  {
+    "key": "INTERNET",
+    "answer": "true"
+  },
+  {
+    "key": "ROOM",
+    "answer": "true"
+  },
+  {
+    "key": "INTERPRETER",
+    "answer": "true"
+  },
+  {
+    "key": "COMPUTER",
+    "answer": "true"
+  },
+  {
+    "key": "CAMERA_MICROPHONE",
+    "answer": "Yes"
+  },
+  {
+    "key": "KIT_CHECK_YOUR_COMPUTER",
+    "answer": "true"
+  },
+  {
+    "key": "KIT_SEE_YOURSELF",
+    "answer": "true"
+  },
+  {
+    "key": "KIT_MICROPHONE",
+    "answer": "true"
+  },
+  {
+    "key": "KIT_SEE_HEAR_CLEARLY",
+    "answer": "true"
+  },
+  {
+    "key": "KIT_SELFTEST_SCORE",
+    "answer": "Good"
+  }
+]

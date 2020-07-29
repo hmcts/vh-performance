@@ -1,0 +1,6 @@
+{
+  "FlowToken": "${srvFlowTokenx}",
+  "Ctx": "${srvCtxIdx}",
+  "OldPassword": "Password123!",
+  "NewPassword": "VHauto@1!"
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "uk.gov.hmcts.reform.perftest.scenarios.videoapi.VideoApiScenarios",
+  "simulationId": "videoapiscenarios",
+  "start": 1588161990262,
+  "description": "",
+  "scenarios": ["VideoApi Perf Test"],
+  "assertions": [
+
+  ]
+}

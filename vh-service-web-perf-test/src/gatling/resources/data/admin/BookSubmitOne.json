@@ -1,0 +1,75 @@
+{
+  "scheduled_date_time": "${HearingDatex}",
+  "scheduled_duration": 10,
+  "hearing_venue_name": "Birmingham Civil and Family Justice Centre",
+  "case_type_name": "Civil Money Claims",
+  "hearing_type_name": "Final Hearing",
+  "cases": [
+    {
+      "number": "Perf${GenNox}${GenNoxx}${GenNoxxx}/${GenNox}",
+      "name": "Perf-Test-Case-${GenNox}${GenNoxx}${GenNoxxx}",
+      "is_lead_case": false
+    }
+  ],
+  "participants": [
+    {
+      "title": "Judge",
+      "first_name": "Performance01",
+      "middle_names": "",
+      "last_name": "Judge${GenNox}",
+      "contact_email": "Performance01.Judge${GenNox}${emaildomainx}",
+      "telephone_number": "",
+      "username": "Performance01.Judge${GenNox}${emaildomainx}",
+      "display_name": "Performance01 Judge${GenNox}",
+      "case_role_name": "Judge",
+      "hearing_role_name": "Judge",
+      "house_number": null,
+      "street": null,
+      "postcode": null,
+      "city": null,
+      "county": null
+    },
+    {
+      "title": "Mr",
+      "first_name": "Performance01",
+      "last_name": "Claimant${GenNox}",
+      "contact_email": "Performance01.Claimant${GenNoxx}@test.com",
+      "telephone_number": "01231231231",
+      "username": "Performance01.Claimant${GenNoxx}@test.com",
+      "display_name": "Performance01 Claimant${GenNoxx}",
+      "case_role_name": "Claimant",
+      "hearing_role_name": "Claimant LIP",
+      "reference": "",
+      "representee": "",
+      "organisation_name": "organisation_${GenNoxx}",
+      "house_number": "123",
+      "street": "London Road",
+      "postcode": "SW1 1WS",
+      "city": "London",
+      "county": "London"
+    },
+    {
+      "title": "Mr",
+      "first_name": "Performance01",
+      "last_name": "Claimant${GenNoxxx}",
+      "contact_email": "Performance01.Claimant${GenNoxxx}@perftest.com",
+      "telephone_number": "01010101010",
+      "username": "Performance01.Claimant${GenNoxxx}@perftest.com",
+      "display_name": "Performance01 Claimant${GenNoxxx}",
+      "case_role_name": "Claimant",
+      "hearing_role_name": "Claimant LIP",
+      "reference": "",
+      "representee": "",
+      "organisation_name": "organisation_${GenNoxxx}",
+      "house_number": "123",
+      "street": "London Road",
+      "postcode": "SW1 1WS",
+      "city": "London",
+      "county": "London"
+    }
+  ],
+  "hearing_room_name": "Perf Hearing Room${GenNox}",
+  "other_information": "Perf Other information ${GenNox}",
+  "questionnaire_not_required": true,
+  "audio_recording_required": true
+}

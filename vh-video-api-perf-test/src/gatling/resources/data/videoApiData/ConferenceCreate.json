@@ -1,0 +1,34 @@
+{
+  "hearing_ref_id": "${GenHearRefIdx}",
+  "case_type": "string",
+  "scheduled_date_time": "${GenTimeStampx}",
+  "case_number": "NV00/T7${GenCaseNox}",
+  "case_name": "${GenCaseNamex}",
+  "scheduled_duration": 10,
+  "participants": [
+    {
+      "participant_ref_id": "${GenPartOneRefIdx}",
+      "name": "string",
+      "display_name": "${GenPartyDispName}",
+      "username": "${GenPartyUsernamex}@hearings.reform.hmcts.net",
+      "first_name": "Performance01",
+      "last_name": "Representative00",
+      "user_role": "Representative",
+      "case_type_group": "Civil Money Claims",
+      "representee": "${GenRepresenteex}"
+    },
+    {
+      "participant_ref_id": "${GenPartTwoRefIdx}",
+      "name": "string",
+      "display_name": "${GenJudgeDispName}",
+      "username": "${GenJudgeUsernamex}@hearings.reform.hmcts.net",
+      "first_name": "Performance01",
+      "last_name": "Judge00",
+      "user_role": "Judge",
+      "case_type_group": "Civil Money Claims",
+      "representee": "${GenRepresenteex}"
+    }
+  ],
+  "hearing_venue_name": "${GenVenueNamex}",
+  "audio_recording_required": true
+}

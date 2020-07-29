@@ -1,0 +1,74 @@
+{
+  "scheduled_date_time": "${HearingDatex}",
+  "scheduled_duration": 10,
+  "hearing_venue_name": "Birmingham Civil and Family Justice Centre",
+  "case_type_name": "Civil Money Claims",
+  "hearing_type_name": "Application to Set Judgment Aside",
+  "cases": [
+    {
+      "number": "PerfCaseNo${GenNoxx}${GenNoxxx}",
+      "name": "PerfCaseName${GenNoxx}${GenNoxxx}",
+      "is_lead_case": false
+    }
+  ],
+  "participants": [
+    {
+      "title": "Mrs",
+      "first_name": "Performance01",
+      "middle_names": "",
+      "last_name": "Judge01",
+      "contact_email": "Performance01Judge01@performance.com",
+      "telephone_number": "",
+      "username": "Performance01Judge01@hearings.reform.hmcts.net",
+      "display_name": "Performance01Judge01",
+      "case_role_name": "Judge",
+      "hearing_role_name": "Judge",
+      "reference": "",
+      "representee": "",
+      "organisation_name": ""
+    },
+    {
+      "title": "Ms",
+      "first_name": "Performance${GenNoxx}",
+      "last_name": "Claimant${GenNox}",
+      "contact_email": "Performance${GenNoxx}.Claimant${GenNox}@test.com",
+      "telephone_number": "10231231231",
+      "username": "Performance${GenNoxx}.Claimant${GenNox}@hearings.reform.hmcts.net",
+      "display_name": "Performance${GenNoxx}Claimant${GenNox}",
+      "case_role_name": "Claimant",
+      "hearing_role_name": "Claimant LIP",
+      "reference": "",
+      "representee": "",
+      "organisation_name": "PerfOrg",
+      "house_number": "123",
+      "street": "London Road",
+      "postcode": "SW1 1WS",
+      "city": "London",
+      "county": "London"
+    },
+    {
+      "title": "Mr",
+      "first_name": "Performance${GenNox}",
+      "last_name": "Solicitor${GenNoxx}",
+      "contact_email": "Performance${GenNox}.Solicitor${GenNoxx}@test.com",
+      "telephone_number": "12312321202",
+      "username": "Performance${GenNox}.Solicitor${GenNoxx}@hearings.reform.hmcts.net",
+      "display_name": "Performance${GenNox}Solicitor${GenNoxx}",
+      "case_role_name": "Claimant",
+      "hearing_role_name": "Representative",
+      "reference": "1",
+      "representee": "Performance${GenNoxx}Claimant${GenNox}",
+      "organisation_name": "PerfOrg",
+      "house_number": "123",
+      "street": "London Road",
+      "postcode": "SW1 1WS",
+      "city": "London",
+      "county": "London"
+    }
+  ],
+  "hearing_room_name": "Room 1",
+  "other_information": "Other information",
+  "created_by": "Automation01_SW_CaseAdmin01@hearings.reform.hmcts.net",
+  "questionnaire_not_required": false,
+  "audio_recording_required": false
+}

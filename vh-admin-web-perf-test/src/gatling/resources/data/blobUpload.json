@@ -1,0 +1,7 @@
+{
+  "Url": "/recordings/${BookedHearingRefIdx}.mp4",
+  "StorageAccountName": "${storageAccountName}",
+  "StorageAccountKey" : "${StorageAccountKey}",
+  "Method" : "Put",
+  "ContentLength" : 1222931
+}

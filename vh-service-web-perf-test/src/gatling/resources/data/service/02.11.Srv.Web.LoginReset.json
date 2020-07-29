@@ -1,0 +1,101 @@
+[
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "02a757b9-d7ef-4101-aaf2-a48d24a7def2",
+    "name": "Microsoft.ApplicationInsights.02a757b9d7ef4101aaf2a48d24a7def2.Event",
+    "tags": {
+      "ai.session.id": "sNb07",
+      "ai.session.isFirst": "true",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "F6ptF",
+      "ai.operation.id": "m5qbI",
+      "ai.operation.name": "/login",
+      "ai.cloud.role": "vh-service-web"
+    },
+    "data": {
+      "baseType": "EventData",
+      "baseData": {
+        "ver": 2,
+        "name": "telemetry:serviceweb:any:login:notauthenticated"
+      }
+    }
+  },
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "02a757b9-d7ef-4101-aaf2-a48d24a7def2",
+    "name": "Microsoft.ApplicationInsights.02a757b9d7ef4101aaf2a48d24a7def2.Event",
+    "tags": {
+      "ai.session.id": "sNb07",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "F6ptF",
+      "ai.operation.id": "Q7qqE",
+      "ai.operation.name": "/",
+      "ai.cloud.role": "vh-service-web"
+    },
+    "data": {
+      "baseType": "EventData",
+      "baseData": {
+        "ver": 2,
+        "name": "telemetry:serviceweb:any:login:authenticated"
+      }
+    }
+  },
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "02a757b9-d7ef-4101-aaf2-a48d24a7def2",
+    "name": "Microsoft.ApplicationInsights.02a757b9d7ef4101aaf2a48d24a7def2.Pageview",
+    "tags": {
+      "ai.session.id": "sNb07",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "F6ptF",
+      "ai.operation.id": "Q7qqE",
+      "ai.operation.name": "/",
+      "ai.cloud.role": "vh-service-web"
+    },
+    "data": {
+      "baseType": "PageviewData",
+      "baseData": {
+        "ver": 2,
+        "name": "aM /",
+        "url": "/",
+        "duration": "00:00:00.513",
+        "id": "Q7qqE"
+      }
+    }
+  },
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "02a757b9-d7ef-4101-aaf2-a48d24a7def2",
+    "name": "Microsoft.ApplicationInsights.02a757b9d7ef4101aaf2a48d24a7def2.PageviewPerformance",
+    "tags": {
+      "ai.session.id": "sNb07",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "F6ptF",
+      "ai.operation.id": "Q7qqE",
+      "ai.operation.name": "/",
+      "ai.cloud.role": "vh-service-web"
+    },
+    "data": {
+      "baseType": "PageviewPerformanceData",
+      "baseData": {
+        "ver": 2,
+        "name": "aM /",
+        "url": "/",
+        "duration": "00:00:00.513",
+        "perfTotal": "00:00:00.513",
+        "networkConnect": "00:00:00.185",
+        "sentRequest": "00:00:00.036",
+        "receivedResponse": "00:00:00.001",
+        "domProcessing": "00:00:00.291"
+      }
+    }
+  }
+]

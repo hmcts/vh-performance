@@ -1,0 +1,2 @@
+rootProject.name = 'vh-service-web-perf-test'
+include 'gatling'

@@ -1,0 +1,6 @@
+{
+  "FlowToken": "${srvFlowTokenx}",
+  "Ctx": "${srvCtxIdx}",
+  "CoupledDataCenter": "${srvDataCenter}",
+  "CoupledScaleUnit": "a"
+}

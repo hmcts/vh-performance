@@ -1,0 +1,10 @@
+{
+  "simulation": "uk.gov.hmcts.reform.perftest.simulation.ServiceScenarios",
+  "simulationId": "report",
+  "start": 1592886577079,
+  "description": "VH-Admin-Web-Perf-Test",
+  "scenarios": ["Service-Web-Perf-Test"],
+  "assertions": [
+
+  ]
+}

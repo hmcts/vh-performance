@@ -1,0 +1,15 @@
+{
+  "participants": [
+    {
+      "participant_ref_id": "${GenPartThreeRefIdx}",
+      "name": "Performance03 Representative${GenCaseNox}",
+      "display_name": "Performance03 Representative${GenCaseNox}",
+      "username": "Performance03Representative${GenCaseNox}@hearings.reform.hmcts.net",
+      "first_name": "Performance03",
+      "last_name": "Representative${GenCaseNox}",
+      "user_role": "Individual",
+      "case_type_group": "Children Act",
+      "representee": "${GenRepresenteex}"
+    }
+  ]
+}

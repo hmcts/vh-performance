@@ -1,0 +1,10 @@
+{
+  "username": "Performance01.VideoHearingsOfficer00${GenNoxxx}${emaildomainx}",
+  "isOtherIdpSupported": true,
+  "checkPhones": true,
+  "isRemoteNGCSupported": true,
+  "isCookieBannerShown": true,
+  "isFidoSupported": true,
+  "originalRequest": "${CtxIdx}",
+  "isAccessPassSupported": true
+}

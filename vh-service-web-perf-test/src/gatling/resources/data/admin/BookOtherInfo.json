@@ -1,0 +1,82 @@
+[
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "14d12c57-0b0c-468b-bd3a-939cfd5449a1",
+    "name": "Microsoft.ApplicationInsights.14d12c570b0c468bbd3a939cfd5449a1.RemoteDependency",
+    "tags": {
+      "ai.session.id": "VVrXj",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "4ofKR",
+      "ai.operation.id": "lWtAg",
+      "ai.operation.name": "/home"
+    },
+    "data": {
+      "baseType": "RemoteDependencyData",
+      "baseData": {
+        "id": "|lWtAg.G8E4D",
+        "ver": 2,
+        "name": "GET /api/user",
+        "resultCode": "0",
+        "duration": "00:00:00.004",
+        "success": false,
+        "data": "GET ./api/user",
+        "target": "vh-admin-web-preprod.hearings.reform.hmcts.net",
+        "type": "Ajax"
+      }
+    }
+  },
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "14d12c57-0b0c-468b-bd3a-939cfd5449a1",
+    "name": "Microsoft.ApplicationInsights.14d12c570b0c468bbd3a939cfd5449a1.RemoteDependency",
+    "tags": {
+      "ai.session.id": "VVrXj",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "4ofKR",
+      "ai.operation.id": "lWtAg",
+      "ai.operation.name": "/home"
+    },
+    "data": {
+      "baseType": "RemoteDependencyData",
+      "baseData": {
+        "id": "|lWtAg.SQyoR",
+        "ver": 2,
+        "name": "GET /api/user",
+        "resultCode": "200",
+        "duration": "00:00:00.053",
+        "success": true,
+        "data": "GET ./api/user",
+        "target": "vh-admin-web-preprod.hearings.reform.hmcts.net",
+        "type": "Ajax"
+      }
+    }
+  },
+  {
+    "time": "${GenTimeStampx}",
+    "iKey": "14d12c57-0b0c-468b-bd3a-939cfd5449a1",
+    "name": "Microsoft.ApplicationInsights.14d12c570b0c468bbd3a939cfd5449a1.Pageview",
+    "tags": {
+      "ai.session.id": "VVrXj",
+      "ai.device.id": "browser",
+      "ai.device.type": "Browser",
+      "ai.internal.sdkVersion": "javascript:1.0.21",
+      "ai.user.id": "4ofKR",
+      "ai.operation.id": "lWtAg",
+      "ai.operation.name": "/home"
+    },
+    "data": {
+      "baseType": "PageviewData",
+      "baseData": {
+        "ver": 2,
+        "name": "e /summary",
+        "url": "/summary",
+        "duration": "00:00:00.744",
+        "id": "lWtAg"
+      }
+    }
+  }
+]

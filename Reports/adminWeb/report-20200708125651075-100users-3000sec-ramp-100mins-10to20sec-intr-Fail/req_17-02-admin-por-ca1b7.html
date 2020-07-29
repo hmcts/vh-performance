@@ -1,0 +1,1585 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="style/favicon.ico"/>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/gatling.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/all_sessions.js"></script>
+<script type="text/javascript" src="js/stats.js"></script>
+<script type="text/javascript" src="js/highstock.js"></script>
+<script type="text/javascript" src="js/highcharts-more.js"></script>
+<script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/unpack.js"></script>
+<title>Gatling Stats - 17.02.Admin.Portal.Questnnaire</title>
+</head>
+<body>
+<div class="frise"></div>
+<div class="container details">
+    <div class="head">
+        <a class="logo" href="https://gatling.io" target="blank_" title="Gatling Home Page"><img alt="Gatling" src="style/logo.svg"/></a>
+        <div class="frontline"><a href="https://gatling.io/gatling-frontline/?report" target="_blank">Get more features with Gatling FrontLine</a></div>
+    </div>
+    <div class="main">
+        <div class="cadre">
+                <div class="onglet">
+                    <img src="style/cible.png" />
+                    <p><span>report</span></p>
+                </div>
+                <div class="content">
+                    <div class="sous-menu">
+                        <div class="item "><a href="index.html">GLOBAL</a></div>
+                        <div class="item ouvert"><a id="details_link" href="#">DETAILS</a></div>
+                        <script type="text/javascript">
+                          var timestamp = 1594213011075;
+                          var runStartHumanDate = moment(timestamp).format("YYYY-MM-DD HH:mm:ss Z");
+                          document.writeln("<p class='sim_desc' title='"+ runStartHumanDate +", duration : 6000 seconds' data-content='VH-Admin-Web-Perf-Test'>");
+                          document.writeln("<b>" + runStartHumanDate + ", duration : 6000 seconds VH-Admin-Web-Perf-Test</b>");
+                          document.writeln("</p>");
+                        </script>
+                    </div>
+                    <div class="content-in">
+                        <h1><span>> </span>17.02.Admin.Portal.Questnnaire</h1>
+                        <div class="article">
+                            
+                        <div class="infos">
+                            <div class="infos-in">
+	                        <div class="infos-title">STATISTICS</div>
+                                <div class="repli"></div>                               
+                                <div class="info">
+                                    <h2 class="first">Executions</h2>
+                                    <table>
+                                        <thead>
+                                            <tr><th></th><th>Total</th><th>OK</th><th>KO</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="title"></td>
+                                                <td id="numberOfRequests" class="total"></td>
+                                                <td id="numberOfRequestsOK" class="ok"></td>
+                                                <td id="numberOfRequestsKO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">Mean cnt/s</td>
+                                                <td id="meanNumberOfRequestsPerSecond" class="total"></td>
+                                                <td id="meanNumberOfRequestsPerSecondOK" class="ok"></td>
+                                                <td id="meanNumberOfRequestsPerSecondKO" class="ko"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h2 class="second">Response Time (ms)</h2>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Total</th>
+                                                <th>OK</th>
+                                                <th>KO</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="title">Min</td>
+                                                <td id="minResponseTime" class="total"></td>
+                                                <td id="minResponseTimeOK" class="ok"></td>
+                                                <td id="minResponseTimeKO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">50th percentile</td>
+                                                <td id="percentiles1" class="total"></td>
+                                                <td id="percentiles1OK" class="ok"></td>
+                                                <td id="percentiles1KO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">90th percentile</td>
+                                                <td id="percentiles2" class="total"></td>
+                                                <td id="percentiles2OK" class="ok"></td>
+                                                <td id="percentiles2KO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">95th percentile</td>
+                                                <td id="percentiles3" class="total"></td>
+                                                <td id="percentiles3OK" class="ok"></td>
+                                                <td id="percentiles3KO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">99th percentile</td>
+                                                <td id="percentiles4" class="total"></td>
+                                                <td id="percentiles4OK" class="ok"></td>
+                                                <td id="percentiles4KO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">Max</td>
+                                                <td id="maxResponseTime" class="total"></td>
+                                                <td id="maxResponseTimeOK" class="ok"></td>
+                                                <td id="maxResponseTimeKO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">Mean</td>
+                                                <td id="meanResponseTime" class="total"></td>
+                                                <td id="meanResponseTimeOK" class="ok"></td>
+                                                <td id="meanResponseTimeKO" class="ko"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title">Std Deviation</td>
+                                                <td id="standardDeviation" class="total"></td>
+                                                <td id="standardDeviationOK" class="ok"></td>
+                                                <td id="standardDeviationKO" class="ko"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+            <div class="schema demi">
+              <div id="container_indicators" class="demi"></div>
+            </div>
+<div class="statistics extensible-geant collapsed">
+    <div class="title">
+        <div class="title_collapsed" style="cursor: auto;">ERRORS</div>
+    </div>
+    <table id="container_errors" class="statistics-in extensible-geant">
+        <thead>
+            <tr>
+                <th id="error-col-1" class="header sortable"><span>Error</span></th>
+                <th id="error-col-2" class="header sortable"><span>Count</span></th>
+                <th id="error-col-3" class="header sortable"><span>Percentage</span></th>
+            </tr>
+        </thead>
+		<tbody>
+		    
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='b4478e79-1f3b-4b75-af1f-3d4de07fe630')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">0</span></td>
+		    	<td class="value error-col-2 total">2</td>
+		    	<td class="value error-col-3 total">1.418 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7bce3b84-0c84-4236-95f1-83d83a875b4f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">1</span></td>
+		    	<td class="value error-col-2 total">2</td>
+		    	<td class="value error-col-3 total">1.418 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a64a4756-0996-4df6-9f9c-ffd39b4ef69b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">2</span></td>
+		    	<td class="value error-col-2 total">2</td>
+		    	<td class="value error-col-3 total">1.418 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='91b4e893-394c-4cda-b844-1d759c46f3c0')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">3</span></td>
+		    	<td class="value error-col-2 total">2</td>
+		    	<td class="value error-col-3 total">1.418 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='23cf9037-e3d4-45cb-9b89-acced9039a2e')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">4</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='9367c0ac-81ad-4e19-813c-d26e46a1ae5e')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">5</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='3a107a5b-1fef-4801-b0f7-91fa56ef272f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">6</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='e4b96eba-3e4c-4bf6-9e24-3bf52ac5f742')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">7</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d1012cb0-e07f-45dc-83f3-910152f5ade0')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">8</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6dd4ef2c-146a-4b09-8047-b78c549771ff')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">9</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='49d3e7a1-b37b-4857-8821-2f6ce8a0c529')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">10</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='fecd3c2b-1b5a-499d-aa2f-673fd572353c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">11</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='bf3c466f-db1a-4de0-8e26-a133d80c7986')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">12</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='2ba2c763-8e72-455f-a78a-f8480e66b83c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">13</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='48b47353-2747-437b-af62-44bb552ec19f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">14</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='fd83a08f-c280-4f0b-889f-04909864378f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">15</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='2a02bd71-9f61-4eb6-b1d6-1c16290a44dd')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">16</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='720574bd-a6fb-47b7-8aa6-9614a6cab91c')].answers).find.exists, found nothing<span class="value" style="display:none">17</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d211e0de-796b-4150-8270-e431a0865cd0')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">18</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='30aa4541-863a-4688-bddd-5fd501baea2b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">19</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='bca9a04c-c36f-414d-a468-4676e2fc3bce')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">20</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='09f182f1-9f2c-485a-bc11-3c3fb88263a2')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">21</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='129ab59e-0d2d-4a79-94be-bd8e6b9e29b5')].answers).find.exists, found nothing<span class="value" style="display:none">22</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='12e4ac82-20cf-4f2c-bd59-d3de2b128760')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">23</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='c3432f3d-3fc6-4831-b83e-274e96172a6b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">24</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d89a97b1-f479-4252-b93d-dbd874408d1c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">25</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1b3c3b42-b9d4-4db8-9dbf-82ce62357767')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">26</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='649c1d92-b193-46d8-bd1d-37cbd4793b3b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">27</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='dc50a985-0aed-4a64-bf15-26f38942d33e')].answers).find.exists, found nothing<span class="value" style="display:none">28</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='31fcef79-f82c-4e76-931a-8177ab960023')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">29</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f207e93d-df23-449c-8db4-c89cd428ac31')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">30</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='5749ac5c-27a4-4a6b-9d44-931bdc17b6c0')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">31</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='ae261530-bf78-48c7-af0d-8e8217425b34')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">32</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='973fed76-f525-4b5a-8c8a-3f5a2125f1c6')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">33</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='393bdd1d-3a2b-4c97-84c5-7430ab03c0f5')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">34</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7525b641-4e42-4d63-9854-004ef0981bf0')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">35</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f3d14a2d-5b63-4df7-8c45-cf980a55849d')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">36</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='ca74a4fe-93d3-4641-9fe0-04f43d05db4b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">37</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a3328b98-75b5-4923-9cbb-4ddd933d9119')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">38</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='9c1fc17a-85dc-4659-91b7-9e9786eac261')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">39</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='128e9c42-69fe-4da7-81ec-dec47d5651b9')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">40</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='05ebe7ac-5d4e-4631-9c05-979c840cfe65')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">41</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='42f72c88-73b9-4be2-a3a8-795c91ac7aef')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">42</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7dedd29a-45ff-4bc5-bb29-4cfed873eb4d')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">43</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1da1d000-7f7a-4706-97f8-8e2f4511d955')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">44</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='5f30a362-45b3-4531-b98d-3ce16a70337f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">45</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='0a950079-fbd4-4a92-86c9-e6a2f5c313d8')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">46</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f747d741-543f-4725-9041-2681c70ca5dc')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">47</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d2949e61-fb18-44e9-939c-7626f1ee9279')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">48</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6540d5a8-2340-4184-acc7-b7d306e1e7f3')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">49</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f9996f7e-809e-4107-8fad-4842a0f58e4b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">50</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='c53bc92f-5f7a-4d2c-aa9e-3d67d16e08b6')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">51</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1b1d29e5-342b-4902-bfc6-3640d1dc15f5')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">52</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='9d150368-d6ed-40ce-84e1-dadd21390844')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">53</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a497309c-7101-4a03-a6bf-3dd8e400d897')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">54</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='fb57a9c7-a288-4bd8-9135-aa3808689fa3')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">55</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='09683f7f-248f-4450-b7dc-b2c74bd251a2')].answers).find.exists, found nothing<span class="value" style="display:none">56</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='134b777b-3cd3-4cbc-98ed-442883a646d1')].answers).find.exists, found nothing<span class="value" style="display:none">57</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='dc50a985-0aed-4a64-bf15-26f38942d33e')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">58</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='9e25e203-2205-489d-b30e-6b4c7f200358')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">59</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='039abe5f-dcbc-4ae9-b18b-468c84b08c64')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">60</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='0ef8956e-c888-45a4-b71f-046734c83cc4')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">61</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='387f32ad-0549-4dd3-a0aa-0edcdf77d001')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">62</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6c4eda52-0bc0-4ec8-899b-eb236dc59e87')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">63</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='875758e8-5c55-4a9f-8fc2-473e18022af9')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">64</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='696cf571-a7fb-4b8d-a50b-119f2a7f19de')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">65</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='5ead2b0f-94d6-419d-8ac4-13764fd677b9')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">66</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a18566a6-ff2f-4371-95ea-991ccf68053f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">67</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='32b47fbb-3433-49f5-99cb-4cf800aff395')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">68</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='8e2ad7fd-5b1d-4b86-b9eb-9c65ff38e564')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">69</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='ba7d2a95-0bf8-4b8f-876c-7d50a3fe186f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">70</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='15e6513b-a4a1-475b-a984-2f65c20833b7')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">71</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a71b7da3-6731-4d34-84a1-e43ccb01ab0c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">72</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='cc022665-e91c-4a7d-9c4b-cd2f8a38a0ff')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">73</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='115b92b8-bc8c-45d1-a91e-24bd6ffa9ebe')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">74</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f5f600e2-7757-4587-bbb4-5448237d47b1')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">75</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='adccfa15-e2f2-42c7-aceb-5da3d8832796')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">76</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='8960e790-67b1-4ff2-b1ff-9a7d229527e3')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">77</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='519e103a-f1dd-425b-98fe-d87374361fb8')].answers).find.exists, found nothing<span class="value" style="display:none">78</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='4b203870-fce7-4222-85a2-f74f0680218a')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">79</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7305ecd5-b75e-430c-acfa-95c61dfe1a08')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">80</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f3184a25-f976-433e-9738-b01f02c9a3a7')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">81</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='82672600-a531-4ac9-b944-d9e05c262a86')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">82</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='f89fede6-1e21-4e5d-a46c-40c9950eef6a')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">83</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='c0454beb-04ab-4df4-bf08-f685404ae099')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">84</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6b3f1ea0-68af-4a25-b70b-3eea8aa3d4ae')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">85</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='dc88465f-e077-4a57-a56a-b79fe873c6cb')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">86</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='e47023b0-20df-4e24-a899-941051c7ad24')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">87</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='23af1bee-c824-4782-88df-0570d5812bff')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">88</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='71f98043-51c9-4877-9fb9-516662d3213b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">89</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='ae853f49-d84e-4d5c-9668-e37df2f2d790')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">90</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1005e8d7-6802-4a16-b62a-8a47bffe88bb')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">91</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='e2491c4c-4026-4cc2-a49c-d14dd5824d19')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">92</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='076d6925-86b0-4f91-8ff6-d79cc34d6c33')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">93</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d0c91d92-320d-4244-9ce3-756f61942394')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">94</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1bb15dc5-8f1e-453b-aaa8-740e9d77fb0b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">95</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6e1f9d79-9a4b-4601-98ab-02aa97ee36c5')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">96</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='e3fc6d23-94e6-4a76-8d69-3f5e6909267d')].answers).find.exists, found nothing<span class="value" style="display:none">97</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='08645bce-9215-4c11-96ac-ffd3cc5ffebe')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">98</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d361fe34-8a9b-4612-a9b6-25a585c19f2a')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">99</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='87e530df-8768-4a35-aeaa-316632bd23e1')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">100</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7a3a3c7b-9c0d-4389-bb23-2b96612d1b6f')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">101</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='78008357-023c-49c0-a197-505660a1f24c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">102</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='309b3ca9-e84c-480a-b012-c8585f573c6b')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">103</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='7defffe4-8ec7-4a16-9b6f-66dc6dda1daa')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">104</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='62990a38-5c26-49ff-b4ea-5229a28d2759')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">105</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='b912860b-bc66-4652-9c73-27fc085c1632')].answers).find.exists, found nothing<span class="value" style="display:none">106</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='bd02ad86-593e-4b8b-90c0-cffdbca6cfbd')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">107</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='aea202ba-3d08-4569-a736-ba2f41fb9963')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">108</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='c05d2f9e-ac1f-4e49-a6ed-07a92c219b30')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">109</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='2cffd4f9-afdc-4bd2-b274-ed5867516c81')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">110</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d7d83d1b-7cb7-4fe2-928a-48fa0035eaa1')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">111</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='6efefa1a-bcfa-4d77-a0e0-cb7b5522f068')].answers).find.exists, found nothing<span class="value" style="display:none">112</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='3ef75d23-3b6e-402b-a5fc-ff87393c0144')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">113</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='5994ba08-a41e-4092-a271-31ec27b8d661')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">114</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='4776c173-8550-469f-a051-c058a6cbf706')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">115</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1f0974ab-8873-4d45-89e0-90fcb27ed4bd')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">116</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='bbdd0428-f7f1-4e1e-be01-29218767b970')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">117</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='a0cc593d-8f4b-411f-8b09-09eac8636ee8')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">118</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='d304710b-3c56-4580-996b-9dc4d8d34444')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">119</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='57d815e1-599e-46b2-8230-d913a8aebde2')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">120</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='407245f0-5e2b-41ff-b04b-ce55e494e319')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">121</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='e55b2c6e-4a41-40b4-a361-13f832bcf8fd')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">122</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1ae78508-13d2-4f73-b4b4-0fdec6446dde')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">123</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='06b339cc-604d-45bd-9058-4e290f55c51c')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">124</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1b483e8f-e711-427e-a8c3-fccb324f6701')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">125</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='4f892dc5-3cdf-4ea0-950f-f8ddd201a513')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">126</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='b573f015-1f57-4bcb-b90c-40a254d96056')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">127</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='1eae5381-0bb9-4f09-b495-cf1d931b4594')].answers).find.exists, found nothing<span class="value" style="display:none">128</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='65bc09bd-0ac1-41a1-8d15-f030a192cebe')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">129</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='31d4f6b4-cb6c-47db-9b53-f1f4b13c0caa')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">130</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='eb6ac5e0-1994-4113-b95e-cfd61293d76a')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">131</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='cc5dd585-854c-470f-905f-46a26c3fc2a6')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">132</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='61428474-6302-453d-b8f5-b818f2ecac74')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">133</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='c359610d-7c06-4980-9162-978a66f3b3e8')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">134</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='8a1f2b20-c17e-4b57-b303-bc4348bf80a8')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">135</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		    <tr>
+		    	<td class="error-col-1 total">jsonPath($.participant_suitability_answer_response[?(@.participant_id=='9c7d5273-76bb-4084-adc8-36bf0f5a6d28')].answers).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]<span class="value" style="display:none">136</span></td>
+		    	<td class="value error-col-2 total">1</td>
+		    	<td class="value error-col-3 total">0.709 %</td>
+		    </tr>
+		</tbody>
+    </table>
+</div>
+
+            <div class="schema geant">
+              <div id="container_distrib" class="geant"></div>
+            </div>
+
+            <div class="schema geant">
+              <div id="container" class="geant"></div>
+            </div>
+
+            <div class="schema geant">
+              <a name="requests"></a>
+                <div id="container_requests" class="geant"></div>
+            </div>
+
+            <div class="schema geant">
+              <a name="responses"></a>
+                <div id="container_responses" class="geant"></div>
+            </div>
+
+            <div class="schema geant">
+              <div id="container_response_time_dispersion" class="geant"></div>
+            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="nav">
+        <ul></ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var pageStats = stats.contents['req_17-02-admin-por-ca1b7'].stats;
+    $(document).ready(function() {
+        $('.sim_desc').popover({trigger:'hover', placement:'bottom'});
+        setDetailsLinkUrl();
+        setDetailsMenu();
+        setActiveMenu();
+        fillStats(pageStats);
+        
+Highcharts.setOptions({
+  global: { useUTC: false }
+});
+
+var indicatorsChart = new Highcharts.Chart({
+  chart: {
+    renderTo: 'container_indicators',
+    marginRight: 150
+  },
+  credits: { enabled: false },
+  legend: { enabled: false },
+  title: { text: 'A title to let highcharts reserve the place for the title set later' },
+  xAxis: {
+    categories: [
+      pageStats.group1.name,
+      pageStats.group2.name,
+      pageStats.group3.name,
+      pageStats.group4.name
+    ]
+  },
+  yAxis: {
+    title: { text: 'Number of Requests' }
+  },
+  tooltip: {
+    formatter: function() {
+      var s;
+      if (this.point.name) { // the pie chart
+        s = ''+ this.point.name +': '+ this.y +'% requests';
+      } else {
+        s = ''+ this.y + ' requests';
+      }
+      return s;
+    }
+  },
+  plotOptions: {
+    series: {
+      stacking: 'normal',
+      shadow: true
+    }
+  },
+  series: [
+    {
+      type: 'column',
+      data: [{
+      	color: '#A0B228',
+      	y: pageStats.group1.count
+      },
+      {
+      	color: '#FFDD00',
+      	y: pageStats.group2.count
+      },
+      {
+      	color: '#FF9D00',
+      	y: pageStats.group3.count
+      },
+      {
+      	color: '#FF0000',
+      	y: pageStats.group4.count
+      }]
+    },
+    {
+      type: 'pie',
+      name: 'Percentages',
+      data: [
+        {
+          name: pageStats.group1.name,
+          y: pageStats.group1.percentage,
+          color: '#A0B228'
+        },
+        {
+          name: pageStats.group2.name,
+          y: pageStats.group2.percentage,
+          color: '#FFDD00'
+        },
+        {
+          name: pageStats.group3.name,
+          y: pageStats.group3.percentage,
+          color: '#FF9D00'
+        },
+        {
+          name: pageStats.group4.name,
+          y: pageStats.group4.percentage,
+          color: '#FF0000'
+        }
+      ],
+      center: [470, 85],
+      size: 100,
+      showInLegend: false,
+      dataLabels: { enabled: false }
+    }
+  ]
+});
+
+indicatorsChart.setTitle({
+  text: '<span class="chart_title">Indicators</span>',
+  useHTML: true
+});
+
+	    $('#container_errors').sortable('#container_errors');
+    
+var responseTimeDistributionChart = new Highcharts.Chart({
+  chart: {
+    renderTo: 'container_distrib',
+    type: 'column'
+  },
+  credits: {
+    enabled: false
+  },
+  legend: {
+    enabled: true,
+    floating: true,
+    y: -285,
+    borderWidth: 0,
+    itemStyle: {
+      fontWeight: "normal"
+    }
+  },
+  title: {
+    text: 'A title to let highcharts reserve the place for the title set later'
+  },
+  xAxis: {
+    categories: ['265', '464', '662', '861', '1059', '1258', '1456', '1655', '1854', '2052', '2251', '2449', '2648', '2846', '3045', '3243', '3442', '3640', '3839', '4037', '4236', '4434', '4633', '4831', '5030', '5229', '5427', '5626', '5824', '6023', '6221', '6420', '6618', '6817', '7015', '7214', '7412', '7611', '7809', '8008', '8206', '8405', '8604', '8802', '9001', '9199', '9398', '9596', '9795', '9993', '10192', '10390', '10589', '10787', '10986', '11184', '11383', '11581', '11780', '11979', '12177', '12376', '12574', '12773', '12971', '13170', '13368', '13567', '13765', '13964', '14162', '14361', '14559', '14758', '14956', '15155', '15354', '15552', '15751', '15949', '16148', '16346', '16545', '16743', '16942', '17140', '17339', '17537', '17736', '17934', '18133', '18331', '18530', '18729', '18927', '19126', '19324', '19523', '19721', '19920'],
+    tickInterval: 20
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'Percentage of Requests'
+    }
+  },
+  tooltip: {
+    formatter: function() {
+      return '<b>'+ this.x +' ms</b><br/>'+
+      this.series.name +': '+ this.y +' %<br/>'+
+      'Total: '+ this.point.stackTotal + ' %';
+    }
+  },
+  plotOptions: {
+    series: {
+      groupPadding: 0,
+      stacking: 'normal',
+      shadow: true
+    }
+  },
+  series: [
+  	{
+type: 'column',
+color: '#4572A7',
+name: 'OK',
+data: [
+  23.22,13.27,11.53,13.74,4.89,2.36,2.21,1.1,1.26,0.63,0.31,0.0,0.15,0.31,0.31,0.31,0.15,0.0,0.0,0.0,0.0,0.15,0.0,0.31,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.31,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0
+],
+tooltip: { yDecimals: 0, ySuffix: 'ms' }
+},
+  	{
+type: 'column',
+color: '#FF0000',
+name: 'KO',
+data: [
+  0.15,0.0,0.0,0.0,0.15,0.15,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.69
+],
+tooltip: { yDecimals: 0, ySuffix: 'ms' }
+}
+  ]
+});
+
+responseTimeDistributionChart.setTitle({
+  text: '<span class="chart_title">Response Time Distribution</span>',
+  useHTML: true
+});
+
+var responseTimePercentiles = unpack([[1594213015,null],[1594213021,null],[1594213027,null],[1594213033,null],[1594213039,null],[1594213045,null],[1594213051,null],[1594213057,null],[1594213063,null],[1594213069,null],[1594213075,null],[1594213081,null],[1594213087,null],[1594213093,null],[1594213099,null],[1594213105,null],[1594213111,null],[1594213117,null],[1594213123,null],[1594213129,null],[1594213135,null],[1594213141,null],[1594213147,null],[1594213153,null],[1594213159,null],[1594213165,null],[1594213171,null],[1594213177,null],[1594213183,null],[1594213189,null],[1594213195,null],[1594213201,null],[1594213207,null],[1594213213,null],[1594213219,null],[1594213225,null],[1594213231,null],[1594213237,null],[1594213243,null],[1594213249,null],[1594213255,null],[1594213261,null],[1594213267,null],[1594213273,null],[1594213279,null],[1594213285,null],[1594213291,null],[1594213297,null],[1594213303,null],[1594213309,null],[1594213315,null],[1594213321,null],[1594213327,null],[1594213333,null],[1594213339,null],[1594213345,null],[1594213351,null],[1594213357,null],[1594213363,null],[1594213369,null],[1594213375,null],[1594213381,null],[1594213387,null],[1594213393,null],[1594213399,null],[1594213405,null],[1594213411,null],[1594213417,null],[1594213423,null],[1594213429,null],[1594213435,null],[1594213441,null],[1594213447,null],[1594213453,null],[1594213459,null],[1594213465,null],[1594213471,null],[1594213477,null],[1594213483,null],[1594213489,null],[1594213495,null],[1594213501,null],[1594213507,null],[1594213513,null],[1594213519,null],[1594213525,null],[1594213531,null],[1594213537,null],[1594213543,null],[1594213549,null],[1594213555,null],[1594213561,null],[1594213567,null],[1594213573,null],[1594213579,null],[1594213585,null],[1594213591,[341,341,341,341,341,341,341,341,341,341]],[1594213597,null],[1594213603,null],[1594213609,null],[1594213615,null],[1594213621,null],[1594213627,null],[1594213633,null],[1594213639,[223,223,223,223,223,223,223,223,223,223]],[1594213645,null],[1594213651,null],[1594213657,[199,199,199,199,199,199,199,199,199,199]],[1594213663,null],[1594213669,null],[1594213675,null],[1594213681,[209,209,209,209,209,209,209,209,209,209]],[1594213687,null],[1594213693,null],[1594213699,null],[1594213705,null],[1594213711,null],[1594213717,[479,479,479,479,479,479,479,479,479,479]],[1594213723,null],[1594213729,null],[1594213735,null],[1594213741,null],[1594213747,null],[1594213753,null],[1594213759,null],[1594213765,null],[1594213771,null],[1594213777,null],[1594213783,null],[1594213789,[247,247,247,247,247,247,247,247,247,247]],[1594213795,null],[1594213801,[192,192,192,192,192,192,192,192,192,192]],[1594213807,null],[1594213813,null],[1594213819,[519,519,519,519,519,519,519,519,519,519]],[1594213825,null],[1594213831,null],[1594213837,null],[1594213843,[1033,1033,1033,1033,1033,1033,1033,1033,1033,1033]],[1594213849,null],[1594213855,null],[1594213861,null],[1594213867,null],[1594213873,[391,391,391,391,391,391,391,391,391,391]],[1594213879,null],[1594213885,null],[1594213891,null],[1594213897,null],[1594213903,null],[1594213909,null],[1594213915,null],[1594213921,[231,231,231,231,231,231,231,231,231,231]],[1594213927,null],[1594213933,null],[1594213939,[200,200,200,200,200,200,200,200,200,200]],[1594213945,null],[1594213951,null],[1594213957,null],[1594213963,[205,205,205,205,205,205,205,205,205,205]],[1594213969,[616,616,616,616,616,616,616,616,616,616]],[1594213975,null],[1594213981,[892,892,892,892,892,892,892,892,892,892]],[1594213987,null],[1594213993,null],[1594213999,null],[1594214005,null],[1594214011,null],[1594214017,null],[1594214023,[181,181,181,181,181,181,181,181,181,181]],[1594214029,null],[1594214035,null],[1594214041,null],[1594214047,null],[1594214053,null],[1594214059,null],[1594214065,[507,507,507,507,507,507,507,507,507,507]],[1594214071,null],[1594214077,null],[1594214083,null],[1594214089,null],[1594214095,null],[1594214101,[727,727,727,727,727,727,727,727,727,727]],[1594214107,null],[1594214113,null],[1594214119,null],[1594214125,null],[1594214131,null],[1594214137,null],[1594214143,null],[1594214149,null],[1594214155,null],[1594214161,[1011,1011,1011,1011,1011,1011,1011,1011,1011,1011]],[1594214167,[404,404,404,404,404,404,404,404,404,404]],[1594214173,null],[1594214179,null],[1594214185,null],[1594214191,[846,846,846,846,846,846,846,846,846,846]],[1594214197,[829,829,829,829,829,829,829,829,829,829]],[1594214203,null],[1594214209,[186,186,186,186,186,186,186,186,186,186]],[1594214215,null],[1594214221,null],[1594214227,null],[1594214233,null],[1594214239,null],[1594214245,null],[1594214251,null],[1594214257,null],[1594214263,[378,378,378,378,378,378,378,378,378,378]],[1594214269,null],[1594214275,[875,875,875,875,875,875,875,875,875,875]],[1594214281,[315,410,505,600,619,638,657,676,691,695]],[1594214287,null],[1594214293,null],[1594214299,null],[1594214305,null],[1594214311,[407,407,407,407,407,407,407,407,407,407]],[1594214317,[324,324,324,324,324,324,324,324,324,324]],[1594214323,[169,169,169,169,169,169,169,169,169,169]],[1594214329,null],[1594214335,null],[1594214341,null],[1594214347,null],[1594214353,null],[1594214359,[665,665,665,665,665,665,665,665,665,665]],[1594214365,null],[1594214371,[170,170,170,170,170,170,170,170,170,170]],[1594214377,null],[1594214383,[980,980,980,980,980,980,980,980,980,980]],[1594214389,null],[1594214395,null],[1594214401,[629,629,629,629,629,629,629,629,629,629]],[1594214407,null],[1594214413,null],[1594214419,[205,349,494,638,667,696,725,754,777,783]],[1594214425,[803,803,803,803,803,803,803,803,803,803]],[1594214431,null],[1594214437,null],[1594214443,null],[1594214449,[939,939,939,939,939,939,939,939,939,939]],[1594214455,[1692,1692,1692,1692,1692,1692,1692,1692,1692,1692]],[1594214461,null],[1594214467,null],[1594214473,null],[1594214479,[2294,2294,2294,2294,2294,2294,2294,2294,2294,2294]],[1594214485,[293,293,293,293,293,293,293,293,293,293]],[1594214491,null],[1594214497,[543,543,543,543,543,543,543,543,543,543]],[1594214503,null],[1594214509,null],[1594214515,null],[1594214521,null],[1594214527,[407,407,407,407,407,407,407,407,407,407]],[1594214533,[179,316,454,592,619,647,674,702,724,730]],[1594214539,[182,182,182,182,182,182,182,182,182,182]],[1594214545,null],[1594214551,[344,344,344,344,344,344,344,344,344,344]],[1594214557,null],[1594214563,null],[1594214569,[798,798,798,798,798,798,798,798,798,798]],[1594214575,null],[1594214581,null],[1594214587,null],[1594214593,null],[1594214599,null],[1594214605,[669,669,669,669,669,669,669,669,669,669]],[1594214611,null],[1594214617,null],[1594214623,null],[1594214629,null],[1594214635,[370,370,370,370,370,370,370,370,370,370]],[1594214641,null],[1594214647,null],[1594214653,[2117,2117,2117,2117,2117,2117,2117,2117,2117,2117]],[1594214659,[1624,1624,1624,1624,1624,1624,1624,1624,1624,1624]],[1594214665,[1410,1410,1410,1410,1410,1410,1410,1410,1410,1410]],[1594214671,[1523,1523,1523,1523,1523,1523,1523,1523,1523,1523]],[1594214677,[242,242,242,242,242,242,242,242,242,242]],[1594214683,null],[1594214689,null],[1594214695,null],[1594214701,null],[1594214707,[292,292,292,292,292,292,292,292,292,292]],[1594214713,null],[1594214719,null],[1594214725,null],[1594214731,null],[1594214737,null],[1594214743,null],[1594214749,[641,641,641,641,641,641,641,641,641,641]],[1594214755,[1934,1985,2036,2087,2098,2108,2118,2128,2136,2139]],[1594214761,null],[1594214767,[1662,1662,1662,1662,1662,1662,1662,1662,1662,1662]],[1594214773,null],[1594214779,null],[1594214785,null],[1594214791,[526,526,526,526,526,526,526,526,526,526]],[1594214797,null],[1594214803,null],[1594214809,null],[1594214815,[842,857,872,887,890,893,896,899,902,903]],[1594214821,null],[1594214827,[314,314,314,314,314,314,314,314,314,314]],[1594214833,[975,978,982,986,987,987,988,989,989,990]],[1594214839,null],[1594214845,null],[1594214851,null],[1594214857,null],[1594214863,null],[1594214869,null],[1594214875,[678,678,678,678,678,678,678,678,678,678]],[1594214881,null],[1594214887,[815,815,815,815,815,815,815,815,815,815]],[1594214893,[931,931,931,931,931,931,931,931,931,931]],[1594214899,[665,665,665,665,665,665,665,665,665,665]],[1594214905,null],[1594214911,[269,269,269,269,269,269,269,269,269,269]],[1594214917,[235,386,538,689,719,750,780,810,834,841]],[1594214923,[465,550,636,721,738,755,772,789,803,807]],[1594214929,[192,192,192,192,192,192,192,192,192,192]],[1594214935,null],[1594214941,null],[1594214947,null],[1594214953,null],[1594214959,null],[1594214965,null],[1594214971,[603,718,834,949,972,995,1018,1041,1060,1065]],[1594214977,[304,304,304,304,304,304,304,304,304,304]],[1594214983,[177,177,177,177,177,177,177,177,177,177]],[1594214989,null],[1594214995,null],[1594215001,[780,780,780,780,780,780,780,780,780,780]],[1594215007,[223,223,223,223,223,223,223,223,223,223]],[1594215013,[179,179,179,179,179,179,179,179,179,179]],[1594215019,[932,932,932,932,932,932,932,932,932,932]],[1594215025,null],[1594215031,[344,344,344,344,344,344,344,344,344,344]],[1594215037,null],[1594215043,[864,864,864,864,864,864,864,864,864,864]],[1594215049,null],[1594215055,[351,351,351,351,351,351,351,351,351,351]],[1594215061,[239,239,239,239,239,239,239,239,239,239]],[1594215067,[462,462,462,462,462,462,462,462,462,462]],[1594215073,[735,735,735,735,735,735,735,735,735,735]],[1594215079,null],[1594215085,[384,581,778,975,1015,1054,1094,1133,1165,1173]],[1594215091,null],[1594215097,[855,855,855,855,855,855,855,855,855,855]],[1594215103,null],[1594215109,null],[1594215115,null],[1594215121,null],[1594215127,[231,317,404,490,507,525,542,559,573,577]],[1594215133,null],[1594215139,[769,769,769,769,769,769,769,769,769,769]],[1594215145,[684,684,684,684,684,684,684,684,684,684]],[1594215151,[329,329,329,329,329,329,329,329,329,329]],[1594215157,[740,791,843,894,904,915,925,935,943,946]],[1594215163,[387,418,450,481,487,494,500,506,511,513]],[1594215169,null],[1594215175,null],[1594215181,null],[1594215187,null],[1594215193,null],[1594215199,null],[1594215205,null],[1594215211,[258,260,263,265,266,266,267,267,267,268]],[1594215217,null],[1594215223,null],[1594215229,[766,766,766,766,766,766,766,766,766,766]],[1594215235,null],[1594215241,[569,569,569,569,569,569,569,569,569,569]],[1594215247,[907,907,907,907,907,907,907,907,907,907]],[1594215253,null],[1594215259,null],[1594215265,null],[1594215271,null],[1594215277,null],[1594215283,[860,860,860,860,860,860,860,860,860,860]],[1594215289,[274,407,541,675,702,728,755,782,803,809]],[1594215295,null],[1594215301,null],[1594215307,[183,357,532,706,741,776,811,846,874,881]],[1594215313,null],[1594215319,null],[1594215325,[399,399,399,399,399,399,399,399,399,399]],[1594215331,[201,201,201,201,201,201,201,201,201,201]],[1594215337,[536,536,536,536,536,536,536,536,536,536]],[1594215343,null],[1594215349,null],[1594215355,[227,227,227,227,227,227,227,227,227,227]],[1594215361,[628,702,777,851,866,881,896,911,923,926]],[1594215367,[768,768,768,768,768,768,768,768,768,768]],[1594215373,null],[1594215379,[728,728,728,728,728,728,728,728,728,728]],[1594215385,null],[1594215391,[620,620,620,620,620,620,620,620,620,620]],[1594215397,[321,440,559,678,702,726,750,774,793,798]],[1594215403,null],[1594215409,null],[1594215415,null],[1594215421,null],[1594215427,[313,313,313,313,313,313,313,313,313,313]],[1594215433,[166,187,208,229,234,238,242,246,250,251]],[1594215439,null],[1594215445,null],[1594215451,[902,902,902,902,902,902,902,902,902,902]],[1594215457,[190,190,190,190,190,190,190,190,190,190]],[1594215463,null],[1594215469,null],[1594215475,[629,629,629,629,629,629,629,629,629,629]],[1594215481,null],[1594215487,[218,218,218,218,218,218,218,218,218,218]],[1594215493,[691,691,691,691,691,691,691,691,691,691]],[1594215499,[185,185,185,185,185,185,185,185,185,185]],[1594215505,[225,225,225,225,225,225,225,225,225,225]],[1594215511,null],[1594215517,[273,273,273,273,273,273,273,273,273,273]],[1594215523,[492,593,695,797,817,837,858,878,894,899]],[1594215529,[810,810,810,810,810,810,810,810,810,810]],[1594215535,null],[1594215541,[354,495,636,777,806,834,862,890,913,919]],[1594215547,[254,254,254,254,254,254,254,254,254,254]],[1594215553,[632,632,632,632,632,632,632,632,632,632]],[1594215559,null],[1594215565,[942,942,942,942,942,942,942,942,942,942]],[1594215571,[289,289,289,289,289,289,289,289,289,289]],[1594215577,null],[1594215583,[1008,1075,1143,1547,1627,1708,1789,1870,1934,1951]],[1594215589,[685,685,685,685,685,685,685,685,685,685]],[1594215595,[905,905,905,905,905,905,905,905,905,905]],[1594215601,null],[1594215607,[1300,1300,1300,1300,1300,1300,1300,1300,1300,1300]],[1594215613,[289,319,349,379,385,391,397,403,408,410]],[1594215619,null],[1594215625,null],[1594215631,[262,262,262,262,262,262,262,262,262,262]],[1594215637,null],[1594215643,[956,956,956,956,956,956,956,956,956,956]],[1594215649,[307,388,470,510,518,526,534,542,548,550]],[1594215655,null],[1594215661,[1360,1443,1526,1609,1625,1642,1658,1675,1688,1692]],[1594215667,null],[1594215673,[753,753,753,753,753,753,753,753,753,753]],[1594215679,null],[1594215685,[563,563,563,563,563,563,563,563,563,563]],[1594215691,[662,662,662,662,662,662,662,662,662,662]],[1594215697,null],[1594215703,[354,541,728,915,952,989,1027,1064,1094,1102]],[1594215709,[216,216,216,216,216,216,216,216,216,216]],[1594215715,[1028,1028,1028,1028,1028,1028,1028,1028,1028,1028]],[1594215721,[575,595,615,635,639,643,647,651,655,656]],[1594215727,[219,219,219,219,219,219,219,219,219,219]],[1594215733,null],[1594215739,[416,416,416,416,416,416,416,416,416,416]],[1594215745,null],[1594215751,null],[1594215757,[1403,1403,1403,1403,1403,1403,1403,1403,1403,1403]],[1594215763,[785,785,785,785,785,785,785,785,785,785]],[1594215769,null],[1594215775,[1555,1583,1611,1639,1645,1651,1656,1662,1666,1668]],[1594215781,[2060,2060,2060,2060,2060,2060,2060,2060,2060,2060]],[1594215787,null],[1594215793,null],[1594215799,[1850,1850,1850,1850,1850,1850,1850,1850,1850,1850]],[1594215805,[915,915,915,915,915,915,915,915,915,915]],[1594215811,null],[1594215817,null],[1594215823,[173,298,424,550,575,600,625,650,670,676]],[1594215829,[184,250,317,383,396,410,423,436,447,450]],[1594215835,null],[1594215841,null],[1594215847,[204,381,559,737,772,808,843,879,907,915]],[1594215853,[177,177,177,177,177,177,177,177,177,177]],[1594215859,null],[1594215865,[364,364,364,364,364,364,364,364,364,364]],[1594215871,null],[1594215877,[815,815,815,815,815,815,815,815,815,815]],[1594215883,null],[1594215889,[585,585,585,585,585,585,585,585,585,585]],[1594215895,[204,204,204,204,204,204,204,204,204,204]],[1594215901,null],[1594215907,[585,585,585,585,585,585,585,585,585,585]],[1594215913,null],[1594215919,null],[1594215925,[207,214,222,229,231,232,234,235,236,237]],[1594215931,[190,190,190,190,190,190,190,190,190,190]],[1594215937,[484,484,484,484,484,484,484,484,484,484]],[1594215943,[628,628,628,628,628,628,628,628,628,628]],[1594215949,null],[1594215955,[648,648,648,648,648,648,648,648,648,648]],[1594215961,null],[1594215967,[185,185,185,185,185,185,185,185,185,185]],[1594215973,[860,860,860,860,860,860,860,860,860,860]],[1594215979,[1256,2137,3018,3111,3129,3148,3166,3185,3200,3204]],[1594215985,[668,668,668,668,668,668,668,668,668,668]],[1594215991,[179,179,179,179,179,179,179,179,179,179]],[1594215997,[826,826,826,826,826,826,826,826,826,826]],[1594216003,[831,831,831,831,831,831,831,831,831,831]],[1594216009,null],[1594216015,[213,213,213,213,213,213,213,213,213,213]],[1594216021,[177,177,177,177,177,177,177,177,177,177]],[1594216027,null],[1594216033,[1795,1795,1795,1795,1795,1795,1795,1795,1795,1795]],[1594216039,[683,683,683,683,683,683,683,683,683,683]],[1594216045,null],[1594216051,[224,224,224,224,224,224,224,224,224,224]],[1594216057,null],[1594216063,[575,575,575,575,575,575,575,575,575,575]],[1594216069,[945,1085,1225,1365,1393,1421,1449,1477,1500,1506]],[1594216075,[1047,1047,1047,1047,1047,1047,1047,1047,1047,1047]],[1594216081,[1254,1254,1254,1254,1254,1254,1254,1254,1254,1254]],[1594216087,[220,265,311,356,365,374,383,392,400,402]],[1594216093,null],[1594216099,null],[1594216105,null],[1594216111,null],[1594216117,[358,358,358,358,358,358,358,358,358,358]],[1594216123,[631,631,631,631,631,631,631,631,631,631]],[1594216129,[251,302,374,568,651,734,818,901,968,985]],[1594216135,null],[1594216141,[574,642,711,780,794,807,821,835,846,849]],[1594216147,[396,426,457,487,493,499,505,511,516,518]],[1594216153,null],[1594216159,null],[1594216165,null],[1594216171,[333,509,685,738,749,759,770,781,789,792]],[1594216177,[529,590,652,714,726,738,751,763,773,776]],[1594216183,null],[1594216189,[206,251,297,342,351,360,369,378,386,388]],[1594216195,[933,933,933,933,933,933,933,933,933,933]],[1594216201,[666,666,666,666,666,666,666,666,666,666]],[1594216207,null],[1594216213,null],[1594216219,null],[1594216225,[187,191,196,392,431,470,509,548,580,588]],[1594216231,[1481,2575,5394,8741,9277,9813,10349,10885,11314,11422]],[1594216237,[4784,4784,4784,4784,4784,4784,4784,4784,4784,4784]],[1594216243,null],[1594216249,[405,534,664,794,820,846,872,898,918,924]],[1594216255,[423,423,423,423,423,423,423,423,423,423]],[1594216261,null],[1594216267,[459,459,459,459,459,459,459,459,459,459]],[1594216273,[757,757,757,757,757,757,757,757,757,757]],[1594216279,[649,768,888,933,942,951,960,969,977,979]],[1594216285,[734,734,734,734,734,734,734,734,734,734]],[1594216291,[1534,2212,2891,3085,3124,3163,3202,3241,3272,3280]],[1594216297,null],[1594216303,null],[1594216309,[281,467,654,840,877,915,952,989,1019,1027]],[1594216315,null],[1594216321,null],[1594216327,null],[1594216333,[178,291,405,519,542,564,587,610,628,633]],[1594216339,null],[1594216345,[325,325,325,325,325,325,325,325,325,325]],[1594216351,[185,222,260,298,305,313,320,328,334,336]],[1594216357,[399,399,399,399,399,399,399,399,399,399]],[1594216363,[800,800,800,800,800,800,800,800,800,800]],[1594216369,null],[1594216375,[1076,1076,1076,1076,1076,1076,1076,1076,1076,1076]],[1594216381,[394,436,479,521,530,538,547,555,562,564]],[1594216387,[315,315,315,315,315,315,315,315,315,315]],[1594216393,[957,957,957,957,957,957,957,957,957,957]],[1594216399,null],[1594216405,[529,529,529,529,529,529,529,529,529,529]],[1594216411,[711,711,711,711,711,711,711,711,711,711]],[1594216417,[930,930,930,930,930,930,930,930,930,930]],[1594216423,[529,529,529,529,529,529,529,529,529,529]],[1594216429,null],[1594216435,[913,913,913,913,913,913,913,913,913,913]],[1594216441,[496,512,528,624,643,663,682,701,717,721]],[1594216447,[367,367,367,367,367,367,367,367,367,367]],[1594216453,null],[1594216459,null],[1594216465,null],[1594216471,null],[1594216477,[184,674,1164,1939,2094,2249,2404,2559,2683,2714]],[1594216483,[547,547,547,547,547,547,547,547,547,547]],[1594216489,null],[1594216495,[1121,1121,1121,1121,1121,1121,1121,1121,1121,1121]],[1594216501,null],[1594216507,null],[1594216513,[235,251,268,285,288,291,295,298,301,302]],[1594216519,[305,435,566,696,722,748,774,800,821,827]],[1594216525,null],[1594216531,[434,573,713,852,880,908,936,964,986,992]],[1594216537,[532,615,699,782,799,815,832,849,862,866]],[1594216543,null],[1594216549,[327,551,775,999,1044,1089,1134,1179,1215,1224]],[1594216555,[527,527,527,527,527,527,527,527,527,527]],[1594216561,null],[1594216567,[739,739,739,739,739,739,739,739,739,739]],[1594216573,null],[1594216579,null],[1594216585,null],[1594216591,[208,442,677,912,959,1006,1053,1100,1137,1147]],[1594216597,[222,367,512,657,686,714,744,773,796,802]],[1594216603,[539,652,766,880,903,925,948,971,989,994]],[1594216609,[178,186,195,204,206,207,209,211,212,213]],[1594216615,[196,206,217,228,230,232,234,236,238,239]],[1594216621,null],[1594216627,[505,505,505,505,505,505,505,505,505,505]],[1594216633,null],[1594216639,[281,281,281,281,281,281,281,281,281,281]],[1594216645,[430,544,658,772,794,817,840,863,881,886]],[1594216651,null],[1594216657,null],[1594216663,null],[1594216669,null],[1594216675,[1434,1434,1434,1434,1434,1434,1434,1434,1434,1434]],[1594216681,[407,486,566,646,662,678,694,710,722,726]],[1594216687,[184,184,184,184,184,184,184,184,184,184]],[1594216693,[412,412,412,412,412,412,412,412,412,412]],[1594216699,[198,198,198,198,198,198,198,198,198,198]],[1594216705,null],[1594216711,[261,261,261,261,261,261,261,261,261,261]],[1594216717,[464,464,464,464,464,464,464,464,464,464]],[1594216723,null],[1594216729,[644,644,644,644,644,644,644,644,644,644]],[1594216735,null],[1594216741,[200,424,648,691,700,708,717,726,733,735]],[1594216747,null],[1594216753,null],[1594216759,[309,309,309,309,309,309,309,309,309,309]],[1594216765,[192,193,195,196,196,197,197,197,197,198]],[1594216771,[1061,1061,1061,1061,1061,1061,1061,1061,1061,1061]],[1594216777,[4462,7301,10141,12980,13548,14116,14684,15252,15706,15820]],[1594216783,null],[1594216789,null],[1594216795,null],[1594216801,null],[1594216807,null],[1594216813,null],[1594216819,null],[1594216825,null],[1594216831,null],[1594216837,null],[1594216843,null],[1594216849,null],[1594216855,null],[1594216861,null],[1594216867,null],[1594216873,null],[1594216879,null],[1594216885,null],[1594216891,null],[1594216897,null],[1594216903,null],[1594216909,null],[1594216915,null],[1594216921,null],[1594216927,null],[1594216933,null],[1594216939,null],[1594216945,null],[1594216951,null],[1594216957,null],[1594216963,null],[1594216969,null],[1594216975,null],[1594216981,null],[1594216987,null],[1594216993,null],[1594216999,null],[1594217005,null],[1594217011,null],[1594217017,null],[1594217023,null],[1594217029,null],[1594217035,null],[1594217041,null],[1594217047,null],[1594217053,null],[1594217059,null],[1594217065,null],[1594217071,null],[1594217077,null],[1594217083,null],[1594217089,null],[1594217095,null],[1594217101,null],[1594217107,null],[1594217113,null],[1594217119,null],[1594217125,null],[1594217131,null],[1594217137,null],[1594217143,null],[1594217149,null],[1594217155,null],[1594217161,null],[1594217167,null],[1594217173,null],[1594217179,null],[1594217185,null],[1594217191,null],[1594217197,null],[1594217203,null],[1594217209,null],[1594217215,null],[1594217221,null],[1594217227,null],[1594217233,null],[1594217239,null],[1594217245,null],[1594217251,null],[1594217257,null],[1594217263,null],[1594217269,null],[1594217275,null],[1594217281,null],[1594217287,null],[1594217293,null],[1594217299,null],[1594217305,null],[1594217311,null],[1594217317,null],[1594217323,[18856,18856,18856,18856,18856,18856,18856,18856,18856,18856]],[1594217329,null],[1594217335,null],[1594217341,null],[1594217347,null],[1594217353,null],[1594217359,[10073,10073,10073,10073,10073,10073,10073,10073,10073,10073]],[1594217365,null],[1594217371,null],[1594217377,null],[1594217383,null],[1594217389,[18253,18253,18253,18253,18253,18253,18253,18253,18253,18253]],[1594217395,null],[1594217401,null],[1594217407,null],[1594217413,null],[1594217419,null],[1594217425,null],[1594217431,null],[1594217437,null],[1594217443,null],[1594217449,null],[1594217455,null],[1594217461,null],[1594217467,[13562,13562,13562,13562,13562,13562,13562,13562,13562,13562]],[1594217473,null],[1594217479,null],[1594217485,null],[1594217491,null],[1594217497,null],[1594217503,null],[1594217509,null],[1594217515,null],[1594217521,null],[1594217527,null],[1594217533,[1323,1323,1323,1323,1323,1323,1323,1323,1323,1323]],[1594217539,null],[1594217545,[173,322,471,620,650,680,710,740,764,770]],[1594217551,[1017,1224,1432,1639,1681,1722,1764,1805,1838,1847]],[1594217557,[718,811,904,927,931,936,940,945,949,950]],[1594217563,[859,874,5130,11629,12979,14328,15677,17026,18106,18376]],[1594217569,null],[1594217575,null],[1594217581,null],[1594217587,null],[1594217593,null],[1594217599,null],[1594217605,null],[1594217611,null],[1594217617,null],[1594217623,null],[1594217629,null],[1594217635,null],[1594217641,null],[1594217647,null],[1594217653,null],[1594217659,[234,234,234,234,234,234,234,234,234,234]],[1594217665,[584,584,584,584,584,584,584,584,584,584]],[1594217671,[172,356,540,724,761,798,835,872,901,909]],[1594217677,[267,304,342,487,516,545,574,603,627,633]],[1594217683,null],[1594217689,[467,467,467,467,467,467,467,467,467,467]],[1594217695,null],[1594217701,[257,317,378,438,450,462,474,486,496,499]],[1594217707,[457,548,639,730,749,767,785,803,818,822]],[1594217713,null],[1594217719,[432,481,531,961,1047,1133,1219,1305,1374,1392]],[1594217725,[504,504,504,504,504,504,504,504,504,504]],[1594217731,[351,351,351,351,351,351,351,351,351,351]],[1594217737,[223,223,223,223,223,223,223,223,223,223]],[1594217743,null],[1594217749,null],[1594217755,null],[1594217761,[877,877,877,877,877,877,877,877,877,877]],[1594217767,null],[1594217773,[246,246,246,246,246,246,246,246,246,246]],[1594217779,[376,426,477,654,689,724,760,795,823,831]],[1594217785,[208,285,363,440,456,471,487,502,514,518]],[1594217791,[192,192,192,192,192,192,192,192,192,192]],[1594217797,[3392,3392,3392,3392,3392,3392,3392,3392,3392,3392]],[1594217803,[948,1253,1559,1865,1926,1987,2048,2109,2158,2171]],[1594217809,[1600,1600,1600,1600,1600,1600,1600,1600,1600,1600]],[1594217815,[1364,1396,1428,1460,1467,1473,1480,1486,1491,1493]],[1594217821,[291,525,760,995,1042,1089,1136,1183,1220,1230]],[1594217827,[578,625,673,721,730,740,749,759,767,769]],[1594217833,null],[1594217839,null],[1594217845,null],[1594217851,[821,821,821,821,821,821,821,821,821,821]],[1594217857,[936,1121,1306,1491,1528,1565,1602,1639,1669,1677]],[1594217863,null],[1594217869,[516,516,516,516,516,516,516,516,516,516]],[1594217875,[186,262,339,349,351,353,355,357,358,359]],[1594217881,null],[1594217887,[965,965,965,965,965,965,965,965,965,965]],[1594217893,[570,570,570,570,570,570,570,570,570,570]],[1594217899,[793,793,793,793,793,793,793,793,793,793]],[1594217905,null],[1594217911,[679,679,679,679,679,679,679,679,679,679]],[1594217917,null],[1594217923,[479,479,479,479,479,479,479,479,479,479]],[1594217929,[186,313,441,455,458,461,464,467,469,470]],[1594217935,[181,181,181,181,181,181,181,181,181,181]],[1594217941,null],[1594217947,[549,549,549,549,549,549,549,549,549,549]],[1594217953,[842,842,842,842,842,842,842,842,842,842]],[1594217959,[383,383,383,383,383,383,383,383,383,383]],[1594217965,[780,780,780,780,780,780,780,780,780,780]],[1594217971,null],[1594217977,[407,521,636,751,774,797,820,843,861,866]],[1594217983,null],[1594217989,null],[1594217995,null],[1594218001,null],[1594218007,[741,741,741,741,741,741,741,741,741,741]],[1594218013,null],[1594218019,[1006,1006,1006,1006,1006,1006,1006,1006,1006,1006]],[1594218025,null],[1594218031,[768,847,926,1005,1021,1037,1053,1069,1081,1085]],[1594218037,[593,593,593,593,593,593,593,593,593,593]],[1594218043,null],[1594218049,null],[1594218055,[526,526,526,526,526,526,526,526,526,526]],[1594218061,[196,481,766,1051,1108,1165,1222,1279,1324,1336]],[1594218067,null],[1594218073,null],[1594218079,[249,313,377,875,975,1074,1174,1274,1354,1374]],[1594218085,[186,186,186,186,186,186,186,186,186,186]],[1594218091,null],[1594218097,[315,449,583,866,923,979,1036,1093,1138,1150]],[1594218103,[499,499,499,499,499,499,499,499,499,499]],[1594218109,[186,284,383,481,501,520,540,560,576,580]],[1594218115,null],[1594218121,null],[1594218127,null],[1594218133,null],[1594218139,null],[1594218145,[230,581,932,1090,1121,1153,1184,1216,1241,1248]],[1594218151,[796,796,796,796,796,796,796,796,796,796]],[1594218157,[619,682,746,810,823,835,848,861,871,874]],[1594218163,[200,236,273,380,401,422,444,465,482,487]],[1594218169,[813,813,813,813,813,813,813,813,813,813]],[1594218175,[724,799,874,949,964,979,994,1009,1021,1024]],[1594218181,[254,254,254,254,254,254,254,254,254,254]],[1594218187,[458,648,838,1028,1066,1104,1142,1180,1210,1218]],[1594218193,[750,750,750,750,750,750,750,750,750,750]],[1594218199,[520,520,520,520,520,520,520,520,520,520]],[1594218205,[569,569,569,569,569,569,569,569,569,569]],[1594218211,[1122,1122,1122,1122,1122,1122,1122,1122,1122,1122]],[1594218217,[446,446,446,446,446,446,446,446,446,446]],[1594218223,[245,443,642,840,880,919,959,999,1031,1039]],[1594218229,[696,696,696,696,696,696,696,696,696,696]],[1594218235,null],[1594218241,[809,809,809,809,809,809,809,809,809,809]],[1594218247,null],[1594218253,null],[1594218259,[293,319,345,371,377,382,387,392,396,398]],[1594218265,[245,245,245,245,245,245,245,245,245,245]],[1594218271,[1076,1076,1076,1076,1076,1076,1076,1076,1076,1076]],[1594218277,null],[1594218283,null],[1594218289,null],[1594218295,null],[1594218301,[211,291,372,452,468,484,500,516,529,533]],[1594218307,[501,546,591,636,645,654,663,672,679,681]],[1594218313,[491,568,645,722,738,753,769,784,796,800]],[1594218319,[271,298,326,532,573,615,656,697,730,739]],[1594218325,[205,205,205,205,205,205,205,205,205,205]],[1594218331,[814,814,814,814,814,814,814,814,814,814]],[1594218337,[180,180,180,180,180,180,180,180,180,180]],[1594218343,[321,321,321,321,321,321,321,321,321,321]],[1594218349,null],[1594218355,null],[1594218361,[1849,1911,1974,2037,2049,2062,2074,2087,2097,2100]],[1594218367,[978,978,978,978,978,978,978,978,978,978]],[1594218373,null],[1594218379,null],[1594218385,null],[1594218391,[1768,2111,2455,2799,2868,2936,3005,3074,3129,3143]],[1594218397,[4802,4802,4802,4802,4802,4802,4802,4802,4802,4802]],[1594218403,null],[1594218409,[450,787,1124,1461,1529,1596,1664,1731,1785,1799]],[1594218415,null],[1594218421,null],[1594218427,null],[1594218433,null],[1594218439,null],[1594218445,null],[1594218451,null],[1594218457,null],[1594218463,null],[1594218469,null],[1594218475,null],[1594218481,null],[1594218487,null],[1594218493,null],[1594218499,null],[1594218505,null],[1594218511,null],[1594218517,null],[1594218523,null],[1594218529,null],[1594218535,null],[1594218541,null],[1594218547,null],[1594218553,null],[1594218559,null],[1594218565,null],[1594218571,null],[1594218577,null],[1594218583,null],[1594218589,null],[1594218595,null],[1594218601,null],[1594218607,null],[1594218613,null],[1594218619,null],[1594218625,null],[1594218631,null],[1594218637,null],[1594218643,null],[1594218649,null],[1594218655,null],[1594218661,null],[1594218667,null],[1594218673,null],[1594218679,null],[1594218685,null],[1594218691,null],[1594218697,null],[1594218703,null],[1594218709,null],[1594218715,null],[1594218721,null],[1594218727,null],[1594218733,null],[1594218739,null],[1594218745,null],[1594218751,null],[1594218757,null],[1594218763,null],[1594218769,null],[1594218775,null],[1594218781,null],[1594218787,null],[1594218793,null],[1594218799,null],[1594218805,[949,949,949,949,949,949,949,949,949,949]],[1594218811,[197,197,197,197,197,197,197,197,197,197]],[1594218817,[266,541,817,893,908,924,939,954,966,970]],[1594218823,[856,948,1040,1132,1151,1169,1188,1206,1221,1225]],[1594218829,[630,630,630,630,630,630,630,630,630,630]],[1594218835,[1218,1218,1218,1218,1218,1218,1218,1218,1218,1218]],[1594218841,[511,584,657,730,744,759,773,788,800,803]],[1594218847,[211,498,786,1073,1131,1188,1246,1303,1349,1361]],[1594218853,null],[1594218859,null],[1594218865,null],[1594218871,null],[1594218877,[271,359,447,837,915,993,1071,1149,1212,1228]],[1594218883,[548,548,548,548,548,548,548,548,548,548]],[1594218889,[187,438,690,742,752,762,773,783,791,794]],[1594218895,[308,308,308,308,308,308,308,308,308,308]],[1594218901,null],[1594218907,[512,678,845,1012,1045,1078,1112,1145,1172,1179]],[1594218913,null],[1594218919,[572,614,657,700,708,717,725,734,741,743]],[1594218925,null],[1594218931,null],[1594218937,null],[1594218943,null],[1594218949,null],[1594218955,null],[1594218961,null],[1594218967,null],[1594218973,null],[1594218979,null],[1594218985,null],[1594218991,null],[1594218997,null],[1594219003,null],[1594219009,null]]);
+
+var responseTimeChart = new Highcharts.StockChart({
+  chart: {
+    renderTo: 'container',
+    zoomType: 'x'
+  },
+  colors: ['#C4FD90', '#7FF77F', '#6FF2AD', '#60ECE5', '#51A8E7', '#4353E2', '#7335DC', '#BC28D7', '#D11C97', '#C73905', 'Orange'],
+  credits: { enabled: false },
+  legend: {
+    enabled: true,
+    floating: true,
+    y: -65,
+    borderWidth: 0,
+    itemStyle: { fontWeight: "normal" }
+  },
+  title: { text: 'A title to let highcharts reserve the place for the title set later' },
+  navigator: { baseSeries: 9 },
+  rangeSelector: {
+    rangeSelector: { align: "left" },
+    buttonSpacing: 0,
+    buttonTheme: {
+      fill: 'LightGrey',
+      padding: 1,
+      stroke: 'Black',
+      'stroke-width': 0.25,
+      style: {
+        color: 'Black',
+        fontWeight: 'bold',
+      },
+      states: {
+        stroke: 'Black',
+        'stroke-width': 0.25,
+        hover: {
+          fill: 'DarkGrey',
+          style: { color: 'black' }
+        },
+        select: {
+          fill: 'DarkOrange',
+          style: { color: 'white' }
+        }
+      }
+    },
+    buttons : [
+      {
+        type : 'minute',
+        count : 1,
+        text : '1m'
+      }, {
+        type : 'minute',
+        count : 10,
+        text : '10m'
+      }, {
+        type : 'hour',
+        count : 1,
+        text : '1h'
+      }, {
+        type : 'all',
+        count : 1,
+        text : 'All'
+      }
+    ],
+    selected : 3,
+    inputEnabled : false
+  },
+  xAxis: {
+    type: 'datetime',
+    ordinal: false,
+    maxZoom: 10000 // three days
+  },
+  yAxis:[
+    {
+      min: 0,
+      title: {
+        text: 'Response Time (ms)',
+        style: { color: '#4572A7' }
+      },
+      opposite: false
+    }, {
+      min: 0,
+      title: {
+        text: 'Active Users',
+        style: { color: '#FF9D00' }
+      },
+      opposite: true
+    }
+  ],
+  plotOptions: {
+    arearange: { lineWidth: 1 },
+    series: {
+      dataGrouping: { enabled: false }
+    }
+  },
+  series: [
+  
+    
+         {
+pointInterval: 1000,
+name: 'min',
+data: responseTimePercentiles[0],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 10
+},
+         {
+pointInterval: 1000,
+name: '25%',
+data: responseTimePercentiles[1],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 9
+},
+         {
+pointInterval: 1000,
+name: '50%',
+data: responseTimePercentiles[2],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 8
+},
+         {
+pointInterval: 1000,
+name: '75%',
+data: responseTimePercentiles[3],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 7
+},
+         {
+pointInterval: 1000,
+name: '80%',
+data: responseTimePercentiles[4],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 6
+},
+         {
+pointInterval: 1000,
+name: '85%',
+data: responseTimePercentiles[5],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 5
+},
+         {
+pointInterval: 1000,
+name: '90%',
+data: responseTimePercentiles[6],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 4
+},
+         {
+pointInterval: 1000,
+name: '95%',
+data: responseTimePercentiles[7],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 3
+},
+         {
+pointInterval: 1000,
+name: '99%',
+data: responseTimePercentiles[8],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 2
+},
+         {
+pointInterval: 1000,
+name: 'max',
+data: responseTimePercentiles[9],
+tooltip: { yDecimals: 0, ySuffix: 'ms' },
+type : 'area',
+yAxis: 0,
+zIndex: 1
+},
+  allUsersData
+  ]
+});
+
+responseTimeChart.setTitle({
+  text: '<span class="chart_title chart_title_">Response Time Percentiles over Time (OK)</span>',
+  useHTML: true
+});
+
+var container_requests = unpack([[1594213015,[0,0, 0]],[1594213021,[0,0, 0]],[1594213027,[0,0, 0]],[1594213033,[0,0, 0]],[1594213039,[0,0, 0]],[1594213045,[0,0, 0]],[1594213051,[0,0, 0]],[1594213057,[0,0, 0]],[1594213063,[0,0, 0]],[1594213069,[0,0, 0]],[1594213075,[0,0, 0]],[1594213081,[0,0, 0]],[1594213087,[0,0, 0]],[1594213093,[0,0, 0]],[1594213099,[0,0, 0]],[1594213105,[0,0, 0]],[1594213111,[0,0, 0]],[1594213117,[0,0, 0]],[1594213123,[0,0, 0]],[1594213129,[0,0, 0]],[1594213135,[0,0, 0]],[1594213141,[0,0, 0]],[1594213147,[0,0, 0]],[1594213153,[0,0, 0]],[1594213159,[0,0, 0]],[1594213165,[0,0, 0]],[1594213171,[0,0, 0]],[1594213177,[0,0, 0]],[1594213183,[0,0, 0]],[1594213189,[0,0, 0]],[1594213195,[0,0, 0]],[1594213201,[0,0, 0]],[1594213207,[0,0, 0]],[1594213213,[0,0, 0]],[1594213219,[0,0, 0]],[1594213225,[0,0, 0]],[1594213231,[0,0, 0]],[1594213237,[0,0, 0]],[1594213243,[0,0, 0]],[1594213249,[0,0, 0]],[1594213255,[0,0, 0]],[1594213261,[0,0, 0]],[1594213267,[0,0, 0]],[1594213273,[0,0, 0]],[1594213279,[0,0, 0]],[1594213285,[0,0, 0]],[1594213291,[0,0, 0]],[1594213297,[0,0, 0]],[1594213303,[0,0, 0]],[1594213309,[0,0, 0]],[1594213315,[0,0, 0]],[1594213321,[0,0, 0]],[1594213327,[0,0, 0]],[1594213333,[0,0, 0]],[1594213339,[0,0, 0]],[1594213345,[0,0, 0]],[1594213351,[0,0, 0]],[1594213357,[0,0, 0]],[1594213363,[0,0, 0]],[1594213369,[0,0, 0]],[1594213375,[0,0, 0]],[1594213381,[0,0, 0]],[1594213387,[0,0, 0]],[1594213393,[0,0, 0]],[1594213399,[0,0, 0]],[1594213405,[0,0, 0]],[1594213411,[0,0, 0]],[1594213417,[0,0, 0]],[1594213423,[0,0, 0]],[1594213429,[0,0, 0]],[1594213435,[0,0, 0]],[1594213441,[0,0, 0]],[1594213447,[0,0, 0]],[1594213453,[0,0, 0]],[1594213459,[0,0, 0]],[1594213465,[0,0, 0]],[1594213471,[0,0, 0]],[1594213477,[0,0, 0]],[1594213483,[0,0, 0]],[1594213489,[0,0, 0]],[1594213495,[0,0, 0]],[1594213501,[0,0, 0]],[1594213507,[0,0, 0]],[1594213513,[0,0, 0]],[1594213519,[0,0, 0]],[1594213525,[0,0, 0]],[1594213531,[0,0, 0]],[1594213537,[0,0, 0]],[1594213543,[0,0, 0]],[1594213549,[0,0, 0]],[1594213555,[0,0, 0]],[1594213561,[0,0, 0]],[1594213567,[0,0, 0]],[1594213573,[0,0, 0]],[1594213579,[0,0, 0]],[1594213585,[0,0, 0]],[1594213591,[0,0, 0]],[1594213597,[0,0, 0]],[1594213603,[0,0, 0]],[1594213609,[0,0, 0]],[1594213615,[0,0, 0]],[1594213621,[0,0, 0]],[1594213627,[0,0, 0]],[1594213633,[0,0, 0]],[1594213639,[0,0, 0]],[1594213645,[0,0, 0]],[1594213651,[0,0, 0]],[1594213657,[0,0, 0]],[1594213663,[0,0, 0]],[1594213669,[0,0, 0]],[1594213675,[0,0, 0]],[1594213681,[0,0, 0]],[1594213687,[0,0, 0]],[1594213693,[0,0, 0]],[1594213699,[0,0, 0]],[1594213705,[0,0, 0]],[1594213711,[0,0, 0]],[1594213717,[0,0, 0]],[1594213723,[0,0, 0]],[1594213729,[0,0, 0]],[1594213735,[0,0, 0]],[1594213741,[0,0, 0]],[1594213747,[0,0, 0]],[1594213753,[0,0, 0]],[1594213759,[0,0, 0]],[1594213765,[0,0, 0]],[1594213771,[0,0, 0]],[1594213777,[0,0, 0]],[1594213783,[0,0, 0]],[1594213789,[0,0, 0]],[1594213795,[0,0, 0]],[1594213801,[0,0, 0]],[1594213807,[0,0, 0]],[1594213813,[0,0, 0]],[1594213819,[0,0, 0]],[1594213825,[0,0, 0]],[1594213831,[0,0, 0]],[1594213837,[0,0, 0]],[1594213843,[0,0, 0]],[1594213849,[0,0, 0]],[1594213855,[0,0, 0]],[1594213861,[0,0, 0]],[1594213867,[0,0, 0]],[1594213873,[0,0, 0]],[1594213879,[0,0, 0]],[1594213885,[0,0, 0]],[1594213891,[0,0, 0]],[1594213897,[0,0, 0]],[1594213903,[0,0, 0]],[1594213909,[0,0, 0]],[1594213915,[0,0, 0]],[1594213921,[0,0, 0]],[1594213927,[0,0, 0]],[1594213933,[0,0, 0]],[1594213939,[0,0, 0]],[1594213945,[0,0, 0]],[1594213951,[0,0, 0]],[1594213957,[0,0, 0]],[1594213963,[0,0, 0]],[1594213969,[0,0, 0]],[1594213975,[0,0, 0]],[1594213981,[0,0, 0]],[1594213987,[0,0, 0]],[1594213993,[0,0, 0]],[1594213999,[0,0, 0]],[1594214005,[0,0, 0]],[1594214011,[0,0, 0]],[1594214017,[0,0, 0]],[1594214023,[0,0, 0]],[1594214029,[0,0, 0]],[1594214035,[0,0, 0]],[1594214041,[0,0, 0]],[1594214047,[0,0, 0]],[1594214053,[0,0, 0]],[1594214059,[0,0, 0]],[1594214065,[0,0, 0]],[1594214071,[0,0, 0]],[1594214077,[0,0, 0]],[1594214083,[0,0, 0]],[1594214089,[0,0, 0]],[1594214095,[0,0, 0]],[1594214101,[0,0, 0]],[1594214107,[0,0, 0]],[1594214113,[0,0, 0]],[1594214119,[0,0, 0]],[1594214125,[0,0, 0]],[1594214131,[0,0, 0]],[1594214137,[0,0, 0]],[1594214143,[0,0, 0]],[1594214149,[0,0, 0]],[1594214155,[0,0, 0]],[1594214161,[0,0, 0]],[1594214167,[0,0, 0]],[1594214173,[0,0, 0]],[1594214179,[0,0, 0]],[1594214185,[0,0, 0]],[1594214191,[0,0, 0]],[1594214197,[0,0, 0]],[1594214203,[0,0, 0]],[1594214209,[0,0, 0]],[1594214215,[0,0, 0]],[1594214221,[0,0, 0]],[1594214227,[0,0, 0]],[1594214233,[0,0, 0]],[1594214239,[0,0, 0]],[1594214245,[0,0, 0]],[1594214251,[0,0, 0]],[1594214257,[0,0, 0]],[1594214263,[0,0, 0]],[1594214269,[0,0, 0]],[1594214275,[0,0, 0]],[1594214281,[0,0, 0]],[1594214287,[0,0, 0]],[1594214293,[0,0, 0]],[1594214299,[0,0, 0]],[1594214305,[0,0, 0]],[1594214311,[0,0, 0]],[1594214317,[0,0, 0]],[1594214323,[0,0, 0]],[1594214329,[0,0, 0]],[1594214335,[0,0, 0]],[1594214341,[0,0, 0]],[1594214347,[0,0, 0]],[1594214353,[0,0, 0]],[1594214359,[0,0, 0]],[1594214365,[0,0, 0]],[1594214371,[0,0, 0]],[1594214377,[0,0, 0]],[1594214383,[0,0, 0]],[1594214389,[0,0, 0]],[1594214395,[0,0, 0]],[1594214401,[0,0, 0]],[1594214407,[0,0, 0]],[1594214413,[0,0, 0]],[1594214419,[0,0, 0]],[1594214425,[0,0, 0]],[1594214431,[0,0, 0]],[1594214437,[0,0, 0]],[1594214443,[0,0, 0]],[1594214449,[0,0, 0]],[1594214455,[0,0, 0]],[1594214461,[0,0, 0]],[1594214467,[0,0, 0]],[1594214473,[0,0, 0]],[1594214479,[0,0, 0]],[1594214485,[0,0, 0]],[1594214491,[0,0, 0]],[1594214497,[0,0, 0]],[1594214503,[0,0, 0]],[1594214509,[0,0, 0]],[1594214515,[0,0, 0]],[1594214521,[0,0, 0]],[1594214527,[0,0, 0]],[1594214533,[0,0, 0]],[1594214539,[0,0, 0]],[1594214545,[0,0, 0]],[1594214551,[0,0, 0]],[1594214557,[0,0, 0]],[1594214563,[0,0, 0]],[1594214569,[0,0, 0]],[1594214575,[0,0, 0]],[1594214581,[0,0, 0]],[1594214587,[0,0, 0]],[1594214593,[0,0, 0]],[1594214599,[0,0, 0]],[1594214605,[0,0, 0]],[1594214611,[0,0, 0]],[1594214617,[0,0, 0]],[1594214623,[0,0, 0]],[1594214629,[0,0, 0]],[1594214635,[0,0, 0]],[1594214641,[0,0, 0]],[1594214647,[0,0, 0]],[1594214653,[0,0, 0]],[1594214659,[0,0, 0]],[1594214665,[0,0, 0]],[1594214671,[0,0, 0]],[1594214677,[0,0, 0]],[1594214683,[0,0, 0]],[1594214689,[0,0, 0]],[1594214695,[0,0, 0]],[1594214701,[0,0, 0]],[1594214707,[0,0, 0]],[1594214713,[0,0, 0]],[1594214719,[0,0, 0]],[1594214725,[0,0, 0]],[1594214731,[0,0, 0]],[1594214737,[0,0, 0]],[1594214743,[0,0, 0]],[1594214749,[0,0, 0]],[1594214755,[0,0, 0]],[1594214761,[0,0, 0]],[1594214767,[0,0, 0]],[1594214773,[0,0, 0]],[1594214779,[0,0, 0]],[1594214785,[0,0, 0]],[1594214791,[0,0, 0]],[1594214797,[0,0, 0]],[1594214803,[0,0, 0]],[1594214809,[0,0, 0]],[1594214815,[0,0, 0]],[1594214821,[0,0, 0]],[1594214827,[0,0, 0]],[1594214833,[0,0, 0]],[1594214839,[0,0, 0]],[1594214845,[0,0, 0]],[1594214851,[0,0, 0]],[1594214857,[0,0, 0]],[1594214863,[0,0, 0]],[1594214869,[0,0, 0]],[1594214875,[0,0, 0]],[1594214881,[0,0, 0]],[1594214887,[0,0, 0]],[1594214893,[0,0, 0]],[1594214899,[0,0, 0]],[1594214905,[0,0, 0]],[1594214911,[0,0, 0]],[1594214917,[0,0, 0]],[1594214923,[0,0, 0]],[1594214929,[0,0, 0]],[1594214935,[0,0, 0]],[1594214941,[0,0, 0]],[1594214947,[0,0, 0]],[1594214953,[0,0, 0]],[1594214959,[0,0, 0]],[1594214965,[0,0, 0]],[1594214971,[0,0, 0]],[1594214977,[0,0, 0]],[1594214983,[0,0, 0]],[1594214989,[0,0, 0]],[1594214995,[0,0, 0]],[1594215001,[0,0, 0]],[1594215007,[0,0, 0]],[1594215013,[0,0, 0]],[1594215019,[0,0, 0]],[1594215025,[0,0, 0]],[1594215031,[0,0, 0]],[1594215037,[0,0, 0]],[1594215043,[0,0, 0]],[1594215049,[0,0, 0]],[1594215055,[0,0, 0]],[1594215061,[0,0, 0]],[1594215067,[0,0, 0]],[1594215073,[0,0, 0]],[1594215079,[0,0, 0]],[1594215085,[0,0, 0]],[1594215091,[0,0, 0]],[1594215097,[0,0, 0]],[1594215103,[0,0, 0]],[1594215109,[0,0, 0]],[1594215115,[0,0, 0]],[1594215121,[0,0, 0]],[1594215127,[0,0, 0]],[1594215133,[0,0, 0]],[1594215139,[0,0, 0]],[1594215145,[0,0, 0]],[1594215151,[0,0, 0]],[1594215157,[0,0, 0]],[1594215163,[0,0, 0]],[1594215169,[0,0, 0]],[1594215175,[0,0, 0]],[1594215181,[0,0, 0]],[1594215187,[0,0, 0]],[1594215193,[0,0, 0]],[1594215199,[0,0, 0]],[1594215205,[0,0, 0]],[1594215211,[0,0, 0]],[1594215217,[0,0, 0]],[1594215223,[0,0, 0]],[1594215229,[0,0, 0]],[1594215235,[0,0, 0]],[1594215241,[0,0, 0]],[1594215247,[0,0, 0]],[1594215253,[0,0, 0]],[1594215259,[0,0, 0]],[1594215265,[0,0, 0]],[1594215271,[0,0, 0]],[1594215277,[0,0, 0]],[1594215283,[0,0, 0]],[1594215289,[0,0, 0]],[1594215295,[0,0, 0]],[1594215301,[0,0, 0]],[1594215307,[0,0, 0]],[1594215313,[0,0, 0]],[1594215319,[0,0, 0]],[1594215325,[0,0, 0]],[1594215331,[0,0, 0]],[1594215337,[0,0, 0]],[1594215343,[0,0, 0]],[1594215349,[0,0, 0]],[1594215355,[0,0, 0]],[1594215361,[0,0, 0]],[1594215367,[0,0, 0]],[1594215373,[0,0, 0]],[1594215379,[0,0, 0]],[1594215385,[0,0, 0]],[1594215391,[0,0, 0]],[1594215397,[0,0, 0]],[1594215403,[0,0, 0]],[1594215409,[0,0, 0]],[1594215415,[0,0, 0]],[1594215421,[0,0, 0]],[1594215427,[0,0, 0]],[1594215433,[0,0, 0]],[1594215439,[0,0, 0]],[1594215445,[0,0, 0]],[1594215451,[0,0, 0]],[1594215457,[0,0, 0]],[1594215463,[0,0, 0]],[1594215469,[0,0, 0]],[1594215475,[0,0, 0]],[1594215481,[0,0, 0]],[1594215487,[0,0, 0]],[1594215493,[0,0, 0]],[1594215499,[0,0, 0]],[1594215505,[0,0, 0]],[1594215511,[0,0, 0]],[1594215517,[0,0, 0]],[1594215523,[0,0, 0]],[1594215529,[0,0, 0]],[1594215535,[0,0, 0]],[1594215541,[0,0, 0]],[1594215547,[0,0, 0]],[1594215553,[0,0, 0]],[1594215559,[0,0, 0]],[1594215565,[0,0, 0]],[1594215571,[0,0, 0]],[1594215577,[0,0, 0]],[1594215583,[1,0, 1]],[1594215589,[0,0, 0]],[1594215595,[0,0, 0]],[1594215601,[0,0, 0]],[1594215607,[0,0, 0]],[1594215613,[0,0, 0]],[1594215619,[0,0, 0]],[1594215625,[0,0, 0]],[1594215631,[0,0, 0]],[1594215637,[0,0, 0]],[1594215643,[0,0, 0]],[1594215649,[1,0, 1]],[1594215655,[0,0, 0]],[1594215661,[0,0, 0]],[1594215667,[0,0, 0]],[1594215673,[0,0, 0]],[1594215679,[0,0, 0]],[1594215685,[0,0, 0]],[1594215691,[0,0, 0]],[1594215697,[0,0, 0]],[1594215703,[0,0, 0]],[1594215709,[0,0, 0]],[1594215715,[0,0, 0]],[1594215721,[0,0, 0]],[1594215727,[0,0, 0]],[1594215733,[0,0, 0]],[1594215739,[0,0, 0]],[1594215745,[0,0, 0]],[1594215751,[0,0, 0]],[1594215757,[0,0, 0]],[1594215763,[0,0, 0]],[1594215769,[0,0, 0]],[1594215775,[0,0, 0]],[1594215781,[0,0, 0]],[1594215787,[0,0, 0]],[1594215793,[0,0, 0]],[1594215799,[0,0, 0]],[1594215805,[0,0, 0]],[1594215811,[0,0, 0]],[1594215817,[0,0, 0]],[1594215823,[0,0, 0]],[1594215829,[0,0, 0]],[1594215835,[0,0, 0]],[1594215841,[0,0, 0]],[1594215847,[0,0, 0]],[1594215853,[0,0, 0]],[1594215859,[0,0, 0]],[1594215865,[0,0, 0]],[1594215871,[0,0, 0]],[1594215877,[0,0, 0]],[1594215883,[0,0, 0]],[1594215889,[0,0, 0]],[1594215895,[0,0, 0]],[1594215901,[0,0, 0]],[1594215907,[0,0, 0]],[1594215913,[0,0, 0]],[1594215919,[0,0, 0]],[1594215925,[0,0, 0]],[1594215931,[0,0, 0]],[1594215937,[0,0, 0]],[1594215943,[0,0, 0]],[1594215949,[0,0, 0]],[1594215955,[0,0, 0]],[1594215961,[0,0, 0]],[1594215967,[0,0, 0]],[1594215973,[0,0, 0]],[1594215979,[1,0, 1]],[1594215985,[0,0, 0]],[1594215991,[0,0, 0]],[1594215997,[0,0, 0]],[1594216003,[0,0, 0]],[1594216009,[0,0, 0]],[1594216015,[0,0, 0]],[1594216021,[0,0, 0]],[1594216027,[0,0, 0]],[1594216033,[0,0, 0]],[1594216039,[0,0, 0]],[1594216045,[0,0, 0]],[1594216051,[0,0, 0]],[1594216057,[0,0, 0]],[1594216063,[0,0, 0]],[1594216069,[0,0, 0]],[1594216075,[0,0, 0]],[1594216081,[0,0, 0]],[1594216087,[0,0, 0]],[1594216093,[0,0, 0]],[1594216099,[0,0, 0]],[1594216105,[0,0, 0]],[1594216111,[0,0, 0]],[1594216117,[0,0, 0]],[1594216123,[0,0, 0]],[1594216129,[1,0, 1]],[1594216135,[0,0, 0]],[1594216141,[0,0, 0]],[1594216147,[0,0, 0]],[1594216153,[0,0, 0]],[1594216159,[0,0, 0]],[1594216165,[0,0, 0]],[1594216171,[1,0, 1]],[1594216177,[0,0, 0]],[1594216183,[0,0, 0]],[1594216189,[0,0, 0]],[1594216195,[0,0, 0]],[1594216201,[0,0, 0]],[1594216207,[0,0, 0]],[1594216213,[0,0, 0]],[1594216219,[0,0, 0]],[1594216225,[1,0, 1]],[1594216231,[1,0, 1]],[1594216237,[0,0, 0]],[1594216243,[0,0, 0]],[1594216249,[0,0, 0]],[1594216255,[0,0, 0]],[1594216261,[0,0, 0]],[1594216267,[0,0, 0]],[1594216273,[0,0, 0]],[1594216279,[1,0, 1]],[1594216285,[0,0, 0]],[1594216291,[1,0, 1]],[1594216297,[0,0, 0]],[1594216303,[0,0, 0]],[1594216309,[0,0, 0]],[1594216315,[0,0, 0]],[1594216321,[0,0, 0]],[1594216327,[0,0, 0]],[1594216333,[0,0, 0]],[1594216339,[0,0, 0]],[1594216345,[0,0, 0]],[1594216351,[0,0, 0]],[1594216357,[0,0, 0]],[1594216363,[0,0, 0]],[1594216369,[0,0, 0]],[1594216375,[0,0, 0]],[1594216381,[0,0, 0]],[1594216387,[0,0, 0]],[1594216393,[0,0, 0]],[1594216399,[0,0, 0]],[1594216405,[0,0, 0]],[1594216411,[0,0, 0]],[1594216417,[0,0, 0]],[1594216423,[0,0, 0]],[1594216429,[0,0, 0]],[1594216435,[0,0, 0]],[1594216441,[1,0, 1]],[1594216447,[0,0, 0]],[1594216453,[0,0, 0]],[1594216459,[0,0, 0]],[1594216465,[0,0, 0]],[1594216471,[0,0, 0]],[1594216477,[1,0, 1]],[1594216483,[0,0, 0]],[1594216489,[0,0, 0]],[1594216495,[0,0, 0]],[1594216501,[0,0, 0]],[1594216507,[0,0, 0]],[1594216513,[0,0, 0]],[1594216519,[0,0, 0]],[1594216525,[0,0, 0]],[1594216531,[0,0, 0]],[1594216537,[0,0, 0]],[1594216543,[0,0, 0]],[1594216549,[0,0, 0]],[1594216555,[0,0, 0]],[1594216561,[0,0, 0]],[1594216567,[0,0, 0]],[1594216573,[0,0, 0]],[1594216579,[0,0, 0]],[1594216585,[0,0, 0]],[1594216591,[0,0, 0]],[1594216597,[0,0, 0]],[1594216603,[0,0, 0]],[1594216609,[0,0, 0]],[1594216615,[0,0, 0]],[1594216621,[0,0, 0]],[1594216627,[0,0, 0]],[1594216633,[0,0, 0]],[1594216639,[0,0, 0]],[1594216645,[0,0, 0]],[1594216651,[0,0, 0]],[1594216657,[0,0, 0]],[1594216663,[0,0, 0]],[1594216669,[0,0, 0]],[1594216675,[0,0, 0]],[1594216681,[0,0, 0]],[1594216687,[0,0, 0]],[1594216693,[0,0, 0]],[1594216699,[0,0, 0]],[1594216705,[0,0, 0]],[1594216711,[0,0, 0]],[1594216717,[0,0, 0]],[1594216723,[0,0, 0]],[1594216729,[0,0, 0]],[1594216735,[0,0, 0]],[1594216741,[1,0, 1]],[1594216747,[0,0, 0]],[1594216753,[0,0, 0]],[1594216759,[0,0, 0]],[1594216765,[0,0, 0]],[1594216771,[0,0, 0]],[1594216777,[0,0, 0]],[1594216783,[0,0, 0]],[1594216789,[0,0, 0]],[1594216795,[0,0, 0]],[1594216801,[0,0, 0]],[1594216807,[0,0, 0]],[1594216813,[0,0, 0]],[1594216819,[0,0, 0]],[1594216825,[0,0, 0]],[1594216831,[0,0, 0]],[1594216837,[0,0, 0]],[1594216843,[0,0, 0]],[1594216849,[0,0, 0]],[1594216855,[0,0, 0]],[1594216861,[0,0, 0]],[1594216867,[0,0, 0]],[1594216873,[0,0, 0]],[1594216879,[0,0, 0]],[1594216885,[0,0, 0]],[1594216891,[0,0, 0]],[1594216897,[0,0, 0]],[1594216903,[0,0, 0]],[1594216909,[1,1, 0]],[1594216915,[0,0, 0]],[1594216921,[0,0, 0]],[1594216927,[0,0, 0]],[1594216933,[0,0, 0]],[1594216939,[0,0, 0]],[1594216945,[0,0, 0]],[1594216951,[0,0, 0]],[1594216957,[0,0, 0]],[1594216963,[0,0, 0]],[1594216969,[0,0, 0]],[1594216975,[0,0, 0]],[1594216981,[0,0, 0]],[1594216987,[0,0, 0]],[1594216993,[0,0, 0]],[1594216999,[0,0, 0]],[1594217005,[0,0, 0]],[1594217011,[0,0, 0]],[1594217017,[0,0, 0]],[1594217023,[0,0, 0]],[1594217029,[0,0, 0]],[1594217035,[0,0, 0]],[1594217041,[0,0, 0]],[1594217047,[0,0, 0]],[1594217053,[0,0, 0]],[1594217059,[0,0, 0]],[1594217065,[0,0, 0]],[1594217071,[0,0, 0]],[1594217077,[0,0, 0]],[1594217083,[0,0, 0]],[1594217089,[0,0, 0]],[1594217095,[0,0, 0]],[1594217101,[0,0, 0]],[1594217107,[1,1, 0]],[1594217113,[0,0, 0]],[1594217119,[0,0, 0]],[1594217125,[0,0, 0]],[1594217131,[0,0, 0]],[1594217137,[0,0, 0]],[1594217143,[0,0, 0]],[1594217149,[0,0, 0]],[1594217155,[0,0, 0]],[1594217161,[0,0, 0]],[1594217167,[0,0, 0]],[1594217173,[0,0, 0]],[1594217179,[0,0, 0]],[1594217185,[0,0, 0]],[1594217191,[0,0, 0]],[1594217197,[0,0, 0]],[1594217203,[0,0, 0]],[1594217209,[0,0, 0]],[1594217215,[0,0, 0]],[1594217221,[0,0, 0]],[1594217227,[0,0, 0]],[1594217233,[0,0, 0]],[1594217239,[0,0, 0]],[1594217245,[0,0, 0]],[1594217251,[0,0, 0]],[1594217257,[0,0, 0]],[1594217263,[0,0, 0]],[1594217269,[0,0, 0]],[1594217275,[0,0, 0]],[1594217281,[0,0, 0]],[1594217287,[0,0, 0]],[1594217293,[0,0, 0]],[1594217299,[0,0, 0]],[1594217305,[0,0, 0]],[1594217311,[0,0, 0]],[1594217317,[0,0, 0]],[1594217323,[0,0, 0]],[1594217329,[0,0, 0]],[1594217335,[0,0, 0]],[1594217341,[0,0, 0]],[1594217347,[0,0, 0]],[1594217353,[0,0, 0]],[1594217359,[0,0, 0]],[1594217365,[0,0, 0]],[1594217371,[0,0, 0]],[1594217377,[0,0, 0]],[1594217383,[0,0, 0]],[1594217389,[0,0, 0]],[1594217395,[0,0, 0]],[1594217401,[0,0, 0]],[1594217407,[0,0, 0]],[1594217413,[0,0, 0]],[1594217419,[1,1, 0]],[1594217425,[0,0, 0]],[1594217431,[0,0, 0]],[1594217437,[0,0, 0]],[1594217443,[0,0, 0]],[1594217449,[0,0, 0]],[1594217455,[0,0, 0]],[1594217461,[0,0, 0]],[1594217467,[0,0, 0]],[1594217473,[1,1, 0]],[1594217479,[0,0, 0]],[1594217485,[0,0, 0]],[1594217491,[0,0, 0]],[1594217497,[0,0, 0]],[1594217503,[0,0, 0]],[1594217509,[0,0, 0]],[1594217515,[0,0, 0]],[1594217521,[0,0, 0]],[1594217527,[0,0, 0]],[1594217533,[0,0, 0]],[1594217539,[0,0, 0]],[1594217545,[0,0, 0]],[1594217551,[0,0, 0]],[1594217557,[1,0, 1]],[1594217563,[1,0, 1]],[1594217569,[1,1, 0]],[1594217575,[1,1, 0]],[1594217581,[0,0, 0]],[1594217587,[0,0, 0]],[1594217593,[0,0, 0]],[1594217599,[0,0, 0]],[1594217605,[0,0, 0]],[1594217611,[0,0, 0]],[1594217617,[0,0, 0]],[1594217623,[0,0, 0]],[1594217629,[0,0, 0]],[1594217635,[0,0, 0]],[1594217641,[0,0, 0]],[1594217647,[0,0, 0]],[1594217653,[0,0, 0]],[1594217659,[0,0, 0]],[1594217665,[0,0, 0]],[1594217671,[0,0, 0]],[1594217677,[1,0, 1]],[1594217683,[0,0, 0]],[1594217689,[0,0, 0]],[1594217695,[0,0, 0]],[1594217701,[0,0, 0]],[1594217707,[0,0, 0]],[1594217713,[0,0, 0]],[1594217719,[1,0, 1]],[1594217725,[0,0, 0]],[1594217731,[0,0, 0]],[1594217737,[0,0, 0]],[1594217743,[0,0, 0]],[1594217749,[0,0, 0]],[1594217755,[0,0, 0]],[1594217761,[0,0, 0]],[1594217767,[0,0, 0]],[1594217773,[0,0, 0]],[1594217779,[1,0, 1]],[1594217785,[0,0, 0]],[1594217791,[0,0, 0]],[1594217797,[0,0, 0]],[1594217803,[0,0, 0]],[1594217809,[0,0, 0]],[1594217815,[0,0, 0]],[1594217821,[0,0, 0]],[1594217827,[0,0, 0]],[1594217833,[0,0, 0]],[1594217839,[0,0, 0]],[1594217845,[0,0, 0]],[1594217851,[0,0, 0]],[1594217857,[0,0, 0]],[1594217863,[0,0, 0]],[1594217869,[0,0, 0]],[1594217875,[1,0, 1]],[1594217881,[0,0, 0]],[1594217887,[0,0, 0]],[1594217893,[0,0, 0]],[1594217899,[0,0, 0]],[1594217905,[0,0, 0]],[1594217911,[0,0, 0]],[1594217917,[0,0, 0]],[1594217923,[0,0, 0]],[1594217929,[1,0, 1]],[1594217935,[0,0, 0]],[1594217941,[0,0, 0]],[1594217947,[0,0, 0]],[1594217953,[0,0, 0]],[1594217959,[0,0, 0]],[1594217965,[0,0, 0]],[1594217971,[0,0, 0]],[1594217977,[0,0, 0]],[1594217983,[0,0, 0]],[1594217989,[0,0, 0]],[1594217995,[0,0, 0]],[1594218001,[0,0, 0]],[1594218007,[0,0, 0]],[1594218013,[0,0, 0]],[1594218019,[0,0, 0]],[1594218025,[0,0, 0]],[1594218031,[0,0, 0]],[1594218037,[0,0, 0]],[1594218043,[0,0, 0]],[1594218049,[0,0, 0]],[1594218055,[0,0, 0]],[1594218061,[0,0, 0]],[1594218067,[0,0, 0]],[1594218073,[0,0, 0]],[1594218079,[1,0, 1]],[1594218085,[0,0, 0]],[1594218091,[0,0, 0]],[1594218097,[1,0, 1]],[1594218103,[0,0, 0]],[1594218109,[0,0, 0]],[1594218115,[0,0, 0]],[1594218121,[0,0, 0]],[1594218127,[0,0, 0]],[1594218133,[0,0, 0]],[1594218139,[0,0, 0]],[1594218145,[1,0, 1]],[1594218151,[0,0, 0]],[1594218157,[0,0, 0]],[1594218163,[1,0, 1]],[1594218169,[0,0, 0]],[1594218175,[0,0, 0]],[1594218181,[0,0, 0]],[1594218187,[0,0, 0]],[1594218193,[0,0, 0]],[1594218199,[0,0, 0]],[1594218205,[0,0, 0]],[1594218211,[0,0, 0]],[1594218217,[0,0, 0]],[1594218223,[0,0, 0]],[1594218229,[0,0, 0]],[1594218235,[0,0, 0]],[1594218241,[0,0, 0]],[1594218247,[0,0, 0]],[1594218253,[0,0, 0]],[1594218259,[0,0, 0]],[1594218265,[0,0, 0]],[1594218271,[0,0, 0]],[1594218277,[0,0, 0]],[1594218283,[0,0, 0]],[1594218289,[0,0, 0]],[1594218295,[0,0, 0]],[1594218301,[0,0, 0]],[1594218307,[0,0, 0]],[1594218313,[0,0, 0]],[1594218319,[1,0, 1]],[1594218325,[0,0, 0]],[1594218331,[0,0, 0]],[1594218337,[0,0, 0]],[1594218343,[0,0, 0]],[1594218349,[0,0, 0]],[1594218355,[0,0, 0]],[1594218361,[0,0, 0]],[1594218367,[0,0, 0]],[1594218373,[0,0, 0]],[1594218379,[0,0, 0]],[1594218385,[0,0, 0]],[1594218391,[0,0, 0]],[1594218397,[0,0, 0]],[1594218403,[0,0, 0]],[1594218409,[1,1, 0]],[1594218415,[0,0, 0]],[1594218421,[0,0, 0]],[1594218427,[0,0, 0]],[1594218433,[0,0, 0]],[1594218439,[0,0, 0]],[1594218445,[0,0, 0]],[1594218451,[0,0, 0]],[1594218457,[0,0, 0]],[1594218463,[0,0, 0]],[1594218469,[0,0, 0]],[1594218475,[0,0, 0]],[1594218481,[0,0, 0]],[1594218487,[0,0, 0]],[1594218493,[0,0, 0]],[1594218499,[0,0, 0]],[1594218505,[0,0, 0]],[1594218511,[0,0, 0]],[1594218517,[0,0, 0]],[1594218523,[0,0, 0]],[1594218529,[0,0, 0]],[1594218535,[0,0, 0]],[1594218541,[0,0, 0]],[1594218547,[0,0, 0]],[1594218553,[0,0, 0]],[1594218559,[0,0, 0]],[1594218565,[1,1, 0]],[1594218571,[0,0, 0]],[1594218577,[0,0, 0]],[1594218583,[0,0, 0]],[1594218589,[0,0, 0]],[1594218595,[0,0, 0]],[1594218601,[0,0, 0]],[1594218607,[0,0, 0]],[1594218613,[0,0, 0]],[1594218619,[0,0, 0]],[1594218625,[0,0, 0]],[1594218631,[1,1, 0]],[1594218637,[0,0, 0]],[1594218643,[0,0, 0]],[1594218649,[0,0, 0]],[1594218655,[0,0, 0]],[1594218661,[0,0, 0]],[1594218667,[0,0, 0]],[1594218673,[0,0, 0]],[1594218679,[0,0, 0]],[1594218685,[0,0, 0]],[1594218691,[0,0, 0]],[1594218697,[0,0, 0]],[1594218703,[0,0, 0]],[1594218709,[0,0, 0]],[1594218715,[0,0, 0]],[1594218721,[0,0, 0]],[1594218727,[0,0, 0]],[1594218733,[0,0, 0]],[1594218739,[0,0, 0]],[1594218745,[0,0, 0]],[1594218751,[0,0, 0]],[1594218757,[0,0, 0]],[1594218763,[0,0, 0]],[1594218769,[0,0, 0]],[1594218775,[0,0, 0]],[1594218781,[0,0, 0]],[1594218787,[0,0, 0]],[1594218793,[0,0, 0]],[1594218799,[0,0, 0]],[1594218805,[0,0, 0]],[1594218811,[0,0, 0]],[1594218817,[1,0, 1]],[1594218823,[0,0, 0]],[1594218829,[0,0, 0]],[1594218835,[0,0, 0]],[1594218841,[0,0, 0]],[1594218847,[0,0, 0]],[1594218853,[0,0, 0]],[1594218859,[0,0, 0]],[1594218865,[0,0, 0]],[1594218871,[0,0, 0]],[1594218877,[1,0, 1]],[1594218883,[0,0, 0]],[1594218889,[1,0, 1]],[1594218895,[0,0, 0]],[1594218901,[0,0, 0]],[1594218907,[0,0, 0]],[1594218913,[0,0, 0]],[1594218919,[0,0, 0]],[1594218925,[1,1, 0]],[1594218931,[0,0, 0]],[1594218937,[0,0, 0]],[1594218943,[0,0, 0]],[1594218949,[0,0, 0]],[1594218955,[0,0, 0]],[1594218961,[0,0, 0]],[1594218967,[0,0, 0]],[1594218973,[0,0, 0]],[1594218979,[0,0, 0]],[1594218985,[0,0, 0]],[1594218991,[0,0, 0]],[1594218997,[0,0, 0]],[1594219003,[0,0, 0]],[1594219009,[0,0, 0]]]);
+
+var requestsChart = new Highcharts.StockChart({
+  chart: {
+    renderTo: 'container_requests',
+    zoomType: 'x'
+  },
+  credits: { enabled: false },
+  legend: {
+    enabled: true,
+    floating: true,
+    itemDistance: 10,
+    y: -285,
+    borderWidth: 0,
+    itemStyle: { fontWeight: "normal" }
+  },
+  title: { text: 'A title to let highcharts reserve the place for the title set later' },
+  rangeSelector: {
+    buttonSpacing: 0,
+    buttonTheme: {
+      fill: 'LightGrey',
+      padding: 1,
+      stroke: 'Black',
+      'stroke-width': 0.25,
+      style: {
+        color: 'Black',
+        fontWeight: 'bold',
+      },
+      states: {
+        stroke: 'Black',
+        'stroke-width': 0.25,
+        hover: {
+          fill: 'DarkGrey',
+          style: { color: 'black' }
+         },
+         select: {
+          fill: 'DarkOrange',
+          style: { color: 'white' }
+        }
+      }
+    },
+    buttons : [
+      {
+        type : 'minute',
+        count : 1,
+        text : '1m'
+      }, {
+        type : 'minute',
+        count : 10,
+        text : '10m'
+      }, {
+        type : 'hour',
+        count : 1,
+        text : '1h'
+      }, {
+        type : 'all',
+        count : 1,
+        text : 'All'
+      }
+    ],
+    selected : 3,
+    inputEnabled : false
+  },
+  plotOptions: {
+    series: {
+      dataGrouping: { enabled: false }
+    },
+    area: {
+      stacking: 'normal'
+    }
+  },
+  xAxis: {
+    type: 'datetime',
+    ordinal: false,
+    maxZoom: 10000 // three days
+  },
+  yAxis:[
+    {
+      min: 0,
+      title: {
+        text: 'Number of requests',
+        style: { color: '#4572A7' }
+      },
+      opposite: false
+    }, {
+      min: 0,
+      title: {
+        text: 'Active Users',
+        style: { color: '#FF9D00' }
+      },
+      opposite: true
+    }
+  ],
+  series: [
+    {
+color: '#4572A7',
+name: 'All',
+data: container_requests[0],
+tooltip: { yDecimals: 0, ySuffix: '', valueDecimals: 0 }
+,type: 'area'},
+    allUsersData
+  ]
+});
+
+requestsChart.setTitle({
+  text: '<span class="chart_title">Number of requests per second</span>',
+  useHTML: true
+});
+
+var container_responses = unpack([[1594213015,[0,0, 0]],[1594213021,[0,0, 0]],[1594213027,[0,0, 0]],[1594213033,[0,0, 0]],[1594213039,[0,0, 0]],[1594213045,[0,0, 0]],[1594213051,[0,0, 0]],[1594213057,[0,0, 0]],[1594213063,[0,0, 0]],[1594213069,[0,0, 0]],[1594213075,[0,0, 0]],[1594213081,[0,0, 0]],[1594213087,[0,0, 0]],[1594213093,[0,0, 0]],[1594213099,[0,0, 0]],[1594213105,[0,0, 0]],[1594213111,[0,0, 0]],[1594213117,[0,0, 0]],[1594213123,[0,0, 0]],[1594213129,[0,0, 0]],[1594213135,[0,0, 0]],[1594213141,[0,0, 0]],[1594213147,[0,0, 0]],[1594213153,[0,0, 0]],[1594213159,[0,0, 0]],[1594213165,[0,0, 0]],[1594213171,[0,0, 0]],[1594213177,[0,0, 0]],[1594213183,[0,0, 0]],[1594213189,[0,0, 0]],[1594213195,[0,0, 0]],[1594213201,[0,0, 0]],[1594213207,[0,0, 0]],[1594213213,[0,0, 0]],[1594213219,[0,0, 0]],[1594213225,[0,0, 0]],[1594213231,[0,0, 0]],[1594213237,[0,0, 0]],[1594213243,[0,0, 0]],[1594213249,[0,0, 0]],[1594213255,[0,0, 0]],[1594213261,[0,0, 0]],[1594213267,[0,0, 0]],[1594213273,[0,0, 0]],[1594213279,[0,0, 0]],[1594213285,[0,0, 0]],[1594213291,[0,0, 0]],[1594213297,[0,0, 0]],[1594213303,[0,0, 0]],[1594213309,[0,0, 0]],[1594213315,[0,0, 0]],[1594213321,[0,0, 0]],[1594213327,[0,0, 0]],[1594213333,[0,0, 0]],[1594213339,[0,0, 0]],[1594213345,[0,0, 0]],[1594213351,[0,0, 0]],[1594213357,[0,0, 0]],[1594213363,[0,0, 0]],[1594213369,[0,0, 0]],[1594213375,[0,0, 0]],[1594213381,[0,0, 0]],[1594213387,[0,0, 0]],[1594213393,[0,0, 0]],[1594213399,[0,0, 0]],[1594213405,[0,0, 0]],[1594213411,[0,0, 0]],[1594213417,[0,0, 0]],[1594213423,[0,0, 0]],[1594213429,[0,0, 0]],[1594213435,[0,0, 0]],[1594213441,[0,0, 0]],[1594213447,[0,0, 0]],[1594213453,[0,0, 0]],[1594213459,[0,0, 0]],[1594213465,[0,0, 0]],[1594213471,[0,0, 0]],[1594213477,[0,0, 0]],[1594213483,[0,0, 0]],[1594213489,[0,0, 0]],[1594213495,[0,0, 0]],[1594213501,[0,0, 0]],[1594213507,[0,0, 0]],[1594213513,[0,0, 0]],[1594213519,[0,0, 0]],[1594213525,[0,0, 0]],[1594213531,[0,0, 0]],[1594213537,[0,0, 0]],[1594213543,[0,0, 0]],[1594213549,[0,0, 0]],[1594213555,[0,0, 0]],[1594213561,[0,0, 0]],[1594213567,[0,0, 0]],[1594213573,[0,0, 0]],[1594213579,[0,0, 0]],[1594213585,[0,0, 0]],[1594213591,[0,0, 0]],[1594213597,[0,0, 0]],[1594213603,[0,0, 0]],[1594213609,[0,0, 0]],[1594213615,[0,0, 0]],[1594213621,[0,0, 0]],[1594213627,[0,0, 0]],[1594213633,[0,0, 0]],[1594213639,[0,0, 0]],[1594213645,[0,0, 0]],[1594213651,[0,0, 0]],[1594213657,[0,0, 0]],[1594213663,[0,0, 0]],[1594213669,[0,0, 0]],[1594213675,[0,0, 0]],[1594213681,[0,0, 0]],[1594213687,[0,0, 0]],[1594213693,[0,0, 0]],[1594213699,[0,0, 0]],[1594213705,[0,0, 0]],[1594213711,[0,0, 0]],[1594213717,[0,0, 0]],[1594213723,[0,0, 0]],[1594213729,[0,0, 0]],[1594213735,[0,0, 0]],[1594213741,[0,0, 0]],[1594213747,[0,0, 0]],[1594213753,[0,0, 0]],[1594213759,[0,0, 0]],[1594213765,[0,0, 0]],[1594213771,[0,0, 0]],[1594213777,[0,0, 0]],[1594213783,[0,0, 0]],[1594213789,[0,0, 0]],[1594213795,[0,0, 0]],[1594213801,[0,0, 0]],[1594213807,[0,0, 0]],[1594213813,[0,0, 0]],[1594213819,[0,0, 0]],[1594213825,[0,0, 0]],[1594213831,[0,0, 0]],[1594213837,[0,0, 0]],[1594213843,[0,0, 0]],[1594213849,[0,0, 0]],[1594213855,[0,0, 0]],[1594213861,[0,0, 0]],[1594213867,[0,0, 0]],[1594213873,[0,0, 0]],[1594213879,[0,0, 0]],[1594213885,[0,0, 0]],[1594213891,[0,0, 0]],[1594213897,[0,0, 0]],[1594213903,[0,0, 0]],[1594213909,[0,0, 0]],[1594213915,[0,0, 0]],[1594213921,[0,0, 0]],[1594213927,[0,0, 0]],[1594213933,[0,0, 0]],[1594213939,[0,0, 0]],[1594213945,[0,0, 0]],[1594213951,[0,0, 0]],[1594213957,[0,0, 0]],[1594213963,[0,0, 0]],[1594213969,[0,0, 0]],[1594213975,[0,0, 0]],[1594213981,[0,0, 0]],[1594213987,[0,0, 0]],[1594213993,[0,0, 0]],[1594213999,[0,0, 0]],[1594214005,[0,0, 0]],[1594214011,[0,0, 0]],[1594214017,[0,0, 0]],[1594214023,[0,0, 0]],[1594214029,[0,0, 0]],[1594214035,[0,0, 0]],[1594214041,[0,0, 0]],[1594214047,[0,0, 0]],[1594214053,[0,0, 0]],[1594214059,[0,0, 0]],[1594214065,[0,0, 0]],[1594214071,[0,0, 0]],[1594214077,[0,0, 0]],[1594214083,[0,0, 0]],[1594214089,[0,0, 0]],[1594214095,[0,0, 0]],[1594214101,[0,0, 0]],[1594214107,[0,0, 0]],[1594214113,[0,0, 0]],[1594214119,[0,0, 0]],[1594214125,[0,0, 0]],[1594214131,[0,0, 0]],[1594214137,[0,0, 0]],[1594214143,[0,0, 0]],[1594214149,[0,0, 0]],[1594214155,[0,0, 0]],[1594214161,[0,0, 0]],[1594214167,[0,0, 0]],[1594214173,[0,0, 0]],[1594214179,[0,0, 0]],[1594214185,[0,0, 0]],[1594214191,[0,0, 0]],[1594214197,[0,0, 0]],[1594214203,[0,0, 0]],[1594214209,[0,0, 0]],[1594214215,[0,0, 0]],[1594214221,[0,0, 0]],[1594214227,[0,0, 0]],[1594214233,[0,0, 0]],[1594214239,[0,0, 0]],[1594214245,[0,0, 0]],[1594214251,[0,0, 0]],[1594214257,[0,0, 0]],[1594214263,[0,0, 0]],[1594214269,[0,0, 0]],[1594214275,[0,0, 0]],[1594214281,[0,0, 0]],[1594214287,[0,0, 0]],[1594214293,[0,0, 0]],[1594214299,[0,0, 0]],[1594214305,[0,0, 0]],[1594214311,[0,0, 0]],[1594214317,[0,0, 0]],[1594214323,[0,0, 0]],[1594214329,[0,0, 0]],[1594214335,[0,0, 0]],[1594214341,[0,0, 0]],[1594214347,[0,0, 0]],[1594214353,[0,0, 0]],[1594214359,[0,0, 0]],[1594214365,[0,0, 0]],[1594214371,[0,0, 0]],[1594214377,[0,0, 0]],[1594214383,[0,0, 0]],[1594214389,[0,0, 0]],[1594214395,[0,0, 0]],[1594214401,[0,0, 0]],[1594214407,[0,0, 0]],[1594214413,[0,0, 0]],[1594214419,[0,0, 0]],[1594214425,[0,0, 0]],[1594214431,[0,0, 0]],[1594214437,[0,0, 0]],[1594214443,[0,0, 0]],[1594214449,[0,0, 0]],[1594214455,[0,0, 0]],[1594214461,[0,0, 0]],[1594214467,[0,0, 0]],[1594214473,[0,0, 0]],[1594214479,[0,0, 0]],[1594214485,[0,0, 0]],[1594214491,[0,0, 0]],[1594214497,[0,0, 0]],[1594214503,[0,0, 0]],[1594214509,[0,0, 0]],[1594214515,[0,0, 0]],[1594214521,[0,0, 0]],[1594214527,[0,0, 0]],[1594214533,[0,0, 0]],[1594214539,[0,0, 0]],[1594214545,[0,0, 0]],[1594214551,[0,0, 0]],[1594214557,[0,0, 0]],[1594214563,[0,0, 0]],[1594214569,[0,0, 0]],[1594214575,[0,0, 0]],[1594214581,[0,0, 0]],[1594214587,[0,0, 0]],[1594214593,[0,0, 0]],[1594214599,[0,0, 0]],[1594214605,[0,0, 0]],[1594214611,[0,0, 0]],[1594214617,[0,0, 0]],[1594214623,[0,0, 0]],[1594214629,[0,0, 0]],[1594214635,[0,0, 0]],[1594214641,[0,0, 0]],[1594214647,[0,0, 0]],[1594214653,[0,0, 0]],[1594214659,[0,0, 0]],[1594214665,[0,0, 0]],[1594214671,[0,0, 0]],[1594214677,[0,0, 0]],[1594214683,[0,0, 0]],[1594214689,[0,0, 0]],[1594214695,[0,0, 0]],[1594214701,[0,0, 0]],[1594214707,[0,0, 0]],[1594214713,[0,0, 0]],[1594214719,[0,0, 0]],[1594214725,[0,0, 0]],[1594214731,[0,0, 0]],[1594214737,[0,0, 0]],[1594214743,[0,0, 0]],[1594214749,[0,0, 0]],[1594214755,[0,0, 0]],[1594214761,[0,0, 0]],[1594214767,[0,0, 0]],[1594214773,[0,0, 0]],[1594214779,[0,0, 0]],[1594214785,[0,0, 0]],[1594214791,[0,0, 0]],[1594214797,[0,0, 0]],[1594214803,[0,0, 0]],[1594214809,[0,0, 0]],[1594214815,[0,0, 0]],[1594214821,[0,0, 0]],[1594214827,[0,0, 0]],[1594214833,[0,0, 0]],[1594214839,[0,0, 0]],[1594214845,[0,0, 0]],[1594214851,[0,0, 0]],[1594214857,[0,0, 0]],[1594214863,[0,0, 0]],[1594214869,[0,0, 0]],[1594214875,[0,0, 0]],[1594214881,[0,0, 0]],[1594214887,[0,0, 0]],[1594214893,[0,0, 0]],[1594214899,[0,0, 0]],[1594214905,[0,0, 0]],[1594214911,[0,0, 0]],[1594214917,[0,0, 0]],[1594214923,[1,0, 1]],[1594214929,[0,0, 0]],[1594214935,[0,0, 0]],[1594214941,[0,0, 0]],[1594214947,[0,0, 0]],[1594214953,[0,0, 0]],[1594214959,[0,0, 0]],[1594214965,[0,0, 0]],[1594214971,[0,0, 0]],[1594214977,[0,0, 0]],[1594214983,[0,0, 0]],[1594214989,[0,0, 0]],[1594214995,[0,0, 0]],[1594215001,[0,0, 0]],[1594215007,[0,0, 0]],[1594215013,[0,0, 0]],[1594215019,[0,0, 0]],[1594215025,[0,0, 0]],[1594215031,[0,0, 0]],[1594215037,[0,0, 0]],[1594215043,[0,0, 0]],[1594215049,[0,0, 0]],[1594215055,[0,0, 0]],[1594215061,[0,0, 0]],[1594215067,[0,0, 0]],[1594215073,[0,0, 0]],[1594215079,[0,0, 0]],[1594215085,[0,0, 0]],[1594215091,[0,0, 0]],[1594215097,[0,0, 0]],[1594215103,[0,0, 0]],[1594215109,[0,0, 0]],[1594215115,[0,0, 0]],[1594215121,[0,0, 0]],[1594215127,[0,0, 0]],[1594215133,[0,0, 0]],[1594215139,[0,0, 0]],[1594215145,[0,0, 0]],[1594215151,[0,0, 0]],[1594215157,[0,0, 0]],[1594215163,[0,0, 0]],[1594215169,[0,0, 0]],[1594215175,[0,0, 0]],[1594215181,[0,0, 0]],[1594215187,[0,0, 0]],[1594215193,[0,0, 0]],[1594215199,[0,0, 0]],[1594215205,[0,0, 0]],[1594215211,[0,0, 0]],[1594215217,[0,0, 0]],[1594215223,[0,0, 0]],[1594215229,[0,0, 0]],[1594215235,[0,0, 0]],[1594215241,[0,0, 0]],[1594215247,[0,0, 0]],[1594215253,[0,0, 0]],[1594215259,[0,0, 0]],[1594215265,[0,0, 0]],[1594215271,[0,0, 0]],[1594215277,[0,0, 0]],[1594215283,[0,0, 0]],[1594215289,[1,0, 1]],[1594215295,[0,0, 0]],[1594215301,[0,0, 0]],[1594215307,[0,0, 0]],[1594215313,[0,0, 0]],[1594215319,[0,0, 0]],[1594215325,[0,0, 0]],[1594215331,[0,0, 0]],[1594215337,[0,0, 0]],[1594215343,[0,0, 0]],[1594215349,[0,0, 0]],[1594215355,[0,0, 0]],[1594215361,[0,0, 0]],[1594215367,[0,0, 0]],[1594215373,[0,0, 0]],[1594215379,[0,0, 0]],[1594215385,[0,0, 0]],[1594215391,[0,0, 0]],[1594215397,[0,0, 0]],[1594215403,[0,0, 0]],[1594215409,[0,0, 0]],[1594215415,[0,0, 0]],[1594215421,[0,0, 0]],[1594215427,[0,0, 0]],[1594215433,[0,0, 0]],[1594215439,[0,0, 0]],[1594215445,[0,0, 0]],[1594215451,[0,0, 0]],[1594215457,[0,0, 0]],[1594215463,[0,0, 0]],[1594215469,[0,0, 0]],[1594215475,[0,0, 0]],[1594215481,[0,0, 0]],[1594215487,[0,0, 0]],[1594215493,[0,0, 0]],[1594215499,[0,0, 0]],[1594215505,[0,0, 0]],[1594215511,[0,0, 0]],[1594215517,[0,0, 0]],[1594215523,[0,0, 0]],[1594215529,[0,0, 0]],[1594215535,[0,0, 0]],[1594215541,[0,0, 0]],[1594215547,[0,0, 0]],[1594215553,[0,0, 0]],[1594215559,[0,0, 0]],[1594215565,[0,0, 0]],[1594215571,[0,0, 0]],[1594215577,[0,0, 0]],[1594215583,[0,0, 0]],[1594215589,[0,0, 0]],[1594215595,[0,0, 0]],[1594215601,[0,0, 0]],[1594215607,[0,0, 0]],[1594215613,[0,0, 0]],[1594215619,[0,0, 0]],[1594215625,[0,0, 0]],[1594215631,[0,0, 0]],[1594215637,[0,0, 0]],[1594215643,[0,0, 0]],[1594215649,[1,0, 1]],[1594215655,[0,0, 0]],[1594215661,[0,0, 0]],[1594215667,[0,0, 0]],[1594215673,[0,0, 0]],[1594215679,[0,0, 0]],[1594215685,[0,0, 0]],[1594215691,[0,0, 0]],[1594215697,[0,0, 0]],[1594215703,[0,0, 0]],[1594215709,[0,0, 0]],[1594215715,[0,0, 0]],[1594215721,[0,0, 0]],[1594215727,[0,0, 0]],[1594215733,[0,0, 0]],[1594215739,[0,0, 0]],[1594215745,[0,0, 0]],[1594215751,[0,0, 0]],[1594215757,[0,0, 0]],[1594215763,[0,0, 0]],[1594215769,[0,0, 0]],[1594215775,[0,0, 0]],[1594215781,[0,0, 0]],[1594215787,[0,0, 0]],[1594215793,[0,0, 0]],[1594215799,[0,0, 0]],[1594215805,[0,0, 0]],[1594215811,[0,0, 0]],[1594215817,[0,0, 0]],[1594215823,[0,0, 0]],[1594215829,[0,0, 0]],[1594215835,[0,0, 0]],[1594215841,[0,0, 0]],[1594215847,[0,0, 0]],[1594215853,[0,0, 0]],[1594215859,[0,0, 0]],[1594215865,[0,0, 0]],[1594215871,[0,0, 0]],[1594215877,[0,0, 0]],[1594215883,[0,0, 0]],[1594215889,[0,0, 0]],[1594215895,[0,0, 0]],[1594215901,[0,0, 0]],[1594215907,[0,0, 0]],[1594215913,[0,0, 0]],[1594215919,[0,0, 0]],[1594215925,[0,0, 0]],[1594215931,[0,0, 0]],[1594215937,[0,0, 0]],[1594215943,[0,0, 0]],[1594215949,[0,0, 0]],[1594215955,[0,0, 0]],[1594215961,[0,0, 0]],[1594215967,[0,0, 0]],[1594215973,[0,0, 0]],[1594215979,[1,0, 1]],[1594215985,[0,0, 0]],[1594215991,[0,0, 0]],[1594215997,[0,0, 0]],[1594216003,[0,0, 0]],[1594216009,[0,0, 0]],[1594216015,[0,0, 0]],[1594216021,[0,0, 0]],[1594216027,[0,0, 0]],[1594216033,[0,0, 0]],[1594216039,[0,0, 0]],[1594216045,[0,0, 0]],[1594216051,[0,0, 0]],[1594216057,[0,0, 0]],[1594216063,[0,0, 0]],[1594216069,[1,0, 1]],[1594216075,[0,0, 0]],[1594216081,[0,0, 0]],[1594216087,[0,0, 0]],[1594216093,[0,0, 0]],[1594216099,[0,0, 0]],[1594216105,[0,0, 0]],[1594216111,[0,0, 0]],[1594216117,[0,0, 0]],[1594216123,[0,0, 0]],[1594216129,[1,0, 1]],[1594216135,[0,0, 0]],[1594216141,[0,0, 0]],[1594216147,[0,0, 0]],[1594216153,[0,0, 0]],[1594216159,[0,0, 0]],[1594216165,[0,0, 0]],[1594216171,[1,0, 1]],[1594216177,[0,0, 0]],[1594216183,[0,0, 0]],[1594216189,[0,0, 0]],[1594216195,[0,0, 0]],[1594216201,[0,0, 0]],[1594216207,[0,0, 0]],[1594216213,[0,0, 0]],[1594216219,[0,0, 0]],[1594216225,[1,0, 1]],[1594216231,[0,0, 0]],[1594216237,[0,0, 0]],[1594216243,[0,0, 0]],[1594216249,[0,0, 0]],[1594216255,[0,0, 0]],[1594216261,[0,0, 0]],[1594216267,[0,0, 0]],[1594216273,[0,0, 0]],[1594216279,[1,0, 1]],[1594216285,[0,0, 0]],[1594216291,[1,0, 1]],[1594216297,[0,0, 0]],[1594216303,[0,0, 0]],[1594216309,[0,0, 0]],[1594216315,[0,0, 0]],[1594216321,[0,0, 0]],[1594216327,[0,0, 0]],[1594216333,[0,0, 0]],[1594216339,[0,0, 0]],[1594216345,[0,0, 0]],[1594216351,[0,0, 0]],[1594216357,[0,0, 0]],[1594216363,[0,0, 0]],[1594216369,[0,0, 0]],[1594216375,[0,0, 0]],[1594216381,[0,0, 0]],[1594216387,[0,0, 0]],[1594216393,[0,0, 0]],[1594216399,[0,0, 0]],[1594216405,[0,0, 0]],[1594216411,[0,0, 0]],[1594216417,[0,0, 0]],[1594216423,[0,0, 0]],[1594216429,[0,0, 0]],[1594216435,[0,0, 0]],[1594216441,[1,0, 1]],[1594216447,[0,0, 0]],[1594216453,[0,0, 0]],[1594216459,[0,0, 0]],[1594216465,[0,0, 0]],[1594216471,[0,0, 0]],[1594216477,[1,0, 1]],[1594216483,[0,0, 0]],[1594216489,[0,0, 0]],[1594216495,[0,0, 0]],[1594216501,[0,0, 0]],[1594216507,[0,0, 0]],[1594216513,[0,0, 0]],[1594216519,[0,0, 0]],[1594216525,[0,0, 0]],[1594216531,[0,0, 0]],[1594216537,[0,0, 0]],[1594216543,[0,0, 0]],[1594216549,[0,0, 0]],[1594216555,[0,0, 0]],[1594216561,[0,0, 0]],[1594216567,[0,0, 0]],[1594216573,[0,0, 0]],[1594216579,[0,0, 0]],[1594216585,[0,0, 0]],[1594216591,[0,0, 0]],[1594216597,[0,0, 0]],[1594216603,[0,0, 0]],[1594216609,[0,0, 0]],[1594216615,[0,0, 0]],[1594216621,[0,0, 0]],[1594216627,[0,0, 0]],[1594216633,[0,0, 0]],[1594216639,[0,0, 0]],[1594216645,[0,0, 0]],[1594216651,[0,0, 0]],[1594216657,[0,0, 0]],[1594216663,[0,0, 0]],[1594216669,[0,0, 0]],[1594216675,[0,0, 0]],[1594216681,[0,0, 0]],[1594216687,[0,0, 0]],[1594216693,[0,0, 0]],[1594216699,[0,0, 0]],[1594216705,[0,0, 0]],[1594216711,[0,0, 0]],[1594216717,[0,0, 0]],[1594216723,[0,0, 0]],[1594216729,[0,0, 0]],[1594216735,[0,0, 0]],[1594216741,[0,0, 0]],[1594216747,[0,0, 0]],[1594216753,[0,0, 0]],[1594216759,[0,0, 0]],[1594216765,[0,0, 0]],[1594216771,[0,0, 0]],[1594216777,[0,0, 0]],[1594216783,[0,0, 0]],[1594216789,[0,0, 0]],[1594216795,[0,0, 0]],[1594216801,[0,0, 0]],[1594216807,[0,0, 0]],[1594216813,[0,0, 0]],[1594216819,[0,0, 0]],[1594216825,[0,0, 0]],[1594216831,[0,0, 0]],[1594216837,[0,0, 0]],[1594216843,[0,0, 0]],[1594216849,[0,0, 0]],[1594216855,[0,0, 0]],[1594216861,[0,0, 0]],[1594216867,[0,0, 0]],[1594216873,[0,0, 0]],[1594216879,[0,0, 0]],[1594216885,[0,0, 0]],[1594216891,[0,0, 0]],[1594216897,[0,0, 0]],[1594216903,[0,0, 0]],[1594216909,[0,0, 0]],[1594216915,[0,0, 0]],[1594216921,[0,0, 0]],[1594216927,[1,1, 0]],[1594216933,[0,0, 0]],[1594216939,[0,0, 0]],[1594216945,[1,1, 0]],[1594216951,[0,0, 0]],[1594216957,[0,0, 0]],[1594216963,[0,0, 0]],[1594216969,[0,0, 0]],[1594216975,[0,0, 0]],[1594216981,[0,0, 0]],[1594216987,[0,0, 0]],[1594216993,[0,0, 0]],[1594216999,[0,0, 0]],[1594217005,[0,0, 0]],[1594217011,[0,0, 0]],[1594217017,[0,0, 0]],[1594217023,[0,0, 0]],[1594217029,[0,0, 0]],[1594217035,[0,0, 0]],[1594217041,[0,0, 0]],[1594217047,[0,0, 0]],[1594217053,[0,0, 0]],[1594217059,[0,0, 0]],[1594217065,[0,0, 0]],[1594217071,[0,0, 0]],[1594217077,[0,0, 0]],[1594217083,[0,0, 0]],[1594217089,[0,0, 0]],[1594217095,[0,0, 0]],[1594217101,[0,0, 0]],[1594217107,[0,0, 0]],[1594217113,[0,0, 0]],[1594217119,[0,0, 0]],[1594217125,[0,0, 0]],[1594217131,[0,0, 0]],[1594217137,[0,0, 0]],[1594217143,[0,0, 0]],[1594217149,[0,0, 0]],[1594217155,[0,0, 0]],[1594217161,[0,0, 0]],[1594217167,[0,0, 0]],[1594217173,[0,0, 0]],[1594217179,[0,0, 0]],[1594217185,[0,0, 0]],[1594217191,[0,0, 0]],[1594217197,[0,0, 0]],[1594217203,[0,0, 0]],[1594217209,[0,0, 0]],[1594217215,[0,0, 0]],[1594217221,[0,0, 0]],[1594217227,[0,0, 0]],[1594217233,[0,0, 0]],[1594217239,[0,0, 0]],[1594217245,[0,0, 0]],[1594217251,[0,0, 0]],[1594217257,[0,0, 0]],[1594217263,[0,0, 0]],[1594217269,[0,0, 0]],[1594217275,[0,0, 0]],[1594217281,[0,0, 0]],[1594217287,[0,0, 0]],[1594217293,[0,0, 0]],[1594217299,[0,0, 0]],[1594217305,[0,0, 0]],[1594217311,[0,0, 0]],[1594217317,[0,0, 0]],[1594217323,[0,0, 0]],[1594217329,[0,0, 0]],[1594217335,[0,0, 0]],[1594217341,[0,0, 0]],[1594217347,[0,0, 0]],[1594217353,[0,0, 0]],[1594217359,[0,0, 0]],[1594217365,[0,0, 0]],[1594217371,[0,0, 0]],[1594217377,[0,0, 0]],[1594217383,[0,0, 0]],[1594217389,[0,0, 0]],[1594217395,[0,0, 0]],[1594217401,[0,0, 0]],[1594217407,[0,0, 0]],[1594217413,[0,0, 0]],[1594217419,[0,0, 0]],[1594217425,[0,0, 0]],[1594217431,[0,0, 0]],[1594217437,[1,1, 0]],[1594217443,[0,0, 0]],[1594217449,[0,0, 0]],[1594217455,[0,0, 0]],[1594217461,[0,0, 0]],[1594217467,[0,0, 0]],[1594217473,[0,0, 0]],[1594217479,[0,0, 0]],[1594217485,[1,1, 0]],[1594217491,[1,1, 0]],[1594217497,[1,1, 0]],[1594217503,[0,0, 0]],[1594217509,[0,0, 0]],[1594217515,[0,0, 0]],[1594217521,[0,0, 0]],[1594217527,[0,0, 0]],[1594217533,[0,0, 0]],[1594217539,[0,0, 0]],[1594217545,[0,0, 0]],[1594217551,[1,0, 1]],[1594217557,[1,0, 1]],[1594217563,[0,0, 0]],[1594217569,[0,0, 0]],[1594217575,[0,0, 0]],[1594217581,[0,0, 0]],[1594217587,[1,1, 0]],[1594217593,[1,1, 0]],[1594217599,[0,0, 0]],[1594217605,[0,0, 0]],[1594217611,[0,0, 0]],[1594217617,[0,0, 0]],[1594217623,[0,0, 0]],[1594217629,[0,0, 0]],[1594217635,[0,0, 0]],[1594217641,[0,0, 0]],[1594217647,[0,0, 0]],[1594217653,[0,0, 0]],[1594217659,[0,0, 0]],[1594217665,[0,0, 0]],[1594217671,[0,0, 0]],[1594217677,[1,0, 1]],[1594217683,[0,0, 0]],[1594217689,[0,0, 0]],[1594217695,[0,0, 0]],[1594217701,[0,0, 0]],[1594217707,[0,0, 0]],[1594217713,[0,0, 0]],[1594217719,[0,0, 0]],[1594217725,[0,0, 0]],[1594217731,[0,0, 0]],[1594217737,[0,0, 0]],[1594217743,[0,0, 0]],[1594217749,[0,0, 0]],[1594217755,[0,0, 0]],[1594217761,[0,0, 0]],[1594217767,[0,0, 0]],[1594217773,[0,0, 0]],[1594217779,[1,0, 1]],[1594217785,[0,0, 0]],[1594217791,[0,0, 0]],[1594217797,[0,0, 0]],[1594217803,[1,0, 1]],[1594217809,[0,0, 0]],[1594217815,[0,0, 0]],[1594217821,[0,0, 0]],[1594217827,[0,0, 0]],[1594217833,[0,0, 0]],[1594217839,[0,0, 0]],[1594217845,[0,0, 0]],[1594217851,[0,0, 0]],[1594217857,[0,0, 0]],[1594217863,[0,0, 0]],[1594217869,[0,0, 0]],[1594217875,[1,0, 1]],[1594217881,[0,0, 0]],[1594217887,[0,0, 0]],[1594217893,[0,0, 0]],[1594217899,[0,0, 0]],[1594217905,[0,0, 0]],[1594217911,[0,0, 0]],[1594217917,[0,0, 0]],[1594217923,[0,0, 0]],[1594217929,[1,0, 1]],[1594217935,[0,0, 0]],[1594217941,[0,0, 0]],[1594217947,[0,0, 0]],[1594217953,[0,0, 0]],[1594217959,[0,0, 0]],[1594217965,[0,0, 0]],[1594217971,[0,0, 0]],[1594217977,[0,0, 0]],[1594217983,[0,0, 0]],[1594217989,[0,0, 0]],[1594217995,[0,0, 0]],[1594218001,[0,0, 0]],[1594218007,[0,0, 0]],[1594218013,[0,0, 0]],[1594218019,[0,0, 0]],[1594218025,[0,0, 0]],[1594218031,[0,0, 0]],[1594218037,[0,0, 0]],[1594218043,[0,0, 0]],[1594218049,[0,0, 0]],[1594218055,[0,0, 0]],[1594218061,[0,0, 0]],[1594218067,[0,0, 0]],[1594218073,[0,0, 0]],[1594218079,[0,0, 0]],[1594218085,[0,0, 0]],[1594218091,[0,0, 0]],[1594218097,[0,0, 0]],[1594218103,[0,0, 0]],[1594218109,[0,0, 0]],[1594218115,[0,0, 0]],[1594218121,[0,0, 0]],[1594218127,[0,0, 0]],[1594218133,[0,0, 0]],[1594218139,[0,0, 0]],[1594218145,[0,0, 0]],[1594218151,[0,0, 0]],[1594218157,[0,0, 0]],[1594218163,[1,0, 1]],[1594218169,[0,0, 0]],[1594218175,[0,0, 0]],[1594218181,[0,0, 0]],[1594218187,[1,0, 1]],[1594218193,[0,0, 0]],[1594218199,[0,0, 0]],[1594218205,[0,0, 0]],[1594218211,[0,0, 0]],[1594218217,[0,0, 0]],[1594218223,[0,0, 0]],[1594218229,[0,0, 0]],[1594218235,[0,0, 0]],[1594218241,[0,0, 0]],[1594218247,[0,0, 0]],[1594218253,[0,0, 0]],[1594218259,[0,0, 0]],[1594218265,[0,0, 0]],[1594218271,[0,0, 0]],[1594218277,[0,0, 0]],[1594218283,[0,0, 0]],[1594218289,[0,0, 0]],[1594218295,[0,0, 0]],[1594218301,[0,0, 0]],[1594218307,[0,0, 0]],[1594218313,[0,0, 0]],[1594218319,[1,0, 1]],[1594218325,[0,0, 0]],[1594218331,[0,0, 0]],[1594218337,[0,0, 0]],[1594218343,[0,0, 0]],[1594218349,[0,0, 0]],[1594218355,[0,0, 0]],[1594218361,[0,0, 0]],[1594218367,[0,0, 0]],[1594218373,[0,0, 0]],[1594218379,[0,0, 0]],[1594218385,[0,0, 0]],[1594218391,[0,0, 0]],[1594218397,[1,0, 1]],[1594218403,[0,0, 0]],[1594218409,[0,0, 0]],[1594218415,[0,0, 0]],[1594218421,[0,0, 0]],[1594218427,[1,1, 0]],[1594218433,[0,0, 0]],[1594218439,[0,0, 0]],[1594218445,[0,0, 0]],[1594218451,[0,0, 0]],[1594218457,[0,0, 0]],[1594218463,[0,0, 0]],[1594218469,[0,0, 0]],[1594218475,[0,0, 0]],[1594218481,[0,0, 0]],[1594218487,[0,0, 0]],[1594218493,[0,0, 0]],[1594218499,[0,0, 0]],[1594218505,[0,0, 0]],[1594218511,[0,0, 0]],[1594218517,[0,0, 0]],[1594218523,[0,0, 0]],[1594218529,[0,0, 0]],[1594218535,[0,0, 0]],[1594218541,[0,0, 0]],[1594218547,[0,0, 0]],[1594218553,[0,0, 0]],[1594218559,[0,0, 0]],[1594218565,[0,0, 0]],[1594218571,[0,0, 0]],[1594218577,[0,0, 0]],[1594218583,[1,1, 0]],[1594218589,[0,0, 0]],[1594218595,[0,0, 0]],[1594218601,[0,0, 0]],[1594218607,[0,0, 0]],[1594218613,[0,0, 0]],[1594218619,[0,0, 0]],[1594218625,[0,0, 0]],[1594218631,[0,0, 0]],[1594218637,[0,0, 0]],[1594218643,[0,0, 0]],[1594218649,[0,0, 0]],[1594218655,[1,1, 0]],[1594218661,[0,0, 0]],[1594218667,[0,0, 0]],[1594218673,[0,0, 0]],[1594218679,[0,0, 0]],[1594218685,[0,0, 0]],[1594218691,[0,0, 0]],[1594218697,[0,0, 0]],[1594218703,[0,0, 0]],[1594218709,[0,0, 0]],[1594218715,[1,1, 0]],[1594218721,[0,0, 0]],[1594218727,[0,0, 0]],[1594218733,[0,0, 0]],[1594218739,[0,0, 0]],[1594218745,[0,0, 0]],[1594218751,[0,0, 0]],[1594218757,[0,0, 0]],[1594218763,[0,0, 0]],[1594218769,[0,0, 0]],[1594218775,[0,0, 0]],[1594218781,[0,0, 0]],[1594218787,[0,0, 0]],[1594218793,[0,0, 0]],[1594218799,[0,0, 0]],[1594218805,[0,0, 0]],[1594218811,[0,0, 0]],[1594218817,[1,0, 1]],[1594218823,[0,0, 0]],[1594218829,[0,0, 0]],[1594218835,[0,0, 0]],[1594218841,[1,0, 1]],[1594218847,[0,0, 0]],[1594218853,[0,0, 0]],[1594218859,[0,0, 0]],[1594218865,[0,0, 0]],[1594218871,[0,0, 0]],[1594218877,[1,0, 1]],[1594218883,[0,0, 0]],[1594218889,[0,0, 0]],[1594218895,[0,0, 0]],[1594218901,[0,0, 0]],[1594218907,[0,0, 0]],[1594218913,[0,0, 0]],[1594218919,[0,0, 0]],[1594218925,[0,0, 0]],[1594218931,[0,0, 0]],[1594218937,[0,0, 0]],[1594218943,[1,1, 0]],[1594218949,[0,0, 0]],[1594218955,[1,1, 0]],[1594218961,[0,0, 0]],[1594218967,[0,0, 0]],[1594218973,[0,0, 0]],[1594218979,[0,0, 0]],[1594218985,[0,0, 0]],[1594218991,[0,0, 0]],[1594218997,[0,0, 0]],[1594219003,[0,0, 0]],[1594219009,[0,0, 0]]]);
+
+var requestsChart = new Highcharts.StockChart({
+  chart: {
+    renderTo: 'container_responses',
+    zoomType: 'x'
+  },
+  credits: { enabled: false },
+  legend: {
+    enabled: true,
+    floating: true,
+    itemDistance: 10,
+    y: -285,
+    borderWidth: 0,
+    itemStyle: { fontWeight: "normal" }
+  },
+  title: { text: 'A title to let highcharts reserve the place for the title set later' },
+  rangeSelector: {
+    buttonSpacing: 0,
+    buttonTheme: {
+      fill: 'LightGrey',
+      padding: 1,
+      stroke: 'Black',
+      'stroke-width': 0.25,
+      style: {
+        color: 'Black',
+        fontWeight: 'bold',
+      },
+      states: {
+        stroke: 'Black',
+        'stroke-width': 0.25,
+        hover: {
+          fill: 'DarkGrey',
+          style: { color: 'black' }
+         },
+         select: {
+          fill: 'DarkOrange',
+          style: { color: 'white' }
+        }
+      }
+    },
+    buttons : [
+      {
+        type : 'minute',
+        count : 1,
+        text : '1m'
+      }, {
+        type : 'minute',
+        count : 10,
+        text : '10m'
+      }, {
+        type : 'hour',
+        count : 1,
+        text : '1h'
+      }, {
+        type : 'all',
+        count : 1,
+        text : 'All'
+      }
+    ],
+    selected : 3,
+    inputEnabled : false
+  },
+  plotOptions: {
+    series: {
+      dataGrouping: { enabled: false }
+    },
+    area: {
+      stacking: 'normal'
+    }
+  },
+  xAxis: {
+    type: 'datetime',
+    ordinal: false,
+    maxZoom: 10000 // three days
+  },
+  yAxis:[
+    {
+      min: 0,
+      title: {
+        text: 'Number of responses',
+        style: { color: '#4572A7' }
+      },
+      opposite: false
+    }, {
+      min: 0,
+      title: {
+        text: 'Active Users',
+        style: { color: '#FF9D00' }
+      },
+      opposite: true
+    }
+  ],
+  series: [
+    {
+color: '#4572A7',
+name: 'All',
+data: container_responses[0],
+tooltip: { yDecimals: 0, ySuffix: '', valueDecimals: 0 }
+},
+{
+color: '#FF0000',
+name: 'KO',
+data: container_responses[1],
+tooltip: { yDecimals: 0, ySuffix: '', valueDecimals: 0 }
+,type: 'area'},
+{
+color: '#A0B228',
+name: 'OK',
+data: container_responses[2],
+tooltip: { yDecimals: 0, ySuffix: '', valueDecimals: 0 }
+,type: 'area'},
+    allUsersData,
+{
+  
+type: 'pie',
+name: 'Distribution',
+data: [
+  {name: 'OK', y: 26.0, color: '#A0B228'},{name: 'KO', y: 14.0, color: '#FF0000'}
+],
+center: [775, -40],
+size: 70,
+showInLegend: false,
+dataLabels: { enabled: false },
+dataGrouping: { enabled: false }
+
+}
+
+  ]
+});
+
+requestsChart.setTitle({
+  text: '<span class="chart_title">Number of responses per second</span>',
+  useHTML: true
+});
+
+var scatterChart = new Highcharts.Chart({
+  chart: {
+    renderTo: 'container_response_time_dispersion', 
+    defaultSeriesType: 'scatter',
+    zoomType: 'xy'
+  },
+  credits: { enabled: false },
+  xAxis: {
+    title: {
+      enabled: true,
+      text: 'Global number of requests per second',
+      style: { fontWeight: 'bold' }
+    },
+    startOnTick: true,
+    endOnTick: true,
+    showLastLabel: true,
+    min: 0
+  },
+  title: { text: 'A title to let highcharts reserve the place for the title set later' },
+  yAxis: {
+    min: 0,
+    title: { text: 'Response Time' }
+  },
+  tooltip: {
+    formatter: function() {
+         return ''+ this.y +' ms at ' + this.x + ' allreq/s';
+    }
+  },
+  legend: {
+    layout: 'vertical',
+    align: 'left',
+    verticalAlign: 'top',
+    x: 80,
+    y: 10,
+    floating: true,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderRadius: 3,
+    itemStyle: {
+      fontWeight: "normal",
+      color: "#274B6D"
+    }
+  },
+  plotOptions: {
+    scatter: {
+      marker: {
+        radius: 3,
+        states: {
+          hover: {
+            enabled: true,
+            lineColor: 'rgb(100,100,100)'
+          }
+        }
+      },
+      states: {
+        hover: {
+          marker: { enabled: false }
+        }
+      }
+    }
+  },
+  series: [
+	  {
+type: 'scatter',
+color: 'rgba(69, 114, 167, .2)',
+name: 'OK',
+data: [
+[1,223],[1,199],[1,479],[2,341],[2,209],[2,247],[2,192],[2,519],[2,1033],[2,391],[2,231],[2,200],[2,616],[2,181],[2,404],[2,829],[2,186],[2,407],[2,182],[2,641],[3,205],[3,892],[3,507],[3,727],[3,1011],[3,846],[3,676],[3,324],[3,169],[3,665],[3,170],[3,629],[3,1692],[3,344],[3,798],[3,370],[3,1624],[3,314],[3,815],[3,810],[4,378],[4,875],[4,980],[4,754],[4,803],[4,939],[4,2294],[4,293],[4,543],[4,702],[4,669],[4,1410],[4,1523],[4,242],[4,292],[4,1662],[4,526],[4,665],[4,789],[4,1041],[4,177],[4,932],[4,462],[4,559],[4,769],[4,935],[4,907],[4,685],[4,18253],[5,407],[5,2117],[5,2128],[5,899],[5,931],[5,269],[5,304],[5,780],[5,223],[5,179],[5,344],[5,864],[5,351],[5,239],[5,735],[5,855],[5,684],[5,329],[5,506],[5,782],[5,399],[5,536],[5,227],[5,911],[5,768],[5,728],[5,620],[5,313],[5,902],[5,878],[5,890],[5,942],[5,403],[5,956],[5,753],[5,219],[5,1662],[5,879],[5,179],[5,177],[5,734],[5,957],[5,547],[5,412],[5,795],[5,679],[5,479],[5,842],[5,1180],[6,989],[6,678],[6,192],[6,1133],[6,267],[6,766],[6,569],[6,860],[6,846],[6,201],[6,774],[6,246],[6,190],[6,218],[6,691],[6,185],[6,225],[6,273],[6,810],[6,254],[6,632],[6,289],[6,1870],[6,1300],[6,542],[6,563],[6,662],[6,1064],[6,216],[6,651],[6,1403],[6,785],[6,436],[6,177],[6,364],[6,815],[6,204],[6,585],[6,235],[6,484],[6,648],[6,860],[6,3185],[6,831],[6,683],[6,575],[6,392],[6,631],[6,835],[6,666],[6,548],[6,4784],[6,898],[6,459],[6,610],[6,325],[6,800],[6,555],[6,711],[6,298],[6,1179],[6,236],[6,15252],[6,18856],[6,10073],[6,1323],[6,1805],[6,945],[6,584],[6,803],[6,504],[6,877],[6,2109],[6,1486],[6,821],[6,516],[6,793],[6,181],[6,383],[6,741],[6,526],[6,186],[6,861],[6,813],[6,1009],[6,569],[6,999],[6,809],[6,245],[6,516],[6,697],[6,814],[6,3074],[6,949],[6,197],[6,630],[6,548],[6,734],[7,629],[7,905],[7,262],[7,1675],[7,1028],[7,416],[7,2060],[7,1850],[7,915],[7,585],[7,628],[7,185],[7,668],[7,224],[7,1477],[7,1047],[7,358],[7,781],[7,763],[7,933],[7,757],[7,969],[7,989],[7,328],[7,1076],[7,529],[7,930],[7,529],[7,913],[7,701],[7,367],[7,1121],[7,800],[7,964],[7,849],[7,1100],[7,971],[7,211],[7,505],[7,281],[7,863],[7,1434],[7,710],[7,184],[7,464],[7,644],[7,726],[7,309],[7,197],[7,1061],[7,13562],[7,872],[7,603],[7,467],[7,486],[7,1305],[7,351],[7,246],[7,502],[7,192],[7,3392],[7,1183],[7,759],[7,570],[7,549],[7,1006],[7,1069],[7,593],[7,1279],[7,1274],[7,1093],[7,499],[7,560],[7,1216],[7,465],[7,520],[7,1122],[7,446],[7,1076],[7,784],[7,205],[7,321],[7,2087],[7,978],[7,1731],[7,954],[7,1206],[7,1303],[7,783],[7,1145],[8,650],[8,190],[8,213],[8,1795],[8,1254],[8,378],[8,10885],[8,423],[8,399],[8,527],[8,739],[8,773],[8,198],[8,261],[8,740],[8,17026],[8,234],[8,223],[8,1600],[8,1639],[8,965],[8,780],[8,843],[8,796],[8,254],[8,750],[8,696],[8,392],[8,672],[8,180],[8,4802],[8,1218],[8,788],[8,308],[9,826],[9,901],[9,511],[9,3241],[9,315],[9,2559],[9,357],[9,467],[9,1149]
+]},
+	  {
+type: 'scatter',
+color: 'rgba(255, 0, 0, .2)',
+name: 'KO',
+data: [
+[3,20000],[3,20010],[4,20010],[4,20003],[4,20011],[4,20003],[4,20000],[4,20011],[4,20014],[4,19997],[4,19998],[4,19997],[4,20009],[4,20003],[4,20012],[4,20002],[4,20001],[4,20006],[4,20015],[4,20015],[4,20006],[4,20009],[4,19999],[4,20007],[4,20010],[4,20010],[4,20002],[5,20002],[5,20000],[5,19999],[5,20000],[5,20000],[5,16036],[5,20002],[5,19999],[5,20002],[5,20007],[5,20004],[5,20004],[5,20002],[5,20002],[5,20007],[5,20007],[5,20009],[5,20005],[5,20001],[5,20003],[5,20003],[6,20005],[6,20008],[6,20000],[6,20004],[6,20004],[6,20002],[6,20015],[6,20008],[6,20003],[6,20001],[6,20001],[6,20019],[6,19999],[6,19998],[6,8184],[6,20001],[6,20001],[6,20001],[6,19999],[6,20001],[6,339],[6,20000],[6,20006],[6,20006],[6,20010],[6,20001],[6,20004],[6,17243],[6,1027],[6,1237],[6,3201],[6,20002],[6,19999],[6,20015],[7,20000],[7,20003],[7,20003],[7,20008],[7,20010],[7,20002],[7,20000],[8,20005],[8,5596],[8,20003]
+]}
+	]
+});
+
+scatterChart.setTitle({
+  text: '<span class="chart_title">Response Time against Global RPS</span>',
+  useHTML: true
+});
+
+    });
+</script>
+</body>
+</html>

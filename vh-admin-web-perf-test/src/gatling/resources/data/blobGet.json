@@ -1,0 +1,6 @@
+{
+  "Url": "/recordings/${BookedHearingRefIdx}.mp4",
+  "StorageAccountName": "${storageAccountName}",
+  "StorageAccountKey" : "${StorageAccountKey}",
+  "Method" : "Get"
+}

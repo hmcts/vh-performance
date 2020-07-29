@@ -1,0 +1,21 @@
+.DS_Store
+.idea/**
+
+target/**
+results/*
+*.project
+.gradle/**
+build/**
+*.log
+resources/recorder.conf
+resources/credentials.csv
+
+*.iml
+out
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+

@@ -1,0 +1,18 @@
+Conference-Details,204,883a670a-e38b-403e-a5c8-b6fe1448f6ac,
+Conference-BookConf,204,74edb58e-1dda-4989-91c5-f1f4128aa378,
+Conference-Details,204,27f7b95b-7afd-477e-8e02-373d43ce0b4c,
+Conference-Update,204,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-69f277a2fcb25246a0b71572636b634e-1b86fb7b9ec4114f-00"}
+Participants-Add,200,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-3b74ab40a3f64e47a4ee22c798d8795d-1e610f649436be4b-00"}
+Participants-Patch,200,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-48f122fcefd9d64982b248c5835dba0a-fc4f5272864ab74b-00"}
+Conference-Close,200,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-bbb2f881f4c9ff4b81e65bb3b93fe804-6571977a99481e45-00"}
+Participants-Delete,200,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-837253ca72be0d438ab327898166522f-6b55a9cf9042d048-00"}
+Conference-Delete,200,74edb58e-1dda-4989-91c5-f1f4128aa378,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-c6bc04dd8a1ab94b8ac3b99ae9080ce9-1618577274c6524a-00"}
+Conference-Details,204,5453a03f-7a98-4f57-91d3-61e6c85eb7d7,
+Conference-Details,204,746d91b3-1431-49ba-9cb8-2442cd1636a2,
+Conference-BookConf,204,e46433cc-56df-4504-8826-137e9a9841a2,
+Conference-Update,204,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-5b9598c18ac63344aa42f554a6f97e1d-36c1473b82019346-00"}
+Participants-Add,200,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-15c8c6e18d585e438132da3c36286c56-91337f4f31f2554b-00"}
+Participants-Patch,200,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-3b80ae6907c81e439bfe7af3c40daa44-88571142a8fd2445-00"}
+Conference-Close,200,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-93b2d65f47cfd64eb5d17d9a707df695-23012a07d7528847-00"}
+Participants-Delete,200,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-9ea1958bfada084983d621c70c28da9e-1cdec81520da8242-00"}
+Conference-Delete,200,e46433cc-56df-4504-8826-137e9a9841a2,{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.4","title":"Not Found","status":404,"traceId":"00-dd576b797500a84fb02538fde88cff1d-b9143c4d34a20f42-00"}

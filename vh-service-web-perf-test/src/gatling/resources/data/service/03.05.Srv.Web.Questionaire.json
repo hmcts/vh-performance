@@ -1,0 +1,51 @@
+[
+  {
+    "question_key": "ABOUT_YOU",
+    "answer": "true",
+    "extended_answer": "Performance Test info"
+  },
+  {
+    "question_key": "CONSENT",
+    "answer": "true"
+  },
+  {
+    "question_key": "INTERNET",
+    "answer": "true"
+  },
+  {
+    "question_key": "ROOM",
+    "answer": "true"
+  },
+  {
+    "question_key": "INTERPRETER",
+    "answer": "true"
+  },
+  {
+    "question_key": "COMPUTER",
+    "answer": "true"
+  },
+  {
+    "question_key": "CAMERA_MICROPHONE",
+    "answer": "Yes"
+  },
+  {
+    "question_key": "KIT_CHECK_YOUR_COMPUTER",
+    "answer": "true"
+  },
+  {
+    "question_key": "KIT_SEE_YOURSELF",
+    "answer": "true"
+  },
+  {
+    "question_key": "KIT_MICROPHONE",
+    "answer": "true"
+  },
+  {
+    "question_key": "KIT_SEE_HEAR_CLEARLY",
+    "answer": "true"
+  },
+  {
+    "question_key": "KIT_SELFTEST_SCORE",
+    "answer": "Good"
+  }
+]

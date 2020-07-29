@@ -1,0 +1,40 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "3.3.0"
+
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'vh-video-api-perf-test',
+                'Implementation-Version': 0.1
+    }
+
+    dependencies {
+        compile( "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.0")
+        compile("io.gatling.highcharts:gatling-charts-highcharts:3.3.0")
+
+        compile group: 'io.gatling', name: 'gatling-recorder', version: '3.3.0'
+    }
+}
+gatling {
+    toolVersion = '3.2.1'
+    scalaVersion '2.12.8'
+    jvmArgs = ['-Xms1024m', '-Xmx2048m', '-XX:+UseConcMarkSweepGC']
+    // do not include classes and resources from src/main
+    includeMainOutput = true
+    // do not include classes and resources from src/test
+    includeTestOutput = true
+}
+apply plugin: "com.github.lkishalmi.gatling"
+ScalaCompileOptions.metaClass.daemonServer = true
+ScalaCompileOptions.metaClass.fork = true
+ScalaCompileOptions.metaClass.useAnt = false
+ScalaCompileOptions.metaClass.useCompileDaemon = false
+
+ext ['netty.version'] = '4.1.48.Final'

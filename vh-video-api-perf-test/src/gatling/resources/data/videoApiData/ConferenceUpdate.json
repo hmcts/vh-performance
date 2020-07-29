@@ -1,0 +1,10 @@
+{
+  "hearing_ref_id": "${GenHearRefIdx}",
+  "case_type": "Civil Money Claims",
+  "scheduled_date_time": "${GenTimeStampx}",
+  "case_number": "NV00/T7${GenCaseNox}${GenCaseNox}",
+  "case_name": "${GenCaseNamex}",
+  "scheduled_duration": 20,
+  "hearing_venue_name": "${GenVenueNamex}",
+  "audio_recording_required": true
+}

@@ -1,0 +1,10 @@
+{
+  "username": "${SrvParticipantNamex}",
+  "isOtherIdpSupported": true,
+  "checkPhones": true,
+  "isRemoteNGCSupported": true,
+  "isCookieBannerShown": true,
+  "isFidoSupported": true,
+  "originalRequest": "${srvCtxIdx}",
+  "isAccessPassSupported": true
+}

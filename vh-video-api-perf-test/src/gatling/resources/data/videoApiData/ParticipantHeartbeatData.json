@@ -1,0 +1,12 @@
+{
+  "outgoing_audio_percentage_lost": 1,
+  "outgoing_audio_percentage_lost_recent": 1,
+  "incoming_audio_percentage_lost": 1,
+  "incoming_audio_percentage_lost_recent": 1,
+  "outgoing_video_percentage_lost": 1,
+  "outgoing_video_percentage_lost_recent": 1,
+  "incoming_video_percentage_lost": 1,
+  "incoming_video_percentage_lost_recent": 1,
+  "browser_name": "Chrome",
+  "browser_version": "v1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "scenarios.adminWebLogin",
+  "simulationId": "adminweblogin",
+  "start": 1588770776631,
+  "description": "",
+  "scenarios": ["Admin-Portal Perf Test"],
+  "assertions": [
+
+  ]
+}

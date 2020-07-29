@@ -1,0 +1,17 @@
+{
+  "username": "${SrvParticipantNamex}",
+  "isOtherIdpSupported": true,
+  "checkPhones": true,
+  "isRemoteNGCSupported": true,
+  "isCookieBannerShown": true,
+  "isFidoSupported": true,
+  "originalRequest": "${srvCtxIdx}",
+  "country": "GB",
+  "forceotclogin": false,
+  "isExternalFederationDisallowed": false,
+  "isRemoteConnectSupported": false,
+  "federationFlags": 0,
+  "isSignup": false,
+  "flowToken": "${srvFlowTokenx}",
+  "isAccessPassSupported": true
+}
