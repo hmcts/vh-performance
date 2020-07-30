@@ -1,6 +1,6 @@
 import io.gatling.app.Gatling
 import io.gatling.core.config.GatlingPropertiesBuilder
-import uk.gov.hmcts.reform.perftest.simulation.{AdminWebScenarios, CleanUpScenarios, ServiceScenarios}
+import uk.gov.hmcts.reform.perftest.simulation.ServiceScenarios
 
 
 object gatlingRun {
