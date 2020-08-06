@@ -1,9 +1,9 @@
 package uk.gov.hmcts.reform.perftest.scenarios.bookingapi
 
-import uk.gov.hmcts.reform.perftest.scenarios.Feeders
-import uk.gov.hmcts.reform.perftest.utils.Environment
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+import uk.gov.hmcts.reform.perftest.scenarios.Feeders
+import uk.gov.hmcts.reform.perftest.utils.Environment
 
 
 object HearingsRequests {
@@ -13,6 +13,38 @@ object HearingsRequests {
 
   val userUrl      = Environment.userURL
   val bookingUrl  = Environment.bookingURL
+
+
+  def incrementVar(name: String) = {
+    exec(session =>{
+      val temp = session(name).as[Int] + 1
+      session.set(name,temp)
+    })
+  }
+
+  def setIndexVar(name: String, index: String) = {
+    exec(session =>{
+      val temp = name + "FirstName" + session(index).as[Int]
+      session.set(s"$temp",session("ParticipantFirstName").as[String])
+    })
+    .exec(session =>{
+      val temp = name + "LastName" + session(index).as[Int]
+      session.set(s"$temp",session("ParticipantLastName").as[String])
+    })
+  }
+
+  def addUserToGroup(test: String) = {
+    exec(session => { session.set("userGroup", test) })
+      .exec(http("Booking-Add.User.Group").patch(userUrl + "/accounts/user/group").headers(auth.headers)
+      .body(StringBody(
+        """{
+              "user_id": "${UserRefIdx}",
+              "group_name": "${userGroup}"
+              }"""))
+      .check(status.in(202,404)))
+//      .pause(Environment.minTime,Environment.maxTime)
+
+  }
 
 
   val setIndividualUserType = exec { session =>
@@ -89,6 +121,42 @@ object HearingsRequests {
 
   }
 
+  def create_new_user()= {
+    exec(http("Booking-Hearing-${ParticipantFirstName}${ParticipantLastName}.User.Exists")
+      .get(userUrl + "/users/userName/${ParticipantFirstName}.${ParticipantLastName}@${appDomain}")
+      .headers(auth.headers)
+      .check(status.saveAs("userExistStatus"))
+      .check(status.in(200,404)))
+//      .pause(Environment.minTime,Environment.maxTime)
+      .doIfOrElse(session => session("userExistStatus").as[String] == "404") {
+        exec(http("Booking-Hearing-${ParticipantFirstName}${ParticipantLastName}.User.Registration").post(userUrl + "/users").headers(auth.headers)
+          .body(StringBody(
+            """{
+                  "first_name": "${ParticipantFirstName}",
+                  "last_name": "${ParticipantLastName}",
+                  "recovery_email": "${ParticipantFirstName}${ParticipantLastName}@test.com"
+                  }"""))
+          .check(jsonPath("$.user_id").saveAs("UserRefIdx"))
+          .check(jsonPath("$.username").saveAs("UsernameOnex"))
+          .check(status.is(201)))
+//          .pause(Environment.minTime,Environment.maxTime)
+      } {
+        exec(http("Booking-Hearing-${ParticipantFirstName}${ParticipantLastName}.User.Get")
+          .get(userUrl + "/users/userName/${ParticipantFirstName}.${ParticipantLastName}@${appDomain}")
+          .headers(auth.headers)
+          .check(jsonPath("$.user_id").saveAs("UserRefIdx"))
+          .check(jsonPath("$.user_name").saveAs("UsernameOnex"))
+          .check(status.in(200)))
+          .pause(Environment.minTime,Environment.maxTime)
+          .exec(http("Booking-Hearing-${ParticipantFirstName}${ParticipantLastName}.User.Password.Reset")
+            .patch(userUrl + "/users")
+            .headers(auth.headers)
+            .body(StringBody(""""${ParticipantFirstName}.${ParticipantLastName}@${appDomain}""""))
+            .check(status.in(204)))
+//          .pause(Environment.minTime,Environment.maxTime)
+      }
+  }
+
   def group_users()= {
     exec(http("Booking-Add.User.Group").patch(userUrl + "/accounts/user/group").headers(auth.headers)
       .body(StringBody(
@@ -111,6 +179,14 @@ object HearingsRequests {
          .check(jsonPath("$.participants[2].username").saveAs("RepParticipantNamex"))
          .check(jsonPath("$.participants[2].id").saveAs("RepParticipantIdx"))
         .check(status.is(session => 201)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def multi_pariticpants_hearing()= {
+    exec(http("Booking-Create.Hearing").post(bookingUrl+"/hearings").headers(auth.headersrv)
+      .body(ElFileBody("data/booking/02.Multiple.Hearing.json")).asJson
+      .check(jsonPath("$.id").saveAs("MultiParticipantsSrvHearingRefIdx"))
+      .check(status.is(session => 201)))
       .pause(Environment.minTime,Environment.maxTime)
   }
 
