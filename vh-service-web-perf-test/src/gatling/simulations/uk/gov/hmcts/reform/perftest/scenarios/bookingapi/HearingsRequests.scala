@@ -75,6 +75,10 @@ object HearingsRequests {
     session.set("SrvParticipantNamex", session("IndParticipantNamex").as[String])
   }
 
+  val setUserName = exec { session =>
+    session.set("SrvParticipantNamex", session("UsernameOnex").as[String])
+  }
+
   val setRepresentativeUserName = exec { session =>
     session.set("SrvParticipantNamex", session("RepParticipantNamex").as[String])
   }

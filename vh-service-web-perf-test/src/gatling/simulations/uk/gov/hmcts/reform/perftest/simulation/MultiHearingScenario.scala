@@ -2,6 +2,7 @@ package uk.gov.hmcts.reform.perftest.simulation
 
 import io.gatling.core.Predef._
 import uk.gov.hmcts.reform.perftest.scenarios.bookingapi.{HearingsRequests, auth}
+import uk.gov.hmcts.reform.perftest.scenarios.serviceweb.ServiceRequests
 import uk.gov.hmcts.reform.perftest.utils.Environment
 
 
@@ -23,10 +24,14 @@ class MultiHearingScenario  extends Simulation {
               .exec(session =>{
                 session.set("representativeIndex",0)
               })
-              .repeat(32) {
+              .repeat(5) {
                   feed(csvFeeder)
                   .exec(HearingsRequests.set_feeders())
                   .exec(auth.userauth, HearingsRequests.create_new_user())
+                  .exec(HearingsRequests.setUserName)
+                  .exec(ServiceRequests.Home())
+                  .exec(ServiceRequests.LoginReset())
+                  .exec(ServiceRequests.Logout())
                   .exec(session => {
                     session.set("userGroup", session("Role").as[String])
                   })
