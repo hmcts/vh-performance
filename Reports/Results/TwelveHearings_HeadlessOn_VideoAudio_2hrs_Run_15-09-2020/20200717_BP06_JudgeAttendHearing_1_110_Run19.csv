@@ -1,0 +1,532 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1600166522711,9953,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600166522712,9953,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600166532666,47,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,97,0,1,1,null,0,0,0
+1600166532666,47,Landing Page,200,OK,Thread Group 1-1,text,true,,97,0,1,1,null,0,0,0
+1600166532713,1053,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600166532713,1053,Open Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600166533766,20004,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,2,0
+1600166533767,20004,Wait For Participants,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600166553774,2098,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600166553774,2098,Start Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600166555872,813355,BP06_S06_PauseHearing,500,,Thread Group 1-1,,false,,0,0,1,1,null,0,0,0
+1600166555872,813355,Pause Hearing,500,"javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.openqa.selenium.By; import org.openqa.selenium.JavascriptExecutor; im . . . '' : Method Invocation Thread.sleep : at Line: 16 : in file: inline evaluation of: ``import org.openqa.selenium.By; import org.openqa.selenium.JavascriptExecutor; im . . . '' : Thread .sleep ( 7200000 ) 
+
+Target exception: java.lang.InterruptedException: sleep interrupted
+ in inline evaluation of: ``import org.openqa.selenium.By; import org.openqa.selenium.JavascriptExecutor; im . . . '' at line number 16",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1600168177608,10565,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600168177608,10565,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600168188180,1851,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,97,0,1,1,null,0,0,0
+1600168188180,1851,Landing Page,200,OK,Thread Group 1-1,text,true,,97,0,1,1,null,0,0,0
+1600168190031,1062,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600168190032,1062,Open Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600168191094,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600168191094,20007,Wait For Participants,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600168211104,2116,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600168211104,2116,Start Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600168297596,10053,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,2,0
+1600168297597,10053,Log In,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600168307652,53,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,97,0,2,2,null,0,1,0
+1600168307653,53,Landing Page,200,OK,Thread Group 1-2,text,true,,97,0,2,2,null,0,0,0
+1600168307706,1064,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600168307706,1064,Open Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600168308770,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600168308770,20006,Wait For Participants,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600168328778,2108,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,1,0
+1600168328779,2108,Start Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600168417596,9848,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600168417596,9848,Log In,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600168427445,48,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,97,0,3,3,null,0,0,0
+1600168427445,48,Landing Page,200,OK,Thread Group 1-3,text,true,,97,0,3,3,null,0,0,0
+1600168427493,1059,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600168427493,1059,Open Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600168428554,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600168428554,20005,Wait For Participants,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600168448562,2097,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600168448562,2097,Start Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600168537595,9891,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600168537595,9891,Log In,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600168547488,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,97,0,4,4,null,0,0,0
+1600168547488,43,Landing Page,200,OK,Thread Group 1-4,text,true,,97,0,4,4,null,0,0,0
+1600168547531,1055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600168547531,1055,Open Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600168548587,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600168548587,20005,Wait For Participants,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600168568594,2098,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600168568594,2098,Start Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600168657593,9823,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600168657593,9823,Log In,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600168667418,41,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,97,0,5,5,null,0,0,0
+1600168667418,41,Landing Page,200,OK,Thread Group 1-5,text,true,,97,0,5,5,null,0,0,0
+1600168667459,1051,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600168667459,1051,Open Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600168668510,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600168668510,20007,Wait For Participants,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600168688520,2100,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600168688520,2100,Start Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600168777594,9998,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600168777594,9998,Log In,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600168787593,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,97,0,6,6,null,0,0,0
+1600168787593,43,Landing Page,200,OK,Thread Group 1-6,text,true,,97,0,6,6,null,0,0,0
+1600168787637,1051,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600168787637,1051,Open Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600168788688,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600168788688,20007,Wait For Participants,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600168808697,2099,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600168808698,2099,Start Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600168897593,10081,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600168897593,10081,Log In,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600168907676,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,97,0,7,7,null,0,0,0
+1600168907676,43,Landing Page,200,OK,Thread Group 1-7,text,true,,97,0,7,7,null,0,0,0
+1600168907720,1054,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600168907720,1054,Open Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600168908774,20012,BP06_S04_WaitForParticipants,200,"Number of sampl1600170190323,12824,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600170190323,12824,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600170203155,62,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,97,0,1,1,null,0,0,0
+1600170203155,62,Landing Page,200,OK,Thread Group 1-1,text,true,,97,0,1,1,null,0,0,0
+1600170203217,1058,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600170203217,1058,Open Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600170204275,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600170204275,20007,Wait For Participants,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600170224282,2143,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600170224283,2143,Start Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600170310317,10332,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600170310317,10332,Log In,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600170320649,49,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,97,0,2,2,null,0,2,0
+1600170320650,49,Landing Page,200,OK,Thread Group 1-2,text,true,,97,0,2,2,null,0,0,0
+1600170320700,1061,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600170320700,1061,Open Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600170321761,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600170321761,20006,Wait For Participants,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600170341768,2106,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600170341768,2106,Start Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600170430316,9851,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600170430317,9851,Log In,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600170440169,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,97,0,3,3,null,0,0,0
+1600170440169,43,Landing Page,200,OK,Thread Group 1-3,text,true,,97,0,3,3,null,0,0,0
+1600170440213,1054,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600170440213,1054,Open Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600170441268,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600170441268,20006,Wait For Participants,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600170461274,2102,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600170461274,2102,Start Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600170550317,10576,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600170550317,10576,Log In,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600170560894,54,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,97,0,4,4,null,0,0,0
+1600170560894,54,Landing Page,200,OK,Thread Group 1-4,text,true,,97,0,4,4,null,0,0,0
+1600170560948,1057,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,1,0
+1600170560948,1057,Open Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600170562006,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600170562006,20006,Wait For Participants,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600170582012,2103,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,1,0
+1600170582012,2103,Start Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600170670309,9909,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600170670309,9909,Log In,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600170680218,48,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,97,0,5,5,null,0,0,0
+1600170680218,48,Landing Page,200,OK,Thread Group 1-5,text,true,,97,0,5,5,null,0,0,0
+1600170680266,1062,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600170680266,1062,Open Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600170681329,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600170681329,20005,Wait For Participants,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600170701335,2120,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600170701335,2120,Start Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600170790314,10050,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600170790315,10050,Log In,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600170800365,61,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,97,0,6,6,null,0,0,0
+1600170800365,61,Landing Page,200,OK,Thread Group 1-6,text,true,,97,0,6,6,null,0,0,0
+1600170800426,1087,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600170800426,1087,Open Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600170801515,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600170801515,20006,Wait For Participants,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600170821522,2159,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600170821522,2159,Start Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600170910314,10222,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600170910315,10222,Log In,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600170920536,58,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,97,0,7,7,null,0,0,0
+1600170920536,58,Landing Page,200,OK,Thread Group 1-7,text,true,,97,0,7,7,null,0,0,0
+1600170920594,1091,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600170920594,1091,Open Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600170921686,20008,BP06_S04_WaitForParticipants,200,"Number of sampl1600172038907,12014,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,2,0
+1600172038908,12014,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600172050930,70,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,97,0,1,1,null,0,1,0
+1600172050930,70,Landing Page,200,OK,Thread Group 1-1,text,true,,97,0,1,1,null,0,0,0
+1600172051001,1063,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600172051001,1063,Open Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600172052065,20008,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600172052065,20008,Wait For Participants,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600172072074,2119,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600172072074,2119,Start Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600172518895,9948,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600172518895,9948,Log In,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600172528843,50,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,97,0,2,2,null,0,1,0
+1600172528844,50,Landing Page,200,OK,Thread Group 1-2,text,true,,97,0,2,2,null,0,0,0
+1600172528894,1051,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,2,0
+1600172528895,1051,Open Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600172529947,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600172529947,20007,Wait For Participants,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600172549955,2099,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600172549955,2099,Start Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600172998895,9867,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600172998895,9867,Log In,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600173008762,44,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,97,0,3,3,null,0,1,0
+1600173008762,44,Landing Page,200,OK,Thread Group 1-3,text,true,,97,0,3,3,null,0,0,0
+1600173008807,1052,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600173008807,1052,Open Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600173009859,20008,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600173009859,20008,Wait For Participants,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600173029868,2097,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600173029868,2097,Start Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600173478892,9838,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600173478892,9838,Log In,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600173488731,44,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,97,0,4,4,null,0,0,0
+1600173488731,44,Landing Page,200,OK,Thread Group 1-4,text,true,,97,0,4,4,null,0,0,0
+1600173488775,1052,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600173488775,1052,Open Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600173489828,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600173489828,20005,Wait For Participants,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600173509834,2100,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,1,0
+1600173509834,2100,Start Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600173958893,9816,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600173958893,9816,Log In,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600173968710,42,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,97,0,5,5,null,0,1,0
+1600173968711,42,Landing Page,200,OK,Thread Group 1-5,text,true,,97,0,5,5,null,0,0,0
+1600173968753,1052,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600173968753,1052,Open Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600173969804,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600173969804,20006,Wait For Participants,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600173989812,2095,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600173989812,2095,Start Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600174438893,9808,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600174438893,9808,Log In,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600174448701,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,97,0,6,6,null,0,1,0
+1600174448702,43,Landing Page,200,OK,Thread Group 1-6,text,true,,97,0,6,6,null,0,0,0
+1600174448745,1052,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600174448745,1052,Open Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600174449797,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600174449798,20005,Wait For Participants,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600174469804,2098,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600174469804,2098,Start Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600174918885,9861,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600174918885,9861,Log In,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600174928748,46,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,97,0,7,7,null,0,0,0
+1600174928748,46,Landing Page,200,OK,Thread Group 1-7,text,true,,97,0,7,7,null,0,0,0
+1600174928794,1055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600174928794,1055,Open Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600174929849,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600174929850,20005,Wait For Participants,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600174949856,2100,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600174949857,2100,Start Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600175398891,10451,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600175398891,10451,Log In,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600175409342,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,97,0,8,8,null,0,1,0
+1600175409343,43,Landing Page,200,OK,Thread Group 1-8,text,true,,97,0,8,8,null,0,0,0
+1600175409386,1057,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600175409386,1057,Open Hearing,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600175410444,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600175410444,20006,Wait For Participants,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600175430451,4116,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600175430451,4116,Start Hearing,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600175878890,10009,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600175878890,10009,Log In,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600175888901,47,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,97,0,9,9,null,0,1,0
+1600175888902,47,Landing Page,200,OK,Thread Group 1-9,text,true,,97,0,9,9,null,0,0,0
+1600175888949,1057,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600175888949,1057,Open Hearing,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600175890005,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600175890005,20005,Wait For Participants,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600175910012,2217,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,1,0
+1600175910013,2217,Start Hearing,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600176358887,9996,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600176358887,9996,Log In,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600176368883,45,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,97,0,10,10,null,0,0,0
+1600176368883,45,Landing Page,200,OK,Thread Group 1-10,text,true,,97,0,10,10,null,0,0,0
+1600176368928,1057,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600176368928,1057,Open Hearing,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600176369986,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600176369986,20006,Wait For Participants,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600176389994,2108,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600176389994,2108,Start Hearing,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600176838890,10296,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600176838891,10296,Log In,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600176849187,171,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,97,0,11,11,null,0,1,0
+1600176849187,171,Landing Page,200,OK,Thread Group 1-11,text,true,,97,0,11,11,null,0,0,0
+1600176849359,1064,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600176849359,1064,Open Hearing,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600176850425,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600176850425,20006,Wait For Participants,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600176870432,2116,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600176870432,2116,Start Hearing,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600177318890,11162,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600177318890,11162,Log In,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600177330054,206,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,97,0,12,12,null,0,0,0
+1600177330054,206,Landing Page,200,OK,Thread Group 1-12,text,true,,97,0,12,12,null,0,0,0
+1600177330260,1055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,1,0
+1600177330261,1055,Open Hearing,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600177331316,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600177331316,20005,Wait For Participants,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600177351321,2388,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600177351321,2388,Start Hearing,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600172074193,7202591,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1600172074193,7202591,Pause Hearing,200,OK,Thread Group 1-1,text,true,,0,0,12,12,null,0,0,0
+1600179277208,3895,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,129,0,12,12,null,0,0,0
+1600179277208,3895,Log Out,200,OK,Thread Group 1-1,text,true,,129,0,12,12,null,0,0,0
+1600179281103,1621,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1600179281103,1621,Close Browser,200,OK,Thread Group 1-1,text,true,,0,0,12,12,null,0,0,0
+1600172552054,7202479,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,1,0
+1600172552054,7202479,Pause Hearing,200,OK,Thread Group 1-2,text,true,,0,0,11,11,null,0,0,0
+1600179754997,3089,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,129,0,11,11,null,0,0,0
+1600179754997,3089,Log Out,200,OK,Thread Group 1-2,text,true,,129,0,11,11,null,0,0,0
+1600179758087,1617,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,0,0
+1600179758087,1617,Close Browser,200,OK,Thread Group 1-2,text,true,,0,0,11,11,null,0,0,0
+1600173031965,7202465,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,10,10,null,0,0,0
+1600173031965,7202465,Pause Hearing,200,OK,Thread Group 1-3,text,true,,0,0,10,10,null,0,0,0
+1600180234926,3186,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,129,0,10,10,null,0,0,0
+1600180234926,3186,Log Out,200,OK,Thread Group 1-3,text,true,,129,0,10,10,null,0,0,0
+1600180238113,1611,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,10,10,null,0,0,0
+1600180238113,1611,Close Browser,200,OK,Thread Group 1-3,text,true,,0,0,10,10,null,0,0,0
+1600173511935,7202430,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1600173511935,7202430,Pause Hearing,200,OK,Thread Group 1-4,text,true,,0,0,9,9,null,0,0,0
+1600180714892,3260,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,129,0,9,9,null,0,1,0
+1600180714893,3260,Log Out,200,OK,Thread Group 1-4,text,true,,129,0,9,9,null,0,0,0
+1600180718154,1610,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,1,0
+1600180718155,1610,Close Browser,200,OK,Thread Group 1-4,text,true,,0,0,9,9,null,0,0,0
+1600173991907,7202448,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600173991907,7202448,Pause Hearing,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600181194911,3280,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,129,0,8,8,null,0,1,0
+1600181194911,3280,Log Out,200,OK,Thread Group 1-5,text,true,,129,0,8,8,null,0,0,0
+1600181198192,1612,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600181198192,1612,Close Browser,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600174471902,7202407,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1600174471902,7202407,Pause Hearing,200,OK,Thread Group 1-6,text,true,,0,0,7,7,null,0,0,0
+1600181674889,3336,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,129,0,7,7,null,0,0,0
+1600181674889,3336,Log Out,200,OK,Thread Group 1-6,text,true,,129,0,7,7,null,0,0,0
+1600181678225,1614,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1600181678225,1614,Close Browser,200,OK,Thread Group 1-6,text,true,,0,0,7,7,null,0,0,0
+1600174951957,7202264,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,6,6,null,0,0,0
+1600174951957,7202264,Pause Hearing,200,OK,Thread Group 1-7,text,true,,0,0,6,6,null,0,0,0
+1600182154822,3447,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,129,0,6,6,null,0,0,0
+1600182154822,3447,Log Out,200,OK,Thread Group 1-7,text,true,,129,0,6,6,null,0,0,0
+1600182158270,1606,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,6,6,null,0,0,0
+1600182158270,1606,Close Browser,200,OK,Thread Group 1-7,text,true,,0,0,6,6,null,0,0,0
+1600175434568,7202227,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,5,5,null,0,1,0
+1600175434569,7202227,Pause Hearing,200,OK,Thread Group 1-8,text,true,,0,0,5,5,null,0,0,0
+1600182637416,2941,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,129,0,5,5,null,0,0,0
+1600182637416,2941,Log Out,200,OK,Thread Group 1-8,text,true,,129,0,5,5,null,0,0,0
+1600182640357,1600,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,5,5,null,0,1,0
+1600182640357,1600,Close Browser,200,OK,Thread Group 1-8,text,true,,0,0,5,5,null,0,0,0
+1600175912230,7202296,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,4,4,null,0,0,0
+1600175912230,7202296,Pause Hearing,200,OK,Thread Group 1-9,text,true,,0,0,4,4,null,0,0,0
+1600183115164,4241,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,129,0,4,4,null,0,0,0
+1600183115164,4241,Log Out,200,OK,Thread Group 1-9,text,true,,129,0,4,4,null,0,0,0
+1600183119407,1600,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,4,4,null,0,0,0
+1600183119407,1600,Close Browser,200,OK,Thread Group 1-9,text,true,,0,0,4,4,null,0,0,0
+1600176392102,7202214,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,3,3,null,0,0,0
+1600176392102,7202214,Pause Hearing,200,OK,Thread Group 1-10,text,true,,0,0,3,3,null,0,0,0
+1600183594967,3436,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,129,0,3,3,null,0,0,0
+1600183594967,3436,Log Out,200,OK,Thread Group 1-10,text,true,,129,0,3,3,null,0,0,0
+1600183598404,1604,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,3,3,null,0,0,0
+1600183598404,1604,Close Browser,200,OK,Thread Group 1-10,text,true,,0,0,3,3,null,0,0,0
+1600176872548,7202256,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,2,2,null,0,0,0
+1600176872548,7202256,Pause Hearing,200,OK,Thread Group 1-11,text,true,,0,0,2,2,null,0,0,0
+1600184075471,2979,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,129,0,2,2,null,0,0,0
+1600184075471,2979,Log Out,200,OK,Thread Group 1-11,text,true,,129,0,2,2,null,0,0,0
+1600184078450,1606,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,2,2,null,0,0,0
+1600184078450,1606,Close Browser,200,OK,Thread Group 1-11,text,true,,0,0,2,2,null,0,0,0
+1600177353709,7202269,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,1,1,null,0,0,0
+1600177353709,7202269,Pause Hearing,200,OK,Thread Group 1-12,text,true,,0,0,1,1,null,0,0,0
+1600184556655,2806,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,129,0,1,1,null,0,0,0
+1600184556655,2806,Log Out,200,OK,Thread Group 1-12,text,true,,129,0,1,1,null,0,0,0
+1600184559462,1611,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,1,1,null,0,0,0
+1600184559462,1611,Close Browser,200,OK,Thread Group 1-12,text,true,,0,0,1,1,null,0,0,0
+1600185589214,18655,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600185589215,18655,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600185607877,69,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,97,0,1,1,null,0,1,0
+1600185607877,69,Landing Page,200,OK,Thread Group 1-1,text,true,,97,0,1,1,null,0,0,0
+1600185607947,2061,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600185607947,2061,Open Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600185610007,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
+1600185610007,20007,Wait For Participants,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600185630016,4107,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600185630017,4107,Start Hearing,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600186069214,15833,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600186069214,15833,Log In,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600186085049,47,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,97,0,2,2,null,0,1,0
+1600186085050,47,Landing Page,200,OK,Thread Group 1-2,text,true,,97,0,2,2,null,0,0,0
+1600186085098,2061,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600186085098,2061,Open Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600186087160,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600186087160,20005,Wait For Participants,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600186107168,4103,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600186107168,4103,Start Hearing,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600186549214,15872,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1600186549214,15872,Log In,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600186565088,44,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,97,0,3,3,null,0,0,0
+1600186565088,44,Landing Page,200,OK,Thread Group 1-3,text,true,,97,0,3,3,null,0,0,0
+1600186565132,2055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600186565132,2055,Open Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600186567188,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600186567188,20007,Wait For Participants,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600186587198,4096,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600186587198,4096,Start Hearing,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600187029208,16082,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600187029208,16082,Log In,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600187045293,41,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,97,0,4,4,null,0,0,0
+1600187045293,41,Landing Page,200,OK,Thread Group 1-4,text,true,,97,0,4,4,null,0,0,0
+1600187045335,2053,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600187045335,2053,Open Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600187047388,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600187047388,20006,Wait For Participants,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600187067396,4098,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600187067396,4098,Start Hearing,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600187509203,15906,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600187509203,15906,Log In,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600187525110,40,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,97,0,5,5,null,0,0,0
+1600187525110,40,Landing Page,200,OK,Thread Group 1-5,text,true,,97,0,5,5,null,0,0,0
+1600187525150,2052,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600187525151,2052,Open Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600187527203,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600187527203,20005,Wait For Participants,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600187547210,4099,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600187547210,4099,Start Hearing,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600187989208,17025,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600187989208,17025,Log In,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600188006234,43,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,97,0,6,6,null,0,0,0
+1600188006234,43,Landing Page,200,OK,Thread Group 1-6,text,true,,97,0,6,6,null,0,0,0
+1600188006277,2054,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600188006277,2054,Open Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600188008331,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600188008331,20005,Wait For Participants,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600188028338,4097,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,1,0
+1600188028339,4097,Start Hearing,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600188469207,15932,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600188469207,15932,Log In,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600188485142,42,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,97,0,7,7,null,0,0,0
+1600188485142,42,Landing Page,200,OK,Thread Group 1-7,text,true,,97,0,7,7,null,0,0,0
+1600188485184,2053,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600188485184,2053,Open Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600188487238,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600188487238,20005,Wait For Participants,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600188507245,4098,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600188507245,4098,Start Hearing,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600188949202,15956,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,2,0
+1600188949203,15956,Log In,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600188965161,48,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,97,0,8,8,null,0,0,0
+1600188965161,48,Landing Page,200,OK,Thread Group 1-8,text,true,,97,0,8,8,null,0,0,0
+1600188965209,2055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600188965209,2055,Open Hearing,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600188967264,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600188967264,20006,Wait For Participants,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600188987272,4114,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600188987272,4114,Start Hearing,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600189429207,15980,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600189429207,15980,Log In,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600189445188,45,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,97,0,9,9,null,0,1,0
+1600189445188,45,Landing Page,200,OK,Thread Group 1-9,text,true,,97,0,9,9,null,0,0,0
+1600189445234,2055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600189445234,2055,Open Hearing,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600189447289,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600189447289,20005,Wait For Participants,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600189467296,4104,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600189467296,4104,Start Hearing,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600189909207,16024,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600189909207,16024,Log In,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600189925233,44,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,97,0,10,10,null,0,1,0
+1600189925233,44,Landing Page,200,OK,Thread Group 1-10,text,true,,97,0,10,10,null,0,0,0
+1600189925278,2055,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600189925278,2055,Open Hearing,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600189927333,20007,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600189927333,20007,Wait For Participants,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600189947342,4106,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600189947342,4106,Start Hearing,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600190389206,16273,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600190389207,16273,Log In,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600190405482,44,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,97,0,11,11,null,0,0,0
+1600190405482,44,Landing Page,200,OK,Thread Group 1-11,text,true,,97,0,11,11,null,0,0,0
+1600190405527,2058,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600190405527,2058,Open Hearing,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600190407586,20006,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600190407586,20006,Wait For Participants,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600190427595,4105,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600190427595,4105,Start Hearing,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600190869201,16080,BP06_S01_Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600190869201,16080,Log In,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600190885282,49,BP06_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,97,0,12,12,null,0,0,0
+1600190885282,49,Landing Page,200,OK,Thread Group 1-12,text,true,,97,0,12,12,null,0,0,0
+1600190885331,2063,BP06_S03_OpenHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,1,0
+1600190885331,2063,Open Hearing,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600190887395,20005,BP06_S04_WaitForParticipants,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600190887395,20005,Wait For Participants,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600190907403,4118,BP06_S05_StartHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600190907403,4118,Start Hearing,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600185634125,7203939,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,1,0
+1600185634125,7203939,Pause Hearing,200,OK,Thread Group 1-1,text,true,,0,0,12,12,null,0,0,0
+1600192838800,3662,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,129,0,12,12,null,0,1,0
+1600192838800,3662,Log Out,200,OK,Thread Group 1-1,text,true,,129,0,12,12,null,0,0,0
+1600192842463,2577,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1600192842463,2577,Close Browser,200,OK,Thread Group 1-1,text,true,,0,0,12,12,null,0,0,0
+1600186111272,7203905,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,2,0
+1600186111273,7203905,Pause Hearing,200,OK,Thread Group 1-2,text,true,,0,0,11,11,null,0,0,0
+1600193315912,4074,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,129,0,11,11,null,0,0,0
+1600193315912,4074,Log Out,200,OK,Thread Group 1-2,text,true,,129,0,11,11,null,0,0,0
+1600193319986,2573,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,1,0
+1600193319987,2573,Close Browser,200,OK,Thread Group 1-2,text,true,,0,0,11,11,null,0,0,0
+1600186591295,7203498,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,10,10,null,0,0,0
+1600186591295,7203498,Pause Hearing,200,OK,Thread Group 1-3,text,true,,0,0,10,10,null,0,0,0
+1600193795524,3609,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,129,0,10,10,null,0,0,0
+1600193795524,3609,Log Out,200,OK,Thread Group 1-3,text,true,,129,0,10,10,null,0,0,0
+1600193799136,2574,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,10,10,null,0,0,0
+1600193799136,2574,Close Browser,200,OK,Thread Group 1-3,text,true,,0,0,10,10,null,0,0,0
+1600187071495,7203489,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1600187071495,7203489,Pause Hearing,200,OK,Thread Group 1-4,text,true,,0,0,9,9,null,0,0,0
+1600194275716,3627,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,129,0,9,9,null,0,0,0
+1600194275716,3627,Log Out,200,OK,Thread Group 1-4,text,true,,129,0,9,9,null,0,0,0
+1600194279344,2566,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1600194279344,2566,Close Browser,200,OK,Thread Group 1-4,text,true,,0,0,9,9,null,0,0,0
+1600187551310,7203356,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600187551310,7203356,Pause Hearing,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600194755398,3581,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,129,0,8,8,null,0,0,0
+1600194755398,3581,Log Out,200,OK,Thread Group 1-5,text,true,,129,0,8,8,null,0,0,0
+1600194758978,2561,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600194758978,2561,Close Browser,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600188032437,7203411,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,1,0
+1600188032437,7203411,Pause Hearing,200,OK,Thread Group 1-6,text,true,,0,0,7,7,null,0,0,0
+1600195236579,3658,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,129,0,7,7,null,0,0,0
+1600195236579,3658,Log Out,200,OK,Thread Group 1-6,text,true,,129,0,7,7,null,0,0,0
+1600195240237,2564,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1600195240237,2564,Close Browser,200,OK,Thread Group 1-6,text,true,,0,0,7,7,null,0,0,0
+1600188511344,7203195,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,6,6,null,0,0,0
+1600188511344,7203195,Pause Hearing,200,OK,Thread Group 1-7,text,true,,0,0,6,6,null,0,0,0
+1600195715268,3885,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,129,0,6,6,null,0,0,0
+1600195715268,3885,Log Out,200,OK,Thread Group 1-7,text,true,,129,0,6,6,null,0,0,0
+1600195719153,2563,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,6,6,null,0,0,0
+1600195719153,2563,Close Browser,200,OK,Thread Group 1-7,text,true,,0,0,6,6,null,0,0,0
+1600188991387,7203333,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,5,5,null,0,0,0
+1600188991387,7203333,Pause Hearing,200,OK,Thread Group 1-8,text,true,,0,0,5,5,null,0,0,0
+1600196195447,3648,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,129,0,5,5,null,0,1,0
+1600196195448,3648,Log Out,200,OK,Thread Group 1-8,text,true,,129,0,5,5,null,0,0,0
+1600196199096,2566,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,5,5,null,0,0,0
+1600196199096,2566,Close Browser,200,OK,Thread Group 1-8,text,true,,0,0,5,5,null,0,0,0
+1600189471401,7203352,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,4,4,null,0,0,0
+1600189471401,7203352,Pause Hearing,200,OK,Thread Group 1-9,text,true,,0,0,4,4,null,0,0,0
+1600196675478,3618,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,129,0,4,4,null,0,0,0
+1600196675478,3618,Log Out,200,OK,Thread Group 1-9,text,true,,129,0,4,4,null,0,0,0
+1600196679097,2563,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,4,4,null,0,0,0
+1600196679097,2563,Close Browser,200,OK,Thread Group 1-9,text,true,,0,0,4,4,null,0,0,0
+1600189951449,7203249,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,3,3,null,0,0,0
+1600189951449,7203249,Pause Hearing,200,OK,Thread Group 1-10,text,true,,0,0,3,3,null,0,0,0
+1600197155422,3726,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,129,0,3,3,null,0,0,0
+1600197155422,3726,Log Out,200,OK,Thread Group 1-10,text,true,,129,0,3,3,null,0,0,0
+1600197159148,2561,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,3,3,null,0,0,0
+1600197159148,2561,Close Browser,200,OK,Thread Group 1-10,text,true,,0,0,3,3,null,0,0,0
+1600190431700,7203173,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,2,2,null,0,0,0
+1600190431700,7203173,Pause Hearing,200,OK,Thread Group 1-11,text,true,,0,0,2,2,null,0,0,0
+1600197635595,3551,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,129,0,2,2,null,0,0,0
+1600197635595,3551,Log Out,200,OK,Thread Group 1-11,text,true,,129,0,2,2,null,0,0,0
+1600197639147,2567,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,2,2,null,0,0,0
+1600197639147,2567,Close Browser,200,OK,Thread Group 1-11,text,true,,0,0,2,2,null,0,0,0
+1600190911522,7203268,BP06_S06_PauseHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,1,1,null,0,1,0
+1600190911522,7203268,Pause Hearing,200,OK,Thread Group 1-12,text,true,,0,0,1,1,null,0,0,0
+1600198115512,3675,BP06_S07_Log Out,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,129,0,1,1,null,0,0,0
+1600198115512,3675,Log Out,200,OK,Thread Group 1-12,text,true,,129,0,1,1,null,0,0,0
+1600198119187,2569,BP06_S08_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,1,1,null,0,1,0
+1600198119187,2569,Close Browser,200,OK,Thread Group 1-12,text,true,,0,0,1,1,null,0,0,0
