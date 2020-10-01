@@ -13,6 +13,7 @@ object HearingsRequests {
 
   val userUrl      = Environment.userURL
   val bookingUrl  = Environment.bookingURL
+  val testApiUrl = Environment.testApiURL
 
 
   def incrementVar(name: String) = {
@@ -72,7 +73,7 @@ object HearingsRequests {
   }
 
   val setIndividualUserName = exec { session =>
-    session.set("SrvParticipantNamex", session("IndParticipantNamex").as[String])
+    session.set("SrvParticipantNamex", session("IndividualUserName").as[String])
   }
 
   val setUserName = exec { session =>
@@ -80,7 +81,7 @@ object HearingsRequests {
   }
 
   val setRepresentativeUserName = exec { session =>
-    session.set("SrvParticipantNamex", session("RepParticipantNamex").as[String])
+    session.set("SrvParticipantNamex", session("RepresentativeUserName").as[String])
   }
 
   def set_feeders()= {
@@ -194,6 +195,75 @@ object HearingsRequests {
       .pause(Environment.minTime,Environment.maxTime)
   }
 
+  def test_api_allocate_user()= {
+    exec(http("TestApi-List.Hearing").patch(testApiUrl+"/allocations/allocateUsers").headers(auth.headersrvxt)
+      .body(ElFileBody("data/booking/AllocateUser.json")).asJson
+      .check(jsonPath("$[?(@.user_type=='Judge')].id").saveAs("JudgeId"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].username").saveAs("JudgeUserName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].first_name").saveAs("JudgeFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].last_name").saveAs("JudgeLastName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].contact_email").saveAs("JudgeContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].display_name").saveAs("JudgeDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].id").saveAs("IndividualId"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].username").saveAs("IndividualUserName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].first_name").saveAs("IndividualFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].last_name").saveAs("IndividualLastName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].contact_email").saveAs("IndividualContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].display_name").saveAs("IndividualDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].id").saveAs("RepresentativeId"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].username").saveAs("RepresentativeUserName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].first_name").saveAs("RepresentativeFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].last_name").saveAs("RepresentativeLastName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].contact_email").saveAs("RepresentativeContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].display_name").saveAs("RepresentativeDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].id").saveAs("VhoId"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].username").saveAs("VhoUserName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].first_name").saveAs("VhoFirstName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].last_name").saveAs("VhoLastName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].contact_email").saveAs("VhoContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].display_name").saveAs("VhoDisplayName"))
+      .check(status.is(session => 200)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def test_api_allocate_multiple_users()= {
+    exec(http("TestApi-List.Hearing").patch(testApiUrl+"/allocations/allocateUsers").headers(auth.headersrvxt)
+      .body(ElFileBody("data/booking/AllocateMultipleUsers.json")).asJson
+      .check(jsonPath("$[?(@.user_type=='Judge')].id").saveAs("JudgeId"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].username").saveAs("JudgeUserName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].first_name").saveAs("JudgeFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].last_name").saveAs("JudgeLastName"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].contact_email").saveAs("JudgeContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Judge')].display_name").saveAs("JudgeDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].id").saveAs("IndividualId"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].username").saveAs("IndividualUserName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].first_name").saveAs("IndividualFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].last_name").saveAs("IndividualLastName"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].contact_email").saveAs("IndividualContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Individual')].display_name").saveAs("IndividualDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].id").saveAs("RepresentativeId"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].username").saveAs("RepresentativeUserName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].first_name").saveAs("RepresentativeFirstName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].last_name").saveAs("RepresentativeLastName"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].contact_email").saveAs("RepresentativeContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='Representative')].display_name").saveAs("RepresentativeDisplayName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].id").saveAs("VhoId"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].username").saveAs("VhoUserName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].first_name").saveAs("VhoFirstName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].last_name").saveAs("VhoLastName"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].contact_email").saveAs("VhoContactEmail"))
+      .check(jsonPath("$[?(@.user_type=='VideoHearingsOfficer')].display_name").saveAs("VhoDisplayName"))
+      .check(status.is(session => 200)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def test_api_create_hearing()= {
+    exec(http("TestApi-Create.Hearing").post(testApiUrl+"/hearings").headers(auth.headersrvxt)
+      .body(ElFileBody("data/booking/CreateHearing.json")).asJson
+      .check(status.is(session => 201)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
   def delete_hearing()= {
        exec(http("Booking-Delete.Hearing")
          .delete(bookingUrl+"/hearings/${SrvHearingRefIdx}")
@@ -227,17 +297,17 @@ object HearingsRequests {
   }
 
   def delete_user()= {
-    exec(http("Booking-Hearing-Check.User.Exists")
-      .get(userUrl + "/users/userName/${PerformanceUserName}")
-      .headers(auth.headers)
-      .check(status.saveAs("userExistStatus"))
-      .check(status.in(200,404)))
-//      .pause(Environment.minTime,Environment.maxTime)
-      .doIf(session => session("userExistStatus").as[String] == "200") {
+//    exec(http("Booking-Hearing-Check.User.Exists")
+//      .get(userUrl + "/users/userName/${PerformanceUserName}")
+//      .headers(auth.headers)
+//      .check(status.saveAs("userExistStatus"))
+//      .check(status.in(200,404)))
+////      .pause(Environment.minTime,Environment.maxTime)
+//      .doIf(session => session("userExistStatus").as[String] == "200") {
         exec(http("Booking-Hearing-Delete.User").delete(userUrl + "/users/userName/${PerformanceUserName}").headers(auth.headers)
           .check(status.is(204)))
 //          .pause(Environment.minTime,Environment.maxTime)
-      }
+//      }
 
   }
 

@@ -2,7 +2,7 @@ package uk.gov.hmcts.reform.perftest.scenarios
 
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
-import java.util.{Calendar, Date}
+import java.util.{Calendar, Date, UUID}
 
 import scala.util.Random
 
@@ -103,7 +103,8 @@ object Feeders {
     "GenHearRefIdx"     -> ({GenHearRefIdx}),
     "GenPartOneRefIdx"  -> ({GenPartOneRefIdx}),
     "GenPartTwoRefIdx"  -> ({GenPartTwoRefIdx}),
-    "GenPartThreeRefIdx"-> ({GenPartThreeRefIdx})
+    "GenPartThreeRefIdx"-> ({GenPartThreeRefIdx}),
+    "NewGuid" -> UUID.randomUUID.toString()
   ));
 
 //println("GenHearRefIdx-------"+HearingDatex)

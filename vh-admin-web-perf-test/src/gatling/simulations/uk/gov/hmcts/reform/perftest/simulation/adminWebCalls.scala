@@ -2,12 +2,10 @@ package uk.gov.hmcts.reform.simulation
 
 import io.gatling.core.Predef._
 import uk.gov.hmcts.reform.adminweb.scenarios.adminWebReq
-import uk.gov.hmcts.reform.adminweb.scenarios.utils.Environment
 import uk.gov.hmcts.reform.perftest.scenarios.azureblobapi.AzureBlobRequests
 import uk.gov.hmcts.reform.perftest.scenarios.bookingapi.{HearingsRequests, auth}
-
+import uk.gov.hmcts.reform.adminweb.scenarios.utils.Environment
 import scala.concurrent.duration._
-
 
 class adminWebCalls  extends Simulation {
 
@@ -32,8 +30,8 @@ class adminWebCalls  extends Simulation {
                               exec(AzureBlobRequests.upload_blob())
                              .exec(adminWebReq.GetAudioLink())
                              .exec(AzureBlobRequests.delete_blob())
-                             .exec(auth.Bookingauth,HearingsRequests.claimant_questionnaire())
-                             .exec(HearingsRequests.solicitor_questionnaire())
+                             .exec(auth.TestApiauth,HearingsRequests.test_api_claimant_questionnaire())
+                             .exec(HearingsRequests.test_api_solicitor_questionnaire())
                              .exec(adminWebReq.Questnnaire())
                           }
                      }
@@ -41,6 +39,6 @@ class adminWebCalls  extends Simulation {
                   }
             }
 
-  	setUp(adminWebSCN.inject(atOnceUsers(1))).protocols(Environment.httpProtocol)
-//  setUp(adminWebSCN.inject(rampUsers(100) during (3000 seconds))).protocols(Environment.httpProtocol).maxDuration(100 minutes)
+//  setUp(adminWebSCN.inject(atOnceUsers(1))).protocols(Environment.httpProtocol)
+    setUp(adminWebSCN.inject(rampUsers(100) during (3000 seconds))).protocols(Environment.httpProtocol).maxDuration(100 minutes)
 }

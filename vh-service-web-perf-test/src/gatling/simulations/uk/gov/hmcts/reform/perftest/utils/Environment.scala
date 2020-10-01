@@ -5,7 +5,7 @@ import io.gatling.core.Predef._
 object Environment {
 
     //  ADMIN WEB VARIABLES
-    val appEnvironment  = "demo";
+    val appEnvironment  = "dev";
     val httpPrefix      = "https://";
     val adminUrl        = httpPrefix+"${AdminWebUrlPrefix}-"+appEnvironment+".${appDomain}"
     val vsServiceUrl    = httpPrefix+"dc.services.visualstudio.com"
@@ -16,9 +16,11 @@ object Environment {
     val bookingBaseURL  = "${BookingsApiUrlPrefix}-"+appEnvironment+".${apiDomain}";
     val videoApiBaseURL = "${VideoApiUrlPrefix}-"+appEnvironment+".${apiDomain}";
     val userBaseURL     = "${UserApiUrlPrefix}-"+appEnvironment+".${apiDomain}";
+    val testApiBaseURL     = "${TestApiUrlPrefix}-"+appEnvironment+".${apiDomain}";
     val userURL         = httpPrefix+userBaseURL;
     val bookingURL      = httpPrefix+bookingBaseURL;
     val videoApiURL     = httpPrefix+videoApiBaseURL;
+    val testApiURL     = httpPrefix+testApiBaseURL;
 
     //  SERVICE WEB
     val serviceUrl      = httpPrefix+"${ServiceWebUrlPrefix}-"+appEnvironment+".${appDomain}"
@@ -33,6 +35,8 @@ object Environment {
     val videoClientSecret = "${VideoClientSecret}";
     val userClientId = "${UserClientId}";
     val userClientSecret = "${UserClientSecret}";
+    val testApiClientId = "${TestApiClientId}";
+    val testApiClientSecret = "${TestApiClientSecret}";
     val oldPassword = "${OldPassword}";
     val newPassword = "${NewPassword}";
 

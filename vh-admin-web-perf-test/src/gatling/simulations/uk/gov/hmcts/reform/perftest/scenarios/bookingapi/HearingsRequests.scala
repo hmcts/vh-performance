@@ -12,6 +12,7 @@ object HearingsRequests {
   val ServiceCsvFeeder = csv("data/credentials.csv").circular
 
   val bookingUrl  = Environment.bookingURL
+  val testApiURL  = Environment.testApiURL
 
 
   def set_feeders()= {
@@ -43,6 +44,20 @@ object HearingsRequests {
 
   def solicitor_questionnaire()= {
     exec(http("Booking-Solicitor.Questionnaire").put(bookingUrl+"/hearings/${BookedHearingRefIdx}/participants/${RepParticipantIdx}/suitability-answers").headers(auth.headersrv)
+      .body(ElFileBody("data/UpdateQuestionnaire.json")).asJson
+      .check(status.is(session => 204)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def test_api_claimant_questionnaire()= {
+    exec(http("Booking-Claimant.Questionnaire").put(testApiURL+"/hearings/${BookedHearingRefIdx}/participants/${IndParticipantIdx}/suitability-answers").headers(auth.headersrvx)
+      .body(ElFileBody("data/UpdateQuestionnaire.json")).asJson
+      .check(status.is(session => 204)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def test_api_solicitor_questionnaire()= {
+    exec(http("Booking-Solicitor.Questionnaire").put(testApiURL+"/hearings/${BookedHearingRefIdx}/participants/${RepParticipantIdx}/suitability-answers").headers(auth.headersrvx)
       .body(ElFileBody("data/UpdateQuestionnaire.json")).asJson
       .check(status.is(session => 204)))
       .pause(Environment.minTime,Environment.maxTime)

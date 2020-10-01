@@ -1,0 +1,12 @@
+{
+  "application": "ServiceWeb",
+  "expiry_in_minutes": 3,
+  "is_prod_user": false,
+  "test_type": "Performance",
+  "user_types": [
+    "VideoHearingsOfficer",
+    "Judge",
+    "Individual",
+    "Representative"
+  ]
+}

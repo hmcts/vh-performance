@@ -1,0 +1,62 @@
+{
+  "audio_recording_required": true,
+  "application": "ServiceWeb",
+  "questionnaire_not_required": false,
+  "scheduled_date_time": "${HearingDatex}",
+  "test_type": "Performance",
+  "users": [
+    {
+      "username": "${JudgeUserName}",
+      "contact_email": "${JudgeContactEmail}",
+      "first_name": "${JudgeFirstName}",
+      "last_name": "${JudgeLastName}",
+      "display_name": "${JudgeDisplayName}",
+      "number": 0,
+      "test_type": "Performance",
+      "user_type": "Judge",
+      "application": "ServiceWeb",
+      "is_prod_user": false,
+      "created_date": "${GenTimeStampx}"
+    },
+    {
+      "username": "${IndividualUserName}",
+      "contact_email": "${IndividualContactEmail}",
+      "first_name": "${IndividualFirstName}",
+      "last_name": "${IndividualLastName}",
+      "display_name": "${IndividualDisplayName}",
+      "number": 0,
+      "test_type": "Performance",
+      "user_type": "Individual",
+      "application": "ServiceWeb",
+      "is_prod_user": false,
+      "created_date": "${GenTimeStampx}"
+    },
+    {
+      "username": "${RepresentativeUserName}",
+      "contact_email": "${RepresentativeContactEmail}",
+      "first_name": "${RepresentativeFirstName}",
+      "last_name": "${RepresentativeLastName}",
+      "display_name": "${RepresentativeDisplayName}",
+      "number": 0,
+      "test_type": "Performance",
+      "user_type": "Representative",
+      "application": "ServiceWeb",
+      "is_prod_user": true,
+      "created_date": "${GenTimeStampx}"
+    },
+    {
+      "username": "${VhoUserName}",
+      "contact_email": "${VhoContactEmail}",
+      "first_name": "${VhoFirstName}",
+      "last_name": "${VhoLastName}",
+      "display_name": "${VhoDisplayName}",
+      "number": 0,
+      "test_type": "Performance",
+      "user_type": "VideoHearingsOfficer",
+      "application": "ServiceWeb",
+      "is_prod_user": true,
+      "created_date": "${GenTimeStampx}"
+    }
+  ],
+  "venue": "Birmingham Civil and Family Justice Centre"
+}

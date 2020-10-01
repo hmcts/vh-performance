@@ -1,10 +1,7 @@
 package uk.gov.hmcts.reform.perftest.scenarios.serviceweb
-import uk.gov.hmcts.reform.perftest.utils.Environment
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-
-
-import scala.concurrent.duration._
+import uk.gov.hmcts.reform.perftest.utils.Environment
 
 object ServiceRequests {
   val serviceURL  = Environment.serviceUrl
@@ -17,7 +14,7 @@ object ServiceRequests {
     val uri2 = "https://secure.aadcdn.microsoftonline-p.com/c1c6b6c8-dinlqikq-eq5gvhx1irb2gxk9rqycmmv1itiowivzt8/logintenantbranding/0/bannerlogo"
 
 
-  def Home() = {
+  def   Home() = {
        exec(http("01.01.Srv.Web.Home").get(serviceURL + "/api/config").headers(ServiceHeaders.headers_1)
       .check(jsonPath("$.client_id").saveAs("clientIdx")).check(jsonPath("$.tenant_id").saveAs("tenantIdx"))
       .check(regex("""redirect_uri":"https://(.*?)/""").saveAs("srvUri"))
@@ -83,40 +80,42 @@ object ServiceRequests {
         .formParam("i17", "")
         .formParam("i18", "")
         .formParam("i19", "28650")
-        .check(regex("""sCtx":"(.*?)",""").saveAs("srvCtxIdx"))
-        .check(regex("""sFT":"(.*?)",""").saveAs("srvFlowTokenx")))
+//        .check(regex("""sCtx":"(.*?)",""").saveAs("srvCtxIdx"))
+//        .check(regex("""sFT":"(.*?)",""").saveAs("srvFlowTokenx")))
+        .check(headerRegex("Location", """id_token=(.+?)&""").saveAs("srvIdTokenx"))
+         .check(status.is(302)))
         .pause(Environment.minTime,Environment.maxTime)
 
-      .exec(http("02.05.Srv.Web.LoginReset").post(authURL + "/common/SSPR/Begin").headers(ServiceHeaders.headers_8)
-      .body(ElFileBody("data/service/02.02.Srv.Web.LoginReset.json")).asJson
-        .check(jsonPath("$.FlowToken").saveAs("srvFlowTokenx"))
-        .check(jsonPath("$.Ctx").saveAs("srvCtxIdx"))
-        .check(jsonPath("$.CoupledDataCenter").saveAs("srvDataCenter")))
-      .pause(Environment.minTime,Environment.maxTime)
-
-      .exec(http("02.06.Srv.Web.LoginReset").post(authURL + "/common/SSPR/Poll").headers(ServiceHeaders.headers_8)
-      .body(ElFileBody("data/service/02.06.Srv.Web.LoginReset.json")).asJson
-        .check(jsonPath("$.FlowToken").saveAs("srvFlowTokenx"))
-        .check(jsonPath("$.Ctx").saveAs("srvCtxIdx")))
-      .pause(Environment.minTime,Environment.maxTime)
-
-      .exec(http("02.07.Srv.Web.LoginReset")
-      .post(authURL + "/common/SSPR/End")
-      .headers(ServiceHeaders.headers_9)
-      .formParam("ctx", "${srvCtxIdx}")
-      .formParam("hpgrequestid", "${srvSessionIdx}")
-      .formParam("flowToken", "${srvFlowTokenx}")
-      .formParam("canary", "${srvCanaryIdx}")
-      .formParam("currentpasswd", Environment.oldPassword)
-      .formParam("newpasswd", Environment.newPassword)
-      .formParam("confirmnewpasswd", Environment.newPassword)
-      .formParam("i2", "")
-      .formParam("i17", "")
-      .formParam("i18", "")
-      .formParam("i19", "28528")
-      .check(headerRegex("Location", """id_token=(.+?)&""").saveAs("srvIdTokenx"))
-      .check(status.is(302)))
-      .pause(Environment.minTime,Environment.maxTime)
+//      .exec(http("02.05.Srv.Web.LoginReset").post(authURL + "/common/SSPR/Begin").headers(ServiceHeaders.headers_8)
+//      .body(ElFileBody("data/service/02.02.Srv.Web.LoginReset.json")).asJson
+//        .check(jsonPath("$.FlowToken").saveAs("srvFlowTokenx"))
+//        .check(jsonPath("$.Ctx").saveAs("srvCtxIdx"))
+//        .check(jsonPath("$.CoupledDataCenter").saveAs("srvDataCenter")))
+//      .pause(Environment.minTime,Environment.maxTime)
+//
+//      .exec(http("02.06.Srv.Web.LoginReset").post(authURL + "/common/SSPR/Poll").headers(ServiceHeaders.headers_8)
+//      .body(ElFileBody("data/service/02.06.Srv.Web.LoginReset.json")).asJson
+//        .check(jsonPath("$.FlowToken").saveAs("srvFlowTokenx"))
+//        .check(jsonPath("$.Ctx").saveAs("srvCtxIdx")))
+//      .pause(Environment.minTime,Environment.maxTime)
+//
+//      .exec(http("02.07.Srv.Web.LoginReset")
+//      .post(authURL + "/common/SSPR/End")
+//      .headers(ServiceHeaders.headers_9)
+//      .formParam("ctx", "${srvCtxIdx}")
+//      .formParam("hpgrequestid", "${srvSessionIdx}")
+//      .formParam("flowToken", "${srvFlowTokenx}")
+//      .formParam("canary", "${srvCanaryIdx}")
+//      .formParam("currentpasswd", Environment.oldPassword)
+//      .formParam("newpasswd", Environment.newPassword)
+//      .formParam("confirmnewpasswd", Environment.newPassword)
+//      .formParam("i2", "")
+//      .formParam("i17", "")
+//      .formParam("i18", "")
+//      .formParam("i19", "28528")
+//      .check(headerRegex("Location", """id_token=(.+?)&""").saveAs("srvIdTokenx"))
+//      .check(status.is(302)))
+//      .pause(Environment.minTime,Environment.maxTime)
 
   }
 
