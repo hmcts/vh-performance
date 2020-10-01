@@ -1,0 +1,1321 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1600876237494,18597,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600876237494,18597,Log In,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600876256093,66,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,126,0,1,1,null,0,0,0
+1600876256093,66,Landing Page,200,OK,Thread Group 1-1,text,true,,126,0,1,1,null,0,0,0
+1600876256159,12255,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600876256159,12255,Start Selftest,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600876268415,4095,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,1,0
+1600876268415,4095,Watch Video (Escape),200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600876272511,28485,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,1,1,null,0,2,0
+1600876272512,28485,Questions,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1600876387486,16090,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,1,0
+1600876387486,16090,Log In,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600876403577,46,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,126,0,2,2,null,0,0,0
+1600876403577,46,Landing Page,200,OK,Thread Group 1-2,text,true,,126,0,2,2,null,0,0,0
+1600876403623,12245,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1600876403623,12245,Start Selftest,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600876415869,4080,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,1,0
+1600876415869,4080,Watch Video (Escape),200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600876419950,28472,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,1,0
+1600876419950,28472,Questions,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1600876537476,15896,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600876537477,15896,Log In,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600876553374,44,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,126,0,3,3,null,0,0,0
+1600876553374,44,Landing Page,200,OK,Thread Group 1-3,text,true,,126,0,3,3,null,0,0,0
+1600876553418,12252,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600876553418,12252,Start Selftest,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600876565671,4087,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600876565671,4087,Watch Video (Escape),200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600876569760,28486,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,1,0
+1600876569760,28486,Questions,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1600876687481,17402,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600876687481,17402,Log In,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600876704884,43,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,126,0,4,4,null,0,0,0
+1600876704884,43,Landing Page,200,OK,Thread Group 1-4,text,true,,126,0,4,4,null,0,0,0
+1600876704927,12236,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,1,0
+1600876704927,12236,Start Selftest,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600876717164,4077,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,1,0
+1600876717164,4077,Watch Video (Escape),200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600876721242,28433,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1600876721242,28433,Questions,200,OK,Thread Group 1-4,text,true,,0,0,4,4,null,0,0,0
+1600876837482,15902,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1600876837482,15902,Log In,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600876853385,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,126,0,5,5,null,0,0,0
+1600876853385,40,Landing Page,200,OK,Thread Group 1-5,text,true,,126,0,5,5,null,0,0,0
+1600876853425,12229,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600876853426,12229,Start Selftest,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600876865656,4083,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600876865656,4083,Watch Video (Escape),200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600876749676,124295,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1600876749676,124295,Join Waiting Room,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1600876448424,425545,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,0,0
+1600876448424,425545,Join Waiting Room,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1600876300999,572971,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1600876300999,572971,Join Waiting Room,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1600876873974,40,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1600876873974,40,Join Hearing,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1600876873976,41,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,1,0
+1600876873979,38,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,1,0
+1600876873976,41,Join Hearing,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1600876873979,38,Join Hearing,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1600876598247,275773,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,1,0
+1600876598247,275773,Join Waiting Room,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1600876874025,38,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,1,0
+1600876874025,38,Join Hearing,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1600876869740,28439,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,1,0
+1600876869740,28439,Questions,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1600876874014,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,1,0
+1600876874014,30006,Countdown,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1600876874018,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,0,0
+1600876874018,30007,Countdown,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1600876874018,30008,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1600876874018,30008,Countdown,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1600876874064,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1600876874064,30005,Countdown,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1600876987479,15859,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600876987479,15859,Log In,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600877003338,43,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,126,0,6,6,null,0,0,0
+1600877003338,43,Landing Page,200,OK,Thread Group 1-6,text,true,,126,0,6,6,null,0,0,0
+1600877003381,12231,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600877003381,12231,Start Selftest,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600877015613,4084,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600877015613,4084,Watch Video (Escape),200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600877019698,28446,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1600877019698,28446,Questions,200,OK,Thread Group 1-6,text,true,,0,0,6,6,null,0,0,0
+1600877137483,15855,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600877137483,15855,Log In,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600877153338,42,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,126,0,7,7,null,0,1,0
+1600877153338,42,Landing Page,200,OK,Thread Group 1-7,text,true,,126,0,7,7,null,0,0,0
+1600877153381,12223,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600877153381,12223,Start Selftest,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600877165605,4079,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,0,0
+1600877165605,4079,Watch Video (Escape),200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600877169685,28434,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,7,7,null,0,1,0
+1600877169685,28434,Questions,200,OK,Thread Group 1-7,text,true,,0,0,7,7,null,0,0,0
+1600877287483,15904,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877287483,15904,Log In,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877303387,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,126,0,8,8,null,0,0,0
+1600877303387,40,Landing Page,200,OK,Thread Group 1-8,text,true,,126,0,8,8,null,0,0,0
+1600877303427,12226,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877303427,12226,Start Selftest,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877315654,4076,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877315654,4076,Watch Video (Escape),200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877319731,28434,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877319731,28434,Questions,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877348167,4839,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877348167,4839,Join Waiting Room,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877048146,304874,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1600877048146,304874,Join Waiting Room,200,OK,Thread Group 1-6,text,true,,0,0,8,8,null,0,0,0
+1600877198121,154904,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,0,0
+1600877198121,154904,Join Waiting Room,200,OK,Thread Group 1-7,text,true,,0,0,8,8,null,0,0,0
+1600876898180,454841,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600876898180,454841,Join Waiting Room,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600877353007,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,0,0
+1600877353007,31,Join Hearing,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877353025,34,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1600877353025,34,Join Hearing,200,OK,Thread Group 1-6,text,true,,0,0,8,8,null,0,0,0
+1600877353028,35,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1600877353028,35,Join Hearing,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600877353027,37,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,0,0
+1600877353027,37,Join Hearing,200,OK,Thread Group 1-7,text,true,,0,0,8,8,null,0,0,0
+1600877353039,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,8,8,null,0,1,0
+1600877353039,30004,Countdown,200,OK,Thread Group 1-8,text,true,,0,0,8,8,null,0,0,0
+1600877353059,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1600877353059,30005,Countdown,200,OK,Thread Group 1-6,text,true,,0,0,8,8,null,0,0,0
+1600877353063,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,1,0
+1600877353064,30006,Countdown,200,OK,Thread Group 1-5,text,true,,0,0,8,8,null,0,0,0
+1600877353064,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,0,0
+1600877353064,30006,Countdown,200,OK,Thread Group 1-7,text,true,,0,0,8,8,null,0,0,0
+1600877437484,15872,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600877437484,15872,Log In,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600877453356,41,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,126,0,9,9,null,0,0,0
+1600877453356,41,Landing Page,200,OK,Thread Group 1-9,text,true,,126,0,9,9,null,0,0,0
+1600877453398,12226,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,1,0
+1600877453398,12226,Start Selftest,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600877465626,4087,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,1,0
+1600877465626,4087,Watch Video (Escape),200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600877469714,28418,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1600877469714,28418,Questions,200,OK,Thread Group 1-9,text,true,,0,0,9,9,null,0,0,0
+1600877587481,15888,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600877587481,15888,Log In,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600877603370,39,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,126,0,10,10,null,0,0,0
+1600877603370,39,Landing Page,200,OK,Thread Group 1-10,text,true,,126,0,10,10,null,0,0,0
+1600877603409,12227,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600877603409,12227,Start Selftest,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600877615636,4083,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1600877615636,4083,Watch Video (Escape),200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600877619720,28451,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,1,0
+1600877619720,28451,Questions,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1600877737477,15945,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600877737477,15945,Log In,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877753423,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,126,0,11,11,null,0,0,0
+1600877753423,40,Landing Page,200,OK,Thread Group 1-11,text,true,,126,0,11,11,null,0,0,0
+1600877753464,12226,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600877753464,12226,Start Selftest,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877765691,4080,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600877765691,4080,Watch Video (Escape),200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877769772,28428,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,1,0
+1600877769772,28428,Questions,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877798201,34808,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600877798201,34808,Join Waiting Room,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877498133,334876,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1600877498133,334876,Join Waiting Room,200,OK,Thread Group 1-9,text,true,,0,0,11,11,null,0,0,0
+1600877648172,184841,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1600877648172,184841,Join Waiting Room,200,OK,Thread Group 1-10,text,true,,0,0,11,11,null,0,0,0
+1600877833011,29,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600877833011,29,Join Hearing,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877833015,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1600877833015,31,Join Hearing,200,OK,Thread Group 1-9,text,true,,0,0,11,11,null,0,0,0
+1600877833016,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1600877833016,31,Join Hearing,200,OK,Thread Group 1-10,text,true,,0,0,11,11,null,0,0,0
+1600877833040,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,11,11,null,0,0,0
+1600877833040,30005,Countdown,200,OK,Thread Group 1-11,text,true,,0,0,11,11,null,0,0,0
+1600877833046,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1600877833046,30007,Countdown,200,OK,Thread Group 1-9,text,true,,0,0,11,11,null,0,0,0
+1600877833048,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1600877833048,30006,Countdown,200,OK,Thread Group 1-10,text,true,,0,0,11,11,null,0,0,0
+1600877887480,15846,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877887480,15846,Log In,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877903326,39,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,126,0,12,12,null,0,0,0
+1600877903326,39,Landing Page,200,OK,Thread Group 1-12,text,true,,126,0,12,12,null,0,0,0
+1600877903365,12226,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877903365,12226,Start Selftest,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877915592,4079,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877915592,4079,Watch Video (Escape),200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877919672,28417,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877919672,28417,Questions,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877948090,2028,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877948090,2028,Join Waiting Room,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877950119,25,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1600877950119,25,Join Hearing,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600877950145,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,1,0
+1600877950145,30004,Countdown,200,OK,Thread Group 1-12,text,true,,0,0,12,12,null,0,0,0
+1600878037477,15918,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,13,13,null,0,1,0
+1600878037477,15918,Log In,200,OK,Thread Group 1-13,text,true,,0,0,13,13,null,0,0,0
+1600878053396,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,126,0,13,13,null,0,0,0
+1600878053396,40,Landing Page,200,OK,Thread Group 1-13,text,true,,126,0,13,13,null,0,0,0
+1600878053436,12227,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,13,13,null,0,1,0
+1600878053436,12227,Start Selftest,200,OK,Thread Group 1-13,text,true,,0,0,13,13,null,0,0,0
+1600878065664,4080,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,13,13,null,0,1,0
+1600878065664,4080,Watch Video (Escape),200,OK,Thread Group 1-13,text,true,,0,0,13,13,null,0,0,0
+1600878069745,28432,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,13,13,null,0,0,0
+1600878069745,28432,Questions,200,OK,Thread Group 1-13,text,true,,0,0,13,13,null,0,0,0
+1600878187477,15852,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,0,0
+1600878187477,15852,Log In,200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878203329,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,126,0,14,14,null,0,0,0
+1600878203329,40,Landing Page,200,OK,Thread Group 1-14,text,true,,126,0,14,14,null,0,0,0
+1600878203369,12221,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,1,0
+1600878203369,12221,Start Selftest,200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878215591,4078,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,0,0
+1600878215591,4078,Watch Video (Escape),200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878219670,28427,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,0,0
+1600878219670,28427,Questions,200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878098179,214855,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,14,14,null,0,1,0
+1600878098179,214855,Join Waiting Room,200,OK,Thread Group 1-13,text,true,,0,0,14,14,null,0,0,0
+1600878313038,34,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,14,14,null,0,0,0
+1600878313038,34,Join Hearing,200,OK,Thread Group 1-13,text,true,,0,0,14,14,null,0,0,0
+1600878248099,65090,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,0,0
+1600878248099,65090,Join Waiting Room,200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878313191,32,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,14,14,null,0,0,0
+1600878313191,32,Join Hearing,200,OK,Thread Group 1-14,text,true,,0,0,14,14,null,0,0,0
+1600878313073,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,15,15,null,0,0,0
+1600878313073,30003,Countdown,200,OK,Thread Group 1-13,text,true,,0,0,15,15,null,0,0,0
+1600878313223,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,15,15,null,0,0,0
+1600878313223,30003,Countdown,200,OK,Thread Group 1-14,text,true,,0,0,15,15,null,0,0,0
+1600878337475,15920,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878337475,15920,Log In,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878353395,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,126,0,15,15,null,0,0,0
+1600878353395,40,Landing Page,200,OK,Thread Group 1-15,text,true,,126,0,15,15,null,0,0,0
+1600878353435,12229,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878353435,12229,Start Selftest,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878365665,4079,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878365665,4079,Watch Video (Escape),200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878369745,28425,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878369745,28425,Questions,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878398171,2026,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878398171,2026,Join Waiting Room,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878400198,27,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878400198,27,Join Hearing,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878400225,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,15,15,null,0,0,0
+1600878400225,30005,Countdown,200,OK,Thread Group 1-15,text,true,,0,0,15,15,null,0,0,0
+1600878487475,15894,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,0,0
+1600878487475,15894,Log In,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878503370,41,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,126,0,16,16,null,0,0,0
+1600878503370,41,Landing Page,200,OK,Thread Group 1-16,text,true,,126,0,16,16,null,0,0,0
+1600878503411,12225,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,0,0
+1600878503411,12225,Start Selftest,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878515637,4081,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,0,0
+1600878515637,4081,Watch Video (Escape),200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878519719,28449,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,0,0
+1600878519719,28449,Questions,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878548169,2025,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,1,0
+1600878548169,2025,Join Waiting Room,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878550195,27,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,0,0
+1600878550195,27,Join Hearing,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878550222,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,16,16,null,0,1,0
+1600878550222,30005,Countdown,200,OK,Thread Group 1-16,text,true,,0,0,16,16,null,0,0,0
+1600878637474,15883,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,17,17,null,0,0,0
+1600878637474,15883,Log In,200,OK,Thread Group 1-17,text,true,,0,0,17,17,null,0,0,0
+1600878653357,41,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,126,0,17,17,null,0,0,0
+1600878653357,41,Landing Page,200,OK,Thread Group 1-17,text,true,,126,0,17,17,null,0,0,0
+1600878653398,12233,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,17,17,null,0,0,0
+1600878653398,12233,Start Selftest,200,OK,Thread Group 1-17,text,true,,0,0,17,17,null,0,0,0
+1600878665632,4081,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,17,17,null,0,0,0
+1600878665632,4081,Watch Video (Escape),200,OK,Thread Group 1-17,text,true,,0,0,17,17,null,0,0,0
+1600878669714,28429,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,17,17,null,0,0,0
+1600878669714,28429,Questions,200,OK,Thread Group 1-17,text,true,,0,0,17,17,null,0,0,0
+1600878698144,96067,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,18,18,null,0,0,0
+1600878698144,96067,Join Waiting Room,200,OK,Thread Group 1-17,text,true,,0,0,18,18,null,0,0,0
+1600878794214,33,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,18,18,null,0,0,0
+1600878794214,33,Join Hearing,200,OK,Thread Group 1-17,text,true,,0,0,18,18,null,0,0,0
+1600878787477,16517,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,1,0
+1600878787477,16517,Log In,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878803995,366,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,126,0,18,18,null,0,1,0
+1600878803995,366,Landing Page,200,OK,Thread Group 1-18,text,true,,126,0,18,18,null,0,0,0
+1600878804362,12227,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,1,0
+1600878804362,12227,Start Selftest,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878816590,4084,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,0,0
+1600878816590,4084,Watch Video (Escape),200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878794247,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,18,18,null,0,0,0
+1600878794247,30004,Countdown,200,OK,Thread Group 1-17,text,true,,0,0,18,18,null,0,0,0
+1600878820675,28453,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,0,0
+1600878820675,28453,Questions,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878849130,2029,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,0,0
+1600878849130,2029,Join Waiting Room,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878851160,28,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,0,0
+1600878851160,28,Join Hearing,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878851188,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,18,18,null,0,0,0
+1600878851188,30004,Countdown,200,OK,Thread Group 1-18,text,true,,0,0,18,18,null,0,0,0
+1600878937466,15863,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,0,0
+1600878937466,15863,Log In,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600878953329,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,126,0,19,19,null,0,0,0
+1600878953329,40,Landing Page,200,OK,Thread Group 1-19,text,true,,126,0,19,19,null,0,0,0
+1600878953369,12226,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,1,0
+1600878953369,12226,Start Selftest,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600878965596,4085,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,0,0
+1600878965596,4085,Watch Video (Escape),200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600878969682,28454,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,1,0
+1600878969682,28454,Questions,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600878998138,2038,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,0,0
+1600878998138,2038,Join Waiting Room,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600879000177,29,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,0,0
+1600879000177,29,Join Hearing,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600879000206,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,19,19,null,0,0,0
+1600879000206,30005,Countdown,200,OK,Thread Group 1-19,text,true,,0,0,19,19,null,0,0,0
+1600879087471,15838,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,0,0
+1600879087471,15838,Log In,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879103309,42,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,126,0,20,20,null,0,0,0
+1600879103309,42,Landing Page,200,OK,Thread Group 1-20,text,true,,126,0,20,20,null,0,0,0
+1600879103351,12227,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,0,0
+1600879103351,12227,Start Selftest,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879115579,4085,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,0,0
+1600879115579,4085,Watch Video (Escape),200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879119665,28460,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,0,0
+1600879119665,28460,Questions,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879148127,2027,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,1,0
+1600879148127,2027,Join Waiting Room,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879150155,32,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,0,0
+1600879150155,32,Join Hearing,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879150187,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,20,20,null,0,1,0
+1600879150187,30006,Countdown,200,OK,Thread Group 1-20,text,true,,0,0,20,20,null,0,0,0
+1600879237474,16112,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879237474,16112,Log In,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879253586,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,126,0,21,21,null,0,0,0
+1600879253586,40,Landing Page,200,OK,Thread Group 1-21,text,true,,126,0,21,21,null,0,0,0
+1600879253626,12237,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879253626,12237,Start Selftest,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879265865,4082,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879265865,4082,Watch Video (Escape),200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879269948,28478,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879269948,28478,Questions,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879298427,2029,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879298427,2029,Join Waiting Room,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879300457,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,0,0
+1600879300457,30,Join Hearing,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879300487,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,21,21,null,0,1,0
+1600879300487,30005,Countdown,200,OK,Thread Group 1-21,text,true,,0,0,21,21,null,0,0,0
+1600879387466,15940,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,1,0
+1600879387466,15940,Log In,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879403408,41,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,126,0,22,22,null,0,0,0
+1600879403408,41,Landing Page,200,OK,Thread Group 1-22,text,true,,126,0,22,22,null,0,0,0
+1600879403449,12244,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,0,0
+1600879403449,12244,Start Selftest,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879415694,4080,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,0,0
+1600879415694,4080,Watch Video (Escape),200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879419774,28473,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,1,0
+1600879419775,28473,Questions,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879448249,2028,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,0,0
+1600879448249,2028,Join Waiting Room,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879450277,28,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,0,0
+1600879450277,28,Join Hearing,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879450305,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,22,22,null,0,0,0
+1600879450305,30004,Countdown,200,OK,Thread Group 1-22,text,true,,0,0,22,22,null,0,0,0
+1600879537471,15905,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,0,0
+1600879537471,15905,Log In,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879553376,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,126,0,23,23,null,0,0,0
+1600879553376,40,Landing Page,200,OK,Thread Group 1-23,text,true,,126,0,23,23,null,0,0,0
+1600879553417,12229,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,1,0
+1600879553417,12229,Start Selftest,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879565647,4083,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,1,0
+1600879565647,4083,Watch Video (Escape),200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879569731,28444,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,1,0
+1600879569731,28444,Questions,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879598176,2028,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,0,0
+1600879598176,2028,Join Waiting Room,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879600205,28,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,0,0
+1600879600205,28,Join Hearing,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879600234,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,23,23,null,0,0,0
+1600879600234,30003,Countdown,200,OK,Thread Group 1-23,text,true,,0,0,23,23,null,0,0,0
+1600879687470,15894,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,1,0
+1600879687470,15894,Log In,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879703366,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,126,0,24,24,null,0,0,0
+1600879703366,40,Landing Page,200,OK,Thread Group 1-24,text,true,,126,0,24,24,null,0,0,0
+1600879703406,12236,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,1,0
+1600879703406,12236,Start Selftest,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879715643,4088,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,0,0
+1600879715643,4088,Watch Video (Escape),200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879719731,28508,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,1,0
+1600879719731,28508,Questions,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879748242,2029,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,1,0
+1600879748242,2029,Join Waiting Room,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879750272,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,0,0
+1600879750272,31,Join Hearing,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879750303,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,24,24,null,0,1,0
+1600879750303,30003,Countdown,200,OK,Thread Group 1-24,text,true,,0,0,24,24,null,0,0,0
+1600879837473,16559,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,0,0
+1600879837473,16559,Log In,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879854032,44,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,126,0,25,25,null,0,0,0
+1600879854032,44,Landing Page,200,OK,Thread Group 1-25,text,true,,126,0,25,25,null,0,0,0
+1600879854076,12243,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,0,0
+1600879854076,12243,Start Selftest,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879866320,4090,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,0,0
+1600879866320,4090,Watch Video (Escape),200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879870411,28494,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,1,0
+1600879870411,28494,Questions,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879898907,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,1,0
+1600879898907,2031,Join Waiting Room,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879900939,33,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,1,0
+1600879900939,33,Join Hearing,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879900973,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,25,25,null,0,0,0
+1600879900973,30004,Countdown,200,OK,Thread Group 1-25,text,true,,0,0,25,25,null,0,0,0
+1600879987461,16752,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,0,0
+1600879987461,16752,Log In,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880004213,40,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,126,0,26,26,null,0,0,0
+1600880004213,40,Landing Page,200,OK,Thread Group 1-26,text,true,,126,0,26,26,null,0,0,0
+1600880004253,12243,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,0,0
+1600880004253,12243,Start Selftest,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880016497,4086,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,1,0
+1600880016497,4086,Watch Video (Escape),200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880020584,28464,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,0,0
+1600880020584,28464,Questions,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880049050,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,1,0
+1600880049050,2031,Join Waiting Room,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880051082,29,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,0,0
+1600880051082,29,Join Hearing,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880051111,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,26,26,null,0,1,0
+1600880051111,30004,Countdown,200,OK,Thread Group 1-26,text,true,,0,0,26,26,null,0,0,0
+1600880137472,16555,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,0,0
+1600880137472,16555,Log In,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880154027,41,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,126,0,27,27,null,0,0,0
+1600880154027,41,Landing Page,200,OK,Thread Group 1-27,text,true,,126,0,27,27,null,0,0,0
+1600880154068,12250,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,0,0
+1600880154068,12250,Start Selftest,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880166320,4089,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,1,0
+1600880166320,4089,Watch Video (Escape),200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880170410,28493,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,1,0
+1600880170410,28493,Questions,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880198904,2030,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,0,0
+1600880198904,2030,Join Waiting Room,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880200934,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,1,0
+1600880200935,30,Join Hearing,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880200965,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,27,27,null,0,0,0
+1600880200965,30006,Countdown,200,OK,Thread Group 1-27,text,true,,0,0,27,27,null,0,0,0
+1600880287470,16005,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,0,0
+1600880287470,16005,Log In,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880303476,44,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,126,0,28,28,null,0,0,0
+1600880303476,44,Landing Page,200,OK,Thread Group 1-28,text,true,,126,0,28,28,null,0,0,0
+1600880303520,12256,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,0,0
+1600880303520,12256,Start Selftest,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880315777,4090,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,0,0
+1600880315777,4090,Watch Video (Escape),200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880319868,28486,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,0,0
+1600880319868,28486,Questions,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880348354,2030,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,1,0
+1600880348354,2030,Join Waiting Room,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880350385,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,1,0
+1600880350385,31,Join Hearing,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880350417,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,28,28,null,0,1,0
+1600880350417,30003,Countdown,200,OK,Thread Group 1-28,text,true,,0,0,28,28,null,0,0,0
+1600880437472,16029,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,0,0
+1600880437472,16029,Log In,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880453501,44,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,126,0,29,29,null,0,0,0
+1600880453501,44,Landing Page,200,OK,Thread Group 1-29,text,true,,126,0,29,29,null,0,0,0
+1600880453545,12250,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,0,0
+1600880453545,12250,Start Selftest,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880465795,4090,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,0,0
+1600880465795,4090,Watch Video (Escape),200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880469886,28516,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,1,0
+1600880469886,28516,Questions,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880498403,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,0,0
+1600880498403,2031,Join Waiting Room,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880500435,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,1,0
+1600880500435,30,Join Hearing,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880500466,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,29,29,null,0,0,0
+1600880500466,30003,Countdown,200,OK,Thread Group 1-29,text,true,,0,0,29,29,null,0,0,0
+1600880587460,16633,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,1,0
+1600880587460,16633,Log In,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880604094,42,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,126,0,30,30,null,0,0,0
+1600880604094,42,Landing Page,200,OK,Thread Group 1-30,text,true,,126,0,30,30,null,0,0,0
+1600880604136,12267,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,0,0
+1600880604136,12267,Start Selftest,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880616403,4093,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,0,0
+1600880616403,4093,Watch Video (Escape),200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880620497,28475,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,1,0
+1600880620497,28475,Questions,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880648974,2029,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,1,0
+1600880648974,2029,Join Waiting Room,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880651004,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,0,0
+1600880651004,31,Join Hearing,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880651035,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,30,30,null,0,1,0
+1600880651035,30004,Countdown,200,OK,Thread Group 1-30,text,true,,0,0,30,30,null,0,0,0
+1600880737462,16895,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,0,0
+1600880737462,16895,Log In,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880754357,45,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,126,0,31,31,null,0,0,0
+1600880754357,45,Landing Page,200,OK,Thread Group 1-31,text,true,,126,0,31,31,null,0,0,0
+1600880754402,12257,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,1,0
+1600880754402,12257,Start Selftest,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880766660,4094,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,0,0
+1600880766660,4094,Watch Video (Escape),200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880770754,28499,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,0,0
+1600880770754,28499,Questions,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880799255,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,1,0
+1600880799255,2031,Join Waiting Room,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880801287,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,1,0
+1600880801287,30,Join Hearing,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880801318,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,1,0
+1600880801318,30003,Countdown,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600880887467,16004,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,1,0
+1600880887467,16004,Log In,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880903472,46,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,126,0,32,32,null,0,0,0
+1600880903472,46,Landing Page,200,OK,Thread Group 1-32,text,true,,126,0,32,32,null,0,0,0
+1600880903518,12272,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,1,0
+1600880903518,12272,Start Selftest,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880915791,4093,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880915791,4093,Watch Video (Escape),200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880919885,28485,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880919885,28485,Questions,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880948372,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880948372,2031,Join Waiting Room,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880950404,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880950404,30,Join Hearing,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880950435,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880950435,30005,Countdown,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600881037470,16137,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,0,0
+1600881037470,16137,Log In,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881053606,47,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,126,0,33,33,null,0,1,0
+1600881053606,47,Landing Page,200,OK,Thread Group 1-33,text,true,,126,0,33,33,null,0,0,0
+1600881053654,12269,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,0,0
+1600881053654,12269,Start Selftest,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881065923,4098,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,1,0
+1600881065923,4098,Watch Video (Escape),200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881070024,28517,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,1,0
+1600881070024,28517,Questions,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881098542,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,0,0
+1600881098542,2031,Join Waiting Room,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881100573,33,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,0,0
+1600881100573,33,Join Hearing,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881100606,30010,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,33,33,null,0,0,0
+1600881100606,30010,Countdown,200,OK,Thread Group 1-33,text,true,,0,0,33,33,null,0,0,0
+1600881187460,16504,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881187460,16504,Log In,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881203964,47,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,126,0,34,34,null,0,0,0
+1600881203964,47,Landing Page,200,OK,Thread Group 1-34,text,true,,126,0,34,34,null,0,0,0
+1600881204011,12268,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881204011,12268,Start Selftest,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881216280,4097,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,1,0
+1600881216281,4097,Watch Video (Escape),200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881220378,28551,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881220378,28551,Questions,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881248929,2029,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881248929,2029,Join Waiting Room,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881250959,31,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881250959,31,Join Hearing,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881250990,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,34,34,null,0,0,0
+1600881250990,30007,Countdown,200,OK,Thread Group 1-34,text,true,,0,0,34,34,null,0,0,0
+1600881337471,16240,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,1,0
+1600881337472,16240,Log In,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881353712,47,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,126,0,35,35,null,0,0,0
+1600881353712,47,Landing Page,200,OK,Thread Group 1-35,text,true,,126,0,35,35,null,0,0,0
+1600881353759,12254,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,0,0
+1600881353759,12254,Start Selftest,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881366015,4098,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,0,0
+1600881366015,4098,Watch Video (Escape),200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881370113,28495,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,1,0
+1600881370113,28495,Questions,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881398608,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,0,0
+1600881398608,2031,Join Waiting Room,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881400640,30,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,0,0
+1600881400640,30,Join Hearing,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881400671,30003,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,35,35,null,0,1,0
+1600881400671,30003,Countdown,200,OK,Thread Group 1-35,text,true,,0,0,35,35,null,0,0,0
+1600881487456,16739,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881487456,16739,Log In,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881504196,45,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,126,0,36,36,null,0,0,0
+1600881504196,45,Landing Page,200,OK,Thread Group 1-36,text,true,,126,0,36,36,null,0,0,0
+1600881504241,12269,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,1,0
+1600881504241,12269,Start Selftest,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881516511,4093,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881516511,4093,Watch Video (Escape),200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881520605,28499,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881520605,28499,Questions,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881549105,2031,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881549105,2031,Join Waiting Room,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881551136,32,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881551136,32,Join Hearing,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881551168,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,36,36,null,0,0,0
+1600881551168,30006,Countdown,200,OK,Thread Group 1-36,text,true,,0,0,36,36,null,0,0,0
+1600881637468,16701,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881637468,16701,Log In,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881654169,49,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,126,0,37,37,null,0,0,0
+1600881654169,49,Landing Page,200,OK,Thread Group 1-37,text,true,,126,0,37,37,null,0,0,0
+1600881654218,12275,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881654218,12275,Start Selftest,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881666494,4098,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881666494,4098,Watch Video (Escape),200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881670592,28547,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881670592,28547,Questions,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881699140,2035,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881699140,2035,Join Waiting Room,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881701175,33,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,0,0
+1600881701175,33,Join Hearing,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881701208,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,37,37,null,0,1,0
+1600881701208,30007,Countdown,200,OK,Thread Group 1-37,text,true,,0,0,37,37,null,0,0,0
+1600881787470,16151,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,0,0
+1600881787470,16151,Log In,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881803621,46,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,126,0,38,38,null,0,0,0
+1600881803621,46,Landing Page,200,OK,Thread Group 1-38,text,true,,126,0,38,38,null,0,0,0
+1600881803667,12276,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,0,0
+1600881803667,12276,Start Selftest,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881815943,4101,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,1,0
+1600881815943,4101,Watch Video (Escape),200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881820045,28534,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,0,0
+1600881820045,28534,Questions,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881848580,2038,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,0,0
+1600881848580,2038,Join Waiting Room,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881850618,38,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,0,0
+1600881850618,38,Join Hearing,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881850656,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,38,38,null,0,1,0
+1600881850656,30007,Countdown,200,OK,Thread Group 1-38,text,true,,0,0,38,38,null,0,0,0
+1600881937471,16146,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,0,0
+1600881937471,16146,Log In,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600881953617,53,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,126,0,39,39,null,0,0,0
+1600881953617,53,Landing Page,200,OK,Thread Group 1-39,text,true,,126,0,39,39,null,0,0,0
+1600881953670,12279,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,0,0
+1600881953670,12279,Start Selftest,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600881965949,4110,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,1,0
+1600881965949,4110,Watch Video (Escape),200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600881970061,28537,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,1,0
+1600881970061,28537,Questions,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600881998600,2036,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,0,0
+1600881998600,2036,Join Waiting Room,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600882000636,40,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,0,0
+1600882000636,40,Join Hearing,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600882000676,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,39,39,null,0,0,0
+1600882000676,30007,Countdown,200,OK,Thread Group 1-39,text,true,,0,0,39,39,null,0,0,0
+1600882087463,16196,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,0,0
+1600882087463,16196,Log In,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882103659,50,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,126,0,40,40,null,0,0,0
+1600882103659,50,Landing Page,200,OK,Thread Group 1-40,text,true,,126,0,40,40,null,0,0,0
+1600882103709,12281,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,1,0
+1600882103710,12281,Start Selftest,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882115991,4102,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,0,0
+1600882115991,4102,Watch Video (Escape),200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882120093,28540,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,0,0
+1600882120093,28540,Questions,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882148633,2032,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,0,0
+1600882148633,2032,Join Waiting Room,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882150666,35,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,0,0
+1600882150666,35,Join Hearing,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882150701,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,40,40,null,0,2,0
+1600882150702,30004,Countdown,200,OK,Thread Group 1-40,text,true,,0,0,40,40,null,0,0,0
+1600882237465,16048,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,0,0
+1600882237465,16048,Log In,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882253514,53,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,126,0,41,41,null,0,0,0
+1600882253514,53,Landing Page,200,OK,Thread Group 1-41,text,true,,126,0,41,41,null,0,0,0
+1600882253567,12291,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,1,0
+1600882253567,12291,Start Selftest,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882265859,4106,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,1,0
+1600882265859,4106,Watch Video (Escape),200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882269965,28573,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,1,0
+1600882269965,28573,Questions,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882298540,2032,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,1,0
+1600882298540,2032,Join Waiting Room,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882300573,32,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,0,0
+1600882300573,32,Join Hearing,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882300605,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,41,41,null,0,2,0
+1600882300606,30004,Countdown,200,OK,Thread Group 1-41,text,true,,0,0,41,41,null,0,0,0
+1600882387466,16202,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,0,0
+1600882387466,16202,Log In,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882403669,49,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,126,0,42,42,null,0,0,0
+1600882403669,49,Landing Page,200,OK,Thread Group 1-42,text,true,,126,0,42,42,null,0,0,0
+1600882403718,12291,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,0,0
+1600882403718,12291,Start Selftest,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882416009,4141,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,0,0
+1600882416009,4141,Watch Video (Escape),200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882420149,28541,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,1,0
+1600882420149,28541,Questions,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882448692,2035,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,0,0
+1600882448692,2035,Join Waiting Room,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882450727,35,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,0,0
+1600882450727,35,Join Hearing,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882450762,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,42,42,null,0,1,0
+1600882450762,30006,Countdown,200,OK,Thread Group 1-42,text,true,,0,0,42,42,null,0,0,0
+1600882537458,16178,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,0,0
+1600882537458,16178,Log In,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882553637,48,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,126,0,43,43,null,0,0,0
+1600882553637,48,Landing Page,200,OK,Thread Group 1-43,text,true,,126,0,43,43,null,0,0,0
+1600882553685,12300,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,0,0
+1600882553685,12300,Start Selftest,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882565986,4111,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,0,0
+1600882565986,4111,Watch Video (Escape),200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882570096,28596,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,0,0
+1600882570096,28596,Questions,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882598693,2036,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,1,0
+1600882598693,2036,Join Waiting Room,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882600730,35,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,1,0
+1600882600730,35,Join Hearing,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882600766,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,43,43,null,0,0,0
+1600882600766,30007,Countdown,200,OK,Thread Group 1-43,text,true,,0,0,43,43,null,0,0,0
+1600882687463,16651,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,0,0
+1600882687463,16651,Log In,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882704115,59,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,126,0,44,44,null,0,0,0
+1600882704115,59,Landing Page,200,OK,Thread Group 1-44,text,true,,126,0,44,44,null,0,0,0
+1600882704174,12318,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,1,0
+1600882704174,12318,Start Selftest,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882716493,4132,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,1,0
+1600882716493,4132,Watch Video (Escape),200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882720626,28620,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,0,0
+1600882720626,28620,Questions,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882749246,2043,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,0,0
+1600882749246,2043,Join Waiting Room,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882751289,44,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,0,0
+1600882751289,44,Join Hearing,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882751333,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,44,44,null,0,1,0
+1600882751333,30006,Countdown,200,OK,Thread Group 1-44,text,true,,0,0,44,44,null,0,0,0
+1600882837464,16227,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,1,0
+1600882837465,16227,Log In,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882853693,56,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,126,0,45,45,null,0,0,0
+1600882853693,56,Landing Page,200,OK,Thread Group 1-45,text,true,,126,0,45,45,null,0,0,0
+1600882853749,12318,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882853749,12318,Start Selftest,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882866067,4117,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882866067,4117,Watch Video (Escape),200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882870183,28632,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882870183,28632,Questions,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882898816,2035,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882898816,2035,Join Waiting Room,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882900852,39,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882900852,39,Join Hearing,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882900891,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,45,45,null,0,0,0
+1600882900891,30007,Countdown,200,OK,Thread Group 1-45,text,true,,0,0,45,45,null,0,0,0
+1600882987451,16333,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,0,0
+1600882987451,16333,Log In,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883003783,54,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,126,0,46,46,null,0,0,0
+1600883003783,54,Landing Page,200,OK,Thread Group 1-46,text,true,,126,0,46,46,null,0,0,0
+1600883003837,12342,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,1,0
+1600883003837,12342,Start Selftest,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883016181,4118,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,0,0
+1600883016181,4118,Watch Video (Escape),200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883020298,28652,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,0,0
+1600883020298,28652,Questions,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883048953,2040,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,0,0
+1600883048953,2040,Join Waiting Room,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883050993,38,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,0,0
+1600883050993,38,Join Hearing,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883051032,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,46,46,null,0,1,0
+1600883051032,30004,Countdown,200,OK,Thread Group 1-46,text,true,,0,0,46,46,null,0,0,0
+1600883137461,16322,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,0,0
+1600883137461,16322,Log In,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883153783,52,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,126,0,47,47,null,0,0,0
+1600883153783,52,Landing Page,200,OK,Thread Group 1-47,text,true,,126,0,47,47,null,0,0,0
+1600883153835,12347,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,0,0
+1600883153835,12347,Start Selftest,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883166182,4126,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,0,0
+1600883166182,4126,Watch Video (Escape),200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883170310,28640,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,1,0
+1600883170310,28640,Questions,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883198951,2059,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,1,0
+1600883198951,2059,Join Waiting Room,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883201011,37,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,0,0
+1600883201011,37,Join Hearing,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883201048,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,47,47,null,0,0,0
+1600883201048,30007,Countdown,200,OK,Thread Group 1-47,text,true,,0,0,47,47,null,0,0,0
+1600883287463,17021,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,1,0
+1600883287464,17021,Log In,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883304484,57,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,126,0,48,48,null,0,0,0
+1600883304484,57,Landing Page,200,OK,Thread Group 1-48,text,true,,126,0,48,48,null,0,0,0
+1600883304541,12352,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,1,0
+1600883304541,12352,Start Selftest,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883316895,4121,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,0,0
+1600883316895,4121,Watch Video (Escape),200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883321017,28701,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,0,0
+1600883321017,28701,Questions,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883349717,2048,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,0,0
+1600883349717,2048,Join Waiting Room,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883351765,41,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,0,0
+1600883351765,41,Join Hearing,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883351806,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,48,48,null,0,1,0
+1600883351806,30005,Countdown,200,OK,Thread Group 1-48,text,true,,0,0,48,48,null,0,0,0
+1600883437453,16638,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883437453,16638,Log In,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883454093,57,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,126,0,49,49,null,0,0,0
+1600883454093,57,Landing Page,200,OK,Thread Group 1-49,text,true,,126,0,49,49,null,0,0,0
+1600883454151,12334,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883454151,12334,Start Selftest,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883466486,4116,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883466486,4116,Watch Video (Escape),200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883470602,28614,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883470602,28614,Questions,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883499216,2039,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883499216,2039,Join Waiting Room,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883501255,39,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883501255,39,Join Hearing,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883501294,30009,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,49,49,null,0,0,0
+1600883501294,30009,Countdown,200,OK,Thread Group 1-49,text,true,,0,0,49,49,null,0,0,0
+1600883587448,16361,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883587448,16361,Log In,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883603810,63,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,126,0,50,50,null,0,0,0
+1600883603810,63,Landing Page,200,OK,Thread Group 1-50,text,true,,126,0,50,50,null,0,0,0
+1600883603874,12355,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883603874,12355,Start Selftest,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883616228,4127,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883616228,4127,Watch Video (Escape),200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883620356,28675,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883620356,28675,Questions,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883649030,2040,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883649030,2040,Join Waiting Room,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883651070,44,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883651070,44,Join Hearing,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883651114,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,50,50,null,0,0,0
+1600883651114,30005,Countdown,200,OK,Thread Group 1-50,text,true,,0,0,50,50,null,0,0,0
+1600883737460,16421,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883737460,16421,Log In,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883753881,55,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,126,0,51,51,null,0,0,0
+1600883753881,55,Landing Page,200,OK,Thread Group 1-51,text,true,,126,0,51,51,null,0,0,0
+1600883753936,12350,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883753936,12350,Start Selftest,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883766286,4127,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883766286,4127,Watch Video (Escape),200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883770413,28689,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883770413,28689,Questions,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883799104,2047,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883799104,2047,Join Waiting Room,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883801151,36,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883801151,36,Join Hearing,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883801187,30008,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,51,51,null,0,0,0
+1600883801187,30008,Countdown,200,OK,Thread Group 1-51,text,true,,0,0,51,51,null,0,0,0
+1600883887448,16548,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,0,0
+1600883887448,16548,Log In,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883903995,60,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,126,0,52,52,null,0,0,0
+1600883903995,60,Landing Page,200,OK,Thread Group 1-52,text,true,,126,0,52,52,null,0,0,0
+1600883904055,12369,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,1,0
+1600883904055,12369,Start Selftest,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883916426,4137,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,0,0
+1600883916426,4137,Watch Video (Escape),200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883920562,28717,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,1,0
+1600883920562,28717,Questions,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883949281,2039,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,0,0
+1600883949281,2039,Join Waiting Room,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883951320,43,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,0,0
+1600883951320,43,Join Hearing,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600883951363,30006,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,52,52,null,0,1,0
+1600883951363,30006,Countdown,200,OK,Thread Group 1-52,text,true,,0,0,52,52,null,0,0,0
+1600884037451,16520,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884037451,16520,Log In,200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600884053971,56,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,126,0,53,53,null,0,0,0
+1600884053971,56,Landing Page,200,OK,Thread Group 1-53,text,true,,126,0,53,53,null,0,0,0
+1600884054027,12378,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884054027,12378,Start Selftest,200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600884066406,4139,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884066406,4139,Watch Video (Escape),200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600884070545,28758,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884070545,28758,Questions,200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600884099304,2042,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884099304,2042,Join Waiting Room,200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600884101346,45,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,53,53,null,0,0,0
+1600884101346,45,Join Hearing,200,OK,Thread Group 1-53,text,true,,0,0,53,53,null,0,0,0
+1600876904070,7206116,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,53,53,null,0,1,0
+1600876904021,7206166,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,53,53,null,0,0,0
+1600876904070,7206116,Hearing Ended,200,OK,Thread Group 1-3,text,true,,0,0,53,53,null,0,0,0
+1600876904021,7206166,Hearing Ended,200,OK,Thread Group 1-4,text,true,,0,0,53,53,null,0,0,0
+1600876904026,7206164,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,53,53,null,0,1,0
+1600876904026,7206164,Hearing Ended,200,OK,Thread Group 1-1,text,true,,0,0,53,53,null,0,0,0
+1600876904025,7206180,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,53,53,null,0,1,0
+1600876904026,7206180,Hearing Ended,200,OK,Thread Group 1-2,text,true,,0,0,53,53,null,0,0,0
+1600884110290,3799,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,129,0,53,53,null,0,0,0
+1600884110290,3799,Log Out,200,OK,Thread Group 1-3,text,true,,129,0,53,53,null,0,0,0
+1600884110309,3794,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,129,0,53,53,null,0,0,0
+1600884110309,3794,Log Out,200,OK,Thread Group 1-2,text,true,,129,0,53,53,null,0,0,0
+1600884110290,3819,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,129,0,53,53,null,0,0,0
+1600884110290,3819,Log Out,200,OK,Thread Group 1-4,text,true,,129,0,53,53,null,0,0,0
+1600884110294,4610,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,129,0,53,53,null,0,0,0
+1600884110294,4610,Log Out,200,OK,Thread Group 1-1,text,true,,129,0,53,53,null,0,0,0
+1600884114089,2578,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,0,0,53,53,null,0,0,0
+1600884114089,2578,Close Browser,200,OK,Thread Group 1-3,text,true,,0,0,53,53,null,0,0,0
+1600884114103,2619,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,0,0,52,52,null,0,0,0
+1600884114109,2613,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,0,0,52,52,null,0,0,0
+1600884114103,2619,Close Browser,200,OK,Thread Group 1-2,text,true,,0,0,52,52,null,0,0,0
+1600884114109,2613,Close Browser,200,OK,Thread Group 1-4,text,true,,0,0,52,52,null,0,0,0
+1600884114904,2577,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,0,0,50,50,null,0,0,0
+1600884114904,2577,Close Browser,200,OK,Thread Group 1-1,text,true,,0,0,50,50,null,0,0,0
+1600884101391,30008,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,49,49,null,0,0,0
+1600884101391,30008,Countdown,200,OK,Thread Group 1-53,text,true,,0,0,49,49,null,0,0,0
+1600884187456,16378,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884187456,16378,Log In,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884203833,51,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,126,0,50,50,null,0,0,0
+1600884203833,51,Landing Page,200,OK,Thread Group 1-54,text,true,,126,0,50,50,null,0,0,0
+1600884203884,12321,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884203884,12321,Start Selftest,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884216205,4115,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884216205,4115,Watch Video (Escape),200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884220321,28652,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884220321,28652,Questions,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884248974,2040,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884248974,2040,Join Waiting Room,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884251015,42,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884251015,42,Join Hearing,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884251057,30008,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,50,50,null,0,0,0
+1600884251057,30008,Countdown,200,OK,Thread Group 1-54,text,true,,0,0,50,50,null,0,0,0
+1600884337454,16324,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,0,0
+1600884337454,16324,Log In,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884353778,62,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,126,0,51,51,null,0,0,0
+1600884353778,62,Landing Page,200,OK,Thread Group 1-55,text,true,,126,0,51,51,null,0,0,0
+1600884353840,12393,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,0,0
+1600884353840,12393,Start Selftest,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884366234,4136,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,0,0
+1600884366234,4136,Watch Video (Escape),200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884370370,28708,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,1,0
+1600884370371,28708,Questions,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884399080,2044,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,1,0
+1600884399080,2044,Join Waiting Room,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884401125,45,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,0,0
+1600884401125,45,Join Hearing,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884401171,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,51,51,null,0,1,0
+1600884401171,30007,Countdown,200,OK,Thread Group 1-55,text,true,,0,0,51,51,null,0,0,0
+1600884487442,16277,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,1,0
+1600884487443,16277,Log In,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884503721,56,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,126,0,52,52,null,0,0,0
+1600884503721,56,Landing Page,200,OK,Thread Group 1-56,text,true,,126,0,52,52,null,0,0,0
+1600884503777,12325,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,1,0
+1600884503777,12325,Start Selftest,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884516103,4117,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,0,0
+1600884516103,4117,Watch Video (Escape),200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884520220,28632,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,0,0
+1600884520220,28632,Questions,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884548852,2038,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,1,0
+1600884548853,2038,Join Waiting Room,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884550891,39,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,1,0
+1600884550891,39,Join Hearing,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600884550931,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,52,52,null,0,1,0
+1600884550931,30005,Countdown,200,OK,Thread Group 1-56,text,true,,0,0,52,52,null,0,0,0
+1600877383044,7206009,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,52,52,null,0,0,0
+1600877383044,7206009,Hearing Ended,200,OK,Thread Group 1-8,text,true,,0,0,52,52,null,0,0,0
+1600877383071,7205982,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,52,52,null,0,0,0
+1600877383071,7205982,Hearing Ended,200,OK,Thread Group 1-7,text,true,,0,0,52,52,null,0,0,0
+1600877383071,7205984,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,52,52,null,0,0,0
+1600877383071,7205984,Hearing Ended,200,OK,Thread Group 1-5,text,true,,0,0,52,52,null,0,0,0
+1600877383065,7205990,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,52,52,null,0,0,0
+1600877383065,7205990,Hearing Ended,200,OK,Thread Group 1-6,text,true,,0,0,52,52,null,0,0,0
+1600884589157,3783,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,129,0,52,52,null,0,0,0
+1600884589157,3783,Log Out,200,OK,Thread Group 1-7,text,true,,129,0,52,52,null,0,0,0
+1600884589159,3828,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,129,0,52,52,null,0,0,0
+1600884589159,3828,Log Out,200,OK,Thread Group 1-5,text,true,,129,0,52,52,null,0,0,0
+1600884589159,3851,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,129,0,52,52,null,0,1,0
+1600884589160,3851,Log Out,200,OK,Thread Group 1-6,text,true,,129,0,52,52,null,0,0,0
+1600884589157,4415,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,129,0,52,52,null,0,0,0
+1600884589157,4415,Log Out,200,OK,Thread Group 1-8,text,true,,129,0,52,52,null,0,0,0
+1600884592940,2566,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,0,0,52,52,null,0,0,0
+1600884592940,2566,Close Browser,200,OK,Thread Group 1-7,text,true,,0,0,52,52,null,0,0,0
+1600884592987,2696,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,0,0,51,51,null,0,0,0
+1600884592987,2696,Close Browser,200,OK,Thread Group 1-5,text,true,,0,0,51,51,null,0,0,0
+1600884593010,2794,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,0,0,50,50,null,0,0,0
+1600884593010,2794,Close Browser,200,OK,Thread Group 1-6,text,true,,0,0,50,50,null,0,0,0
+1600884593571,2567,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,0,0,49,49,null,0,0,0
+1600884593571,2567,Close Browser,200,OK,Thread Group 1-8,text,true,,0,0,49,49,null,0,0,0
+1600884637450,17924,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884637450,17924,Log In,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884655376,67,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,126,0,49,49,null,0,0,0
+1600884655376,67,Landing Page,200,OK,Thread Group 1-57,text,true,,126,0,49,49,null,0,0,0
+1600884655443,12366,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884655443,12366,Start Selftest,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884667808,4123,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884667808,4123,Watch Video (Escape),200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884671931,28688,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884671931,28688,Questions,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884700621,2043,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884700621,2043,Join Waiting Room,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884702664,45,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,0,0
+1600884702664,45,Join Hearing,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884702709,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,49,49,null,0,1,0
+1600884702710,30005,Countdown,200,OK,Thread Group 1-57,text,true,,0,0,49,49,null,0,0,0
+1600884787453,16268,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,1,0
+1600884787454,16268,Log In,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884803722,53,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,126,0,50,50,null,0,0,0
+1600884803722,53,Landing Page,200,OK,Thread Group 1-58,text,true,,126,0,50,50,null,0,0,0
+1600884803776,12314,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,0,0
+1600884803776,12314,Start Selftest,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884816089,4121,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,0,0
+1600884816089,4121,Watch Video (Escape),200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884820211,28624,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,1,0
+1600884820212,28624,Questions,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884848836,2038,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,0,0
+1600884848836,2038,Join Waiting Room,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884850874,35,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,0,0
+1600884850874,35,Join Hearing,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884850909,30007,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,50,50,null,0,2,0
+1600884850910,30007,Countdown,200,OK,Thread Group 1-58,text,true,,0,0,50,50,null,0,0,0
+1600884937447,16326,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600884937447,16326,Log In,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600884953773,69,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,126,0,51,51,null,0,0,0
+1600884953773,69,Landing Page,200,OK,Thread Group 1-59,text,true,,126,0,51,51,null,0,0,0
+1600884953842,12408,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600884953842,12408,Start Selftest,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600884966251,4148,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600884966251,4148,Watch Video (Escape),200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600884970399,28762,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600884970399,28762,Questions,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600884999161,2039,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600884999161,2039,Join Waiting Room,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600885001200,46,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600885001200,46,Join Hearing,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600885001246,30004,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,51,51,null,0,0,0
+1600885001246,30004,Countdown,200,OK,Thread Group 1-59,text,true,,0,0,51,51,null,0,0,0
+1600877863054,7206527,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,51,51,null,0,1,0
+1600877863054,7206527,Hearing Ended,200,OK,Thread Group 1-9,text,true,,0,0,51,51,null,0,0,0
+1600877980151,7089448,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,51,51,null,0,0,0
+1600877980151,7089448,Hearing Ended,200,OK,Thread Group 1-12,text,true,,0,0,51,51,null,0,0,0
+1600877863054,7206558,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,51,51,null,0,0,0
+1600877863054,7206558,Hearing Ended,200,OK,Thread Group 1-10,text,true,,0,0,51,51,null,0,0,0
+1600877863046,7206574,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,51,51,null,0,0,0
+1600877863046,7206574,Hearing Ended,200,OK,Thread Group 1-11,text,true,,0,0,51,51,null,0,0,0
+1600885069702,3684,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,129,0,51,51,null,0,0,0
+1600885069702,3684,Log Out,200,OK,Thread Group 1-12,text,true,,129,0,51,51,null,0,0,0
+1600885069686,3716,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,129,0,51,51,null,0,0,0
+1600885069686,3716,Log Out,200,OK,Thread Group 1-9,text,true,,129,0,51,51,null,0,0,0
+1600885069716,3819,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,129,0,51,51,null,0,0,0
+1600885069716,3819,Log Out,200,OK,Thread Group 1-10,text,true,,129,0,51,51,null,0,0,0
+1600885069724,3895,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,129,0,51,51,null,0,0,0
+1600885069724,3895,Log Out,200,OK,Thread Group 1-11,text,true,,129,0,51,51,null,0,0,0
+1600885073385,2576,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,0,0,51,51,null,0,0,0
+1600885073385,2576,Close Browser,200,OK,Thread Group 1-12,text,true,,0,0,51,51,null,0,0,0
+1600885073401,2608,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,0,0,50,50,null,0,0,0
+1600885073401,2608,Close Browser,200,OK,Thread Group 1-9,text,true,,0,0,50,50,null,0,0,0
+1600885073534,2798,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,0,0,49,49,null,0,0,0
+1600885073534,2798,Close Browser,200,OK,Thread Group 1-10,text,true,,0,0,49,49,null,0,0,0
+1600885073618,2823,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,0,0,48,48,null,0,0,0
+1600885073618,2823,Close Browser,200,OK,Thread Group 1-11,text,true,,0,0,48,48,null,0,0,0
+1600885087450,16237,BP07_S01_LogIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885087450,16237,Log In,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885103687,57,BP07_S02_LandingPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,126,0,48,48,null,0,0,0
+1600885103687,57,Landing Page,200,OK,Thread Group 1-60,text,true,,126,0,48,48,null,0,0,0
+1600885103744,12356,BP07_S03_StartSelftest,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,1,0
+1600885103744,12356,Start Selftest,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885116102,4122,BP07_S04_WatchVideo (Escape),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885116102,4122,Watch Video (Escape),200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885120225,28668,BP07_S05_Questions,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885120225,28668,Questions,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885148894,2039,BP07_S06_ParticipantWaitingRoom,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885148894,2039,Join Waiting Room,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885150933,42,BP07_S07_ParticipantAttendHearing,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885150933,42,Join Hearing,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600885150976,30005,BP07_S08_Countdown,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,48,48,null,0,0,0
+1600885150976,30005,Countdown,200,OK,Thread Group 1-60,text,true,,0,0,48,48,null,0,0,0
+1600878343227,7205673,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,48,48,null,0,1,0
+1600878343227,7205673,Hearing Ended,200,OK,Thread Group 1-14,text,true,,0,0,48,48,null,0,0,0
+1600878343077,7205835,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,48,48,null,0,0,0
+1600878343077,7205835,Hearing Ended,200,OK,Thread Group 1-13,text,true,,0,0,48,48,null,0,0,0
+1600878430231,7118685,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,48,48,null,0,0,0
+1600878430231,7118685,Hearing Ended,200,OK,Thread Group 1-15,text,true,,0,0,48,48,null,0,0,0
+1600878580229,6968708,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,48,48,null,0,0,0
+1600878580229,6968708,Hearing Ended,200,OK,Thread Group 1-16,text,true,,0,0,48,48,null,0,0,0
+1600885549004,3660,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,129,0,48,48,null,0,0,0
+1600885549004,3660,Log Out,200,OK,Thread Group 1-14,text,true,,129,0,48,48,null,0,0,0
+1600885549018,3750,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,129,0,48,48,null,0,0,0
+1600885549018,3750,Log Out,200,OK,Thread Group 1-15,text,true,,129,0,48,48,null,0,0,0
+1600885549037,3732,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,129,0,48,48,null,0,0,0
+1600885549037,3732,Log Out,200,OK,Thread Group 1-16,text,true,,129,0,48,48,null,0,0,0
+1600885549016,3763,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,129,0,48,48,null,0,0,0
+1600885549016,3763,Log Out,200,OK,Thread Group 1-13,text,true,,129,0,48,48,null,0,0,0
+1600885552665,2561,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-14,,true,,0,0,48,48,null,0,1,0
+1600885552665,2561,Close Browser,200,OK,Thread Group 1-14,text,true,,0,0,48,48,null,0,0,0
+1600885552769,2750,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-16,,true,,0,0,47,47,null,0,0,0
+1600885552779,2740,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-13,,true,,0,0,47,47,null,0,0,0
+1600885552769,2750,Close Browser,200,OK,Thread Group 1-16,text,true,,0,0,47,47,null,0,0,0
+1600885552779,2740,Close Browser,200,OK,Thread Group 1-13,text,true,,0,0,47,47,null,0,0,0
+1600885552768,2751,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-15,,true,,0,0,47,47,null,0,0,0
+1600885552768,2751,Close Browser,200,OK,Thread Group 1-15,text,true,,0,0,47,47,null,0,0,0
+1600878824252,7205015,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,44,44,null,0,1,0
+1600878824252,7205015,Hearing Ended,200,OK,Thread Group 1-17,text,true,,0,0,44,44,null,0,0,0
+1600879180194,6849088,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,44,44,null,0,1,0
+1600879180194,6849088,Hearing Ended,200,OK,Thread Group 1-20,text,true,,0,0,44,44,null,0,0,0
+1600878881193,7148104,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,44,44,null,0,0,0
+1600878881193,7148104,Hearing Ended,200,OK,Thread Group 1-18,text,true,,0,0,44,44,null,0,0,0
+1600879030212,6999087,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,44,44,null,0,0,0
+1600879030212,6999087,Hearing Ended,200,OK,Thread Group 1-19,text,true,,0,0,44,44,null,0,0,0
+1600886029370,3631,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,129,0,44,44,null,0,0,0
+1600886029370,3631,Log Out,200,OK,Thread Group 1-17,text,true,,129,0,44,44,null,0,0,0
+1600886029380,3634,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,129,0,44,44,null,0,0,0
+1600886029380,3634,Log Out,200,OK,Thread Group 1-20,text,true,,129,0,44,44,null,0,0,0
+1600886029398,3734,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,129,0,44,44,null,0,2,0
+1600886029399,3734,Log Out,200,OK,Thread Group 1-19,text,true,,129,0,44,44,null,0,0,0
+1600886029398,3741,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,129,0,44,44,null,0,0,0
+1600886029398,3741,Log Out,200,OK,Thread Group 1-18,text,true,,129,0,44,44,null,0,0,0
+1600886033001,2567,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-17,,true,,0,0,44,44,null,0,0,0
+1600886033001,2567,Close Browser,200,OK,Thread Group 1-17,text,true,,0,0,44,44,null,0,0,0
+1600886033014,2570,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-20,,true,,0,0,43,43,null,0,0,0
+1600886033014,2570,Close Browser,200,OK,Thread Group 1-20,text,true,,0,0,43,43,null,0,0,0
+1600886033134,2820,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-19,,true,,0,0,42,42,null,0,0,0
+1600886033134,2820,Close Browser,200,OK,Thread Group 1-19,text,true,,0,0,42,42,null,0,0,0
+1600886033139,2947,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-18,,true,,0,0,41,41,null,0,0,0
+1600886033139,2947,Close Browser,200,OK,Thread Group 1-18,text,true,,0,0,41,41,null,0,0,0
+1600879780307,6728276,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,40,40,null,0,1,0
+1600879780307,6728276,Hearing Ended,200,OK,Thread Group 1-24,text,true,,0,0,40,40,null,0,0,0
+1600879630239,6878347,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,40,40,null,0,1,0
+1600879630239,6878347,Hearing Ended,200,OK,Thread Group 1-23,text,true,,0,0,40,40,null,0,0,0
+1600879480311,7028278,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,40,40,null,0,0,0
+1600879480311,7028278,Hearing Ended,200,OK,Thread Group 1-22,text,true,,0,0,40,40,null,0,0,0
+1600879330494,7178095,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,40,40,null,0,0,0
+1600879330494,7178095,Hearing Ended,200,OK,Thread Group 1-21,text,true,,0,0,40,40,null,0,0,0
+1600886508680,3646,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,129,0,40,40,null,0,0,0
+1600886508680,3646,Log Out,200,OK,Thread Group 1-24,text,true,,129,0,40,40,null,0,0,0
+1600886508692,3673,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,129,0,40,40,null,0,0,0
+1600886508692,3673,Log Out,200,OK,Thread Group 1-21,text,true,,129,0,40,40,null,0,0,0
+1600886508685,3692,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,129,0,40,40,null,0,0,0
+1600886508685,3692,Log Out,200,OK,Thread Group 1-23,text,true,,129,0,40,40,null,0,0,0
+1600886508689,3720,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,129,0,40,40,null,0,1,0
+1600886508689,3720,Log Out,200,OK,Thread Group 1-22,text,true,,129,0,40,40,null,0,0,0
+1600886512326,2562,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-24,,true,,0,0,40,40,null,0,0,0
+1600886512326,2562,Close Browser,200,OK,Thread Group 1-24,text,true,,0,0,40,40,null,0,0,0
+1600886512365,2595,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-21,,true,,0,0,39,39,null,0,0,0
+1600886512365,2595,Close Browser,200,OK,Thread Group 1-21,text,true,,0,0,39,39,null,0,0,0
+1600886512410,2719,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-22,,true,,0,0,38,38,null,0,0,0
+1600886512410,2719,Close Browser,200,OK,Thread Group 1-22,text,true,,0,0,38,38,null,0,0,0
+1600886512377,2753,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-23,,true,,0,0,37,37,null,0,1,0
+1600886512377,2753,Close Browser,200,OK,Thread Group 1-23,text,true,,0,0,37,37,null,0,0,0
+1600880380422,6608625,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,36,36,null,0,1,0
+1600880230971,6758073,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,36,36,null,0,1,0
+1600880380422,6608625,Hearing Ended,200,OK,Thread Group 1-28,text,true,,0,0,36,36,null,0,0,0
+1600880230971,6758073,Hearing Ended,200,OK,Thread Group 1-27,text,true,,0,0,36,36,null,0,0,0
+1600880081116,6907928,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,36,36,null,0,0,0
+1600880081116,6907928,Hearing Ended,200,OK,Thread Group 1-26,text,true,,0,0,36,36,null,0,0,0
+1600879930978,7058066,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,36,36,null,0,0,0
+1600879930978,7058066,Hearing Ended,200,OK,Thread Group 1-25,text,true,,0,0,36,36,null,0,0,0
+1600886989142,3592,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,129,0,36,36,null,0,0,0
+1600886989142,3592,Log Out,200,OK,Thread Group 1-28,text,true,,129,0,36,36,null,0,0,0
+1600886989145,3602,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,129,0,36,36,null,0,0,0
+1600886989145,3602,Log Out,200,OK,Thread Group 1-25,text,true,,129,0,36,36,null,0,0,0
+1600886989143,3618,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,129,0,36,36,null,0,0,0
+1600886989143,3618,Log Out,200,OK,Thread Group 1-26,text,true,,129,0,36,36,null,0,0,0
+1600886989142,3651,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,129,0,36,36,null,0,0,0
+1600886989142,3651,Log Out,200,OK,Thread Group 1-27,text,true,,129,0,36,36,null,0,0,0
+1600886992734,2560,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-28,,true,,0,0,36,36,null,0,0,0
+1600886992734,2560,Close Browser,200,OK,Thread Group 1-28,text,true,,0,0,36,36,null,0,0,0
+1600886992747,2567,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-25,,true,,0,0,35,35,null,0,0,0
+1600886992747,2567,Close Browser,200,OK,Thread Group 1-25,text,true,,0,0,35,35,null,0,0,0
+1600886992761,2587,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-26,,true,,0,0,34,34,null,0,0,0
+1600886992761,2587,Close Browser,200,OK,Thread Group 1-26,text,true,,0,0,34,34,null,0,0,0
+1600886992793,2787,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-27,,true,,0,0,33,33,null,0,0,0
+1600886992793,2787,Close Browser,200,OK,Thread Group 1-27,text,true,,0,0,33,33,null,0,0,0
+1600880681039,6787380,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,32,32,null,0,1,0
+1600880681039,6787380,Hearing Ended,200,OK,Thread Group 1-30,text,true,,0,0,32,32,null,0,0,0
+1600880980440,6487999,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,32,32,null,0,0,0
+1600880980440,6487999,Hearing Ended,200,OK,Thread Group 1-32,text,true,,0,0,32,32,null,0,0,0
+1600880831322,6637115,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,32,32,null,0,1,0
+1600880831322,6637115,Hearing Ended,200,OK,Thread Group 1-31,text,true,,0,0,32,32,null,0,0,0
+1600880530471,6937966,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,32,32,null,0,0,0
+1600880530471,6937966,Hearing Ended,200,OK,Thread Group 1-29,text,true,,0,0,32,32,null,0,0,0
+1600887468517,3610,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,129,0,32,32,null,0,0,0
+1600887468517,3610,Log Out,200,OK,Thread Group 1-30,text,true,,129,0,32,32,null,0,0,0
+1600887468532,3653,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,129,0,32,32,null,0,0,0
+1600887468532,3653,Log Out,200,OK,Thread Group 1-31,text,true,,129,0,32,32,null,0,0,0
+1600887468535,3654,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,129,0,32,32,null,0,0,0
+1600887468535,3654,Log Out,200,OK,Thread Group 1-29,text,true,,129,0,32,32,null,0,0,0
+1600887468532,3782,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,129,0,32,32,null,0,0,0
+1600887468532,3782,Log Out,200,OK,Thread Group 1-32,text,true,,129,0,32,32,null,0,0,0
+1600887472127,2557,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-30,,true,,0,0,32,32,null,0,0,0
+1600887472127,2557,Close Browser,200,OK,Thread Group 1-30,text,true,,0,0,32,32,null,0,0,0
+1600887472189,2696,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-29,,true,,0,0,31,31,null,0,0,0
+1600887472186,2699,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-31,,true,,0,0,31,31,null,0,0,0
+1600887472189,2696,Close Browser,200,OK,Thread Group 1-29,text,true,,0,0,31,31,null,0,0,0
+1600887472186,2699,Close Browser,200,OK,Thread Group 1-31,text,true,,0,0,31,31,null,0,0,0
+1600887472314,2688,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-32,,true,,0,0,29,29,null,0,0,0
+1600887472314,2688,Close Browser,200,OK,Thread Group 1-32,text,true,,0,0,29,29,null,0,0,0
+1600881280999,6668126,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,28,28,null,0,0,0
+1600881280999,6668126,Hearing Ended,200,OK,Thread Group 1-34,text,true,,0,0,28,28,null,0,0,0
+1600881581175,6367956,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,28,28,null,0,0,0
+1600881581175,6367956,Hearing Ended,200,OK,Thread Group 1-36,text,true,,0,0,28,28,null,0,0,0
+1600881430677,6518458,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,28,28,null,0,0,0
+1600881130617,6818513,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,28,28,null,0,0,0
+1600881430677,6518458,Hearing Ended,200,OK,Thread Group 1-35,text,true,,0,0,28,28,null,0,0,0
+1600881130617,6818513,Hearing Ended,200,OK,Thread Group 1-33,text,true,,0,0,28,28,null,0,0,0
+1600887949227,2363,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,129,0,28,28,null,0,0,0
+1600887949227,2363,Log Out,200,OK,Thread Group 1-35,text,true,,129,0,28,28,null,0,0,0
+1600887949220,3567,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,129,0,28,28,null,0,0,0
+1600887949220,3567,Log Out,200,OK,Thread Group 1-34,text,true,,129,0,28,28,null,0,0,0
+1600887949227,3584,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,129,0,28,28,null,0,0,0
+1600887949227,3584,Log Out,200,OK,Thread Group 1-33,text,true,,129,0,28,28,null,0,0,0
+1600887949221,3780,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,129,0,28,28,null,0,0,0
+1600887949221,3780,Log Out,200,OK,Thread Group 1-36,text,true,,129,0,28,28,null,0,0,0
+1600887951590,2561,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-35,,true,,0,0,28,28,null,0,0,0
+1600887951590,2561,Close Browser,200,OK,Thread Group 1-35,text,true,,0,0,28,28,null,0,0,0
+1600887952788,2555,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-34,,true,,0,0,27,27,null,0,0,0
+1600887952788,2555,Close Browser,200,OK,Thread Group 1-34,text,true,,0,0,27,27,null,0,0,0
+1600887952811,2557,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-33,,true,,0,0,26,26,null,0,0,0
+1600887952811,2557,Close Browser,200,OK,Thread Group 1-33,text,true,,0,0,26,26,null,0,0,0
+1600887953001,2653,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-36,,true,,0,0,25,25,null,0,0,0
+1600887953001,2653,Close Browser,200,OK,Thread Group 1-36,text,true,,0,0,25,25,null,0,0,0
+1600882030683,6397879,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,24,24,null,0,1,0
+1600882030683,6397879,Hearing Ended,200,OK,Thread Group 1-39,text,true,,0,0,24,24,null,0,0,0
+1600881880664,6547909,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,24,24,null,0,0,0
+1600881880664,6547909,Hearing Ended,200,OK,Thread Group 1-38,text,true,,0,0,24,24,null,0,0,0
+1600881731215,6697358,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,24,24,null,0,0,0
+1600881731215,6697358,Hearing Ended,200,OK,Thread Group 1-37,text,true,,0,0,24,24,null,0,0,0
+1600882180708,6248162,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,24,24,null,0,1,0
+1600882180708,6248162,Hearing Ended,200,OK,Thread Group 1-40,text,true,,0,0,24,24,null,0,0,0
+1600888428666,3591,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,129,0,24,24,null,0,0,0
+1600888428666,3591,Log Out,200,OK,Thread Group 1-38,text,true,,129,0,24,24,null,0,0,0
+1600888428669,3594,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,129,0,24,24,null,0,0,0
+1600888428669,3594,Log Out,200,OK,Thread Group 1-37,text,true,,129,0,24,24,null,0,0,0
+1600888428654,3611,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,129,0,24,24,null,0,0,0
+1600888428654,3611,Log Out,200,OK,Thread Group 1-39,text,true,,129,0,24,24,null,0,0,0
+1600888428960,3569,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,129,0,24,24,null,0,0,0
+1600888428960,3569,Log Out,200,OK,Thread Group 1-40,text,true,,129,0,24,24,null,0,0,0
+1600888432257,2567,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-38,,true,,0,0,24,24,null,0,0,0
+1600888432257,2567,Close Browser,200,OK,Thread Group 1-38,text,true,,0,0,24,24,null,0,0,0
+1600888432263,2633,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-37,,true,,0,0,23,23,null,0,1,0
+1600888432265,2631,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-39,,true,,0,0,23,23,null,0,1,0
+1600888432263,2633,Close Browser,200,OK,Thread Group 1-37,text,true,,0,0,23,23,null,0,0,0
+1600888432265,2631,Close Browser,200,OK,Thread Group 1-39,text,true,,0,0,23,23,null,0,0,0
+1600888432529,2557,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-40,,true,,0,0,21,21,null,0,0,0
+1600888432529,2557,Close Browser,200,OK,Thread Group 1-40,text,true,,0,0,21,21,null,0,0,0
+1600882480770,6427985,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,20,20,null,0,1,0
+1600882480770,6427985,Hearing Ended,200,OK,Thread Group 1-42,text,true,,0,0,20,20,null,0,0,0
+1600882630774,6277990,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,20,20,null,0,0,0
+1600882630774,6277990,Hearing Ended,200,OK,Thread Group 1-43,text,true,,0,0,20,20,null,0,0,0
+1600882781340,6127426,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,20,20,null,0,0,0
+1600882781340,6127426,Hearing Ended,200,OK,Thread Group 1-44,text,true,,0,0,20,20,null,0,0,0
+1600882330612,6578166,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,20,20,null,0,0,0
+1600882330612,6578166,Hearing Ended,200,OK,Thread Group 1-41,text,true,,0,0,20,20,null,0,0,0
+1600888908872,3486,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,129,0,20,20,null,0,0,0
+1600888908872,3486,Log Out,200,OK,Thread Group 1-41,text,true,,129,0,20,20,null,0,0,0
+1600888908847,3549,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,129,0,20,20,null,0,0,0
+1600888908847,3549,Log Out,200,OK,Thread Group 1-42,text,true,,129,0,20,20,null,0,0,0
+1600888908853,3597,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,129,0,20,20,null,0,1,0
+1600888908854,3597,Log Out,200,OK,Thread Group 1-43,text,true,,129,0,20,20,null,0,0,0
+1600888908854,3649,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,129,0,20,20,null,0,0,0
+1600888908854,3649,Log Out,200,OK,Thread Group 1-44,text,true,,129,0,20,20,null,0,0,0
+1600888912358,2570,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-41,,true,,0,0,20,20,null,0,0,0
+1600888912358,2570,Close Browser,200,OK,Thread Group 1-41,text,true,,0,0,20,20,null,0,0,0
+1600888912396,2576,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-42,,true,,0,0,19,19,null,0,0,0
+1600888912396,2576,Close Browser,200,OK,Thread Group 1-42,text,true,,0,0,19,19,null,0,0,0
+1600888912451,2728,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-43,,true,,0,0,18,18,null,0,0,0
+1600888912451,2728,Close Browser,200,OK,Thread Group 1-43,text,true,,0,0,18,18,null,0,0,0
+1600888912503,2704,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-44,,true,,0,0,17,17,null,0,0,0
+1600888912503,2704,Close Browser,200,OK,Thread Group 1-44,text,true,,0,0,17,17,null,0,0,0
+1600882930898,6457915,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,16,16,null,0,0,0
+1600882930898,6457915,Hearing Ended,200,OK,Thread Group 1-45,text,true,,0,0,16,16,null,0,0,0
+1600883381814,6007010,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,16,16,null,0,0,0
+1600883381814,6007010,Hearing Ended,200,OK,Thread Group 1-48,text,true,,0,0,16,16,null,0,0,0
+1600883081036,6307785,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,16,16,null,0,0,0
+1600883081036,6307785,Hearing Ended,200,OK,Thread Group 1-46,text,true,,0,0,16,16,null,0,0,0
+1600883231056,6157774,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,16,16,null,0,0,0
+1600883231056,6157774,Hearing Ended,200,OK,Thread Group 1-47,text,true,,0,0,16,16,null,0,0,0
+1600889388906,3545,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,129,0,16,16,null,0,0,0
+1600889388906,3545,Log Out,200,OK,Thread Group 1-45,text,true,,129,0,16,16,null,0,0,0
+1600889388911,3557,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,129,0,16,16,null,0,0,0
+1600889388911,3557,Log Out,200,OK,Thread Group 1-46,text,true,,129,0,16,16,null,0,0,0
+1600889388918,3552,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,129,0,16,16,null,0,0,0
+1600889388918,3552,Log Out,200,OK,Thread Group 1-47,text,true,,129,0,16,16,null,0,0,0
+1600889388909,3656,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,129,0,16,16,null,0,0,0
+1600889388909,3656,Log Out,200,OK,Thread Group 1-48,text,true,,129,0,16,16,null,0,0,0
+1600889392451,2558,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-45,,true,,0,0,16,16,null,0,0,0
+1600889392451,2558,Close Browser,200,OK,Thread Group 1-45,text,true,,0,0,16,16,null,0,0,0
+1600889392468,2563,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-46,,true,,0,0,15,15,null,0,0,0
+1600889392468,2563,Close Browser,200,OK,Thread Group 1-46,text,true,,0,0,15,15,null,0,0,0
+1600889392470,2562,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-47,,true,,0,0,14,14,null,0,0,0
+1600889392470,2562,Close Browser,200,OK,Thread Group 1-47,text,true,,0,0,14,14,null,0,0,0
+1600889392565,2671,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-48,,true,,0,0,13,13,null,0,0,0
+1600889392565,2671,Close Browser,200,OK,Thread Group 1-48,text,true,,0,0,13,13,null,0,0,0
+1600883681121,6187516,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,12,12,null,0,0,0
+1600883831194,6037444,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,12,12,null,0,0,0
+1600883681121,6187516,Hearing Ended,200,OK,Thread Group 1-50,text,true,,0,0,12,12,null,0,0,0
+1600883831194,6037444,Hearing Ended,200,OK,Thread Group 1-51,text,true,,0,0,12,12,null,0,0,0
+1600883531304,6337337,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,12,12,null,0,0,0
+1600883531304,6337337,Hearing Ended,200,OK,Thread Group 1-49,text,true,,0,0,12,12,null,0,0,0
+1600883981371,5887276,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,12,12,null,0,0,0
+1600883981371,5887276,Hearing Ended,200,OK,Thread Group 1-52,text,true,,0,0,12,12,null,0,0,0
+1600889868725,3698,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,129,0,12,12,null,0,0,0
+1600889868725,3698,Log Out,200,OK,Thread Group 1-50,text,true,,129,0,12,12,null,0,0,0
+1600889868730,3701,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,129,0,12,12,null,0,0,0
+1600889868730,3701,Log Out,200,OK,Thread Group 1-49,text,true,,129,0,12,12,null,0,0,0
+1600889868725,3980,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,129,0,12,12,null,0,0,0
+1600889868725,3980,Log Out,200,OK,Thread Group 1-51,text,true,,129,0,12,12,null,0,0,0
+1600889868730,4026,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,129,0,12,12,null,0,0,0
+1600889868730,4026,Log Out,200,OK,Thread Group 1-52,text,true,,129,0,12,12,null,0,0,0
+1600889872423,2561,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-50,,true,,0,0,12,12,null,0,0,0
+1600889872423,2561,Close Browser,200,OK,Thread Group 1-50,text,true,,0,0,12,12,null,0,0,0
+1600889872431,2560,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-49,,true,,0,0,11,11,null,0,1,0
+1600889872431,2560,Close Browser,200,OK,Thread Group 1-49,text,true,,0,0,11,11,null,0,0,0
+1600889872705,2557,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-51,,true,,0,0,10,10,null,0,0,0
+1600889872705,2557,Close Browser,200,OK,Thread Group 1-51,text,true,,0,0,10,10,null,0,0,0
+1600889872756,2588,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-52,,true,,0,0,9,9,null,0,0,0
+1600889872756,2588,Close Browser,200,OK,Thread Group 1-52,text,true,,0,0,9,9,null,0,0,0
+1600884580938,5771502,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,8,8,null,0,1,0
+1600884580938,5771502,Hearing Ended,200,OK,Thread Group 1-56,text,true,,0,0,8,8,null,0,0,0
+1600884131399,6221034,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,8,8,null,0,1,0
+1600884131399,6221034,Hearing Ended,200,OK,Thread Group 1-53,text,true,,0,0,8,8,null,0,0,0
+1600884281065,6071371,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,8,8,null,0,0,0
+1600884281065,6071371,Hearing Ended,200,OK,Thread Group 1-54,text,true,,0,0,8,8,null,0,0,0
+1600884431180,5921261,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,8,8,null,0,0,0
+1600884431180,5921261,Hearing Ended,200,OK,Thread Group 1-55,text,true,,0,0,8,8,null,0,0,0
+1600890352524,3600,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,129,0,8,8,null,0,0,0
+1600890352524,3600,Log Out,200,OK,Thread Group 1-55,text,true,,129,0,8,8,null,0,0,0
+1600890352522,3617,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,129,0,8,8,null,0,0,0
+1600890352522,3617,Log Out,200,OK,Thread Group 1-56,text,true,,129,0,8,8,null,0,0,0
+1600890352522,4344,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,129,0,8,8,null,0,0,0
+1600890352522,4344,Log Out,200,OK,Thread Group 1-54,text,true,,129,0,8,8,null,0,0,0
+1600890352522,4344,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,129,0,8,8,null,0,0,0
+1600890352522,4344,Log Out,200,OK,Thread Group 1-53,text,true,,129,0,8,8,null,0,0,0
+1600890356124,2559,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-55,,true,,0,0,8,8,null,0,0,0
+1600890356124,2559,Close Browser,200,OK,Thread Group 1-55,text,true,,0,0,8,8,null,0,0,0
+1600890356139,2571,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-56,,true,,0,0,7,7,null,0,0,0
+1600890356139,2571,Close Browser,200,OK,Thread Group 1-56,text,true,,0,0,7,7,null,0,0,0
+1600890356866,2570,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-53,,true,,0,0,6,6,null,0,0,0
+1600890356866,2570,Close Browser,200,OK,Thread Group 1-53,text,true,,0,0,6,6,null,0,0,0
+1600890356866,2571,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-54,,true,,0,0,5,5,null,0,1,0
+1600890356866,2571,Close Browser,200,OK,Thread Group 1-54,text,true,,0,0,5,5,null,0,0,0
+1600885031252,5797309,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,4,4,null,0,1,0
+1600885031252,5797309,Hearing Ended,200,OK,Thread Group 1-59,text,true,,0,0,4,4,null,0,0,0
+1600884880918,5947641,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,4,4,null,0,0,0
+1600884880918,5947641,Hearing Ended,200,OK,Thread Group 1-58,text,true,,0,0,4,4,null,0,0,0
+1600885180981,5647585,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,4,4,null,0,0,0
+1600885180981,5647585,Hearing Ended,200,OK,Thread Group 1-60,text,true,,0,0,4,4,null,0,0,0
+1600884732716,6095858,BP07_S09_HearingEnded,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,4,4,null,0,0,0
+1600884732716,6095858,Hearing Ended,200,OK,Thread Group 1-57,text,true,,0,0,4,4,null,0,0,0
+1600890828644,3557,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,129,0,4,4,null,0,0,0
+1600890828644,3557,Log Out,200,OK,Thread Group 1-58,text,true,,129,0,4,4,null,0,0,0
+1600890828646,3558,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,129,0,4,4,null,0,0,0
+1600890828646,3558,Log Out,200,OK,Thread Group 1-60,text,true,,129,0,4,4,null,0,0,0
+1600890828644,3591,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,129,0,4,4,null,0,0,0
+1600890828644,3591,Log Out,200,OK,Thread Group 1-59,text,true,,129,0,4,4,null,0,0,0
+1600890828660,3587,BP07_S10_LogOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,129,0,4,4,null,0,1,0
+1600890828661,3587,Log Out,200,OK,Thread Group 1-57,text,true,,129,0,4,4,null,0,0,0
+1600890832201,2576,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-58,,true,,0,0,4,4,null,0,0,0
+1600890832204,2573,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-60,,true,,0,0,4,4,null,0,0,0
+1600890832201,2576,Close Browser,200,OK,Thread Group 1-58,text,true,,0,0,4,4,null,0,0,0
+1600890832204,2573,Close Browser,200,OK,Thread Group 1-60,text,true,,0,0,4,4,null,0,0,0
+1600890832235,2572,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-59,,true,,0,0,2,2,null,0,0,0
+1600890832235,2572,Close Browser,200,OK,Thread Group 1-59,text,true,,0,0,2,2,null,0,0,0
+1600890832248,2604,BP07_S11_CloseBrowser,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-57,,true,,0,0,1,1,null,0,0,0
+1600890832248,2604,Close Browser,200,OK,Thread Group 1-57,text,true,,0,0,1,1,null,0,0,0
