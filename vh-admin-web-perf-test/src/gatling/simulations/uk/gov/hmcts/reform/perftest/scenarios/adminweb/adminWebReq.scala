@@ -134,10 +134,10 @@ object adminWebReq {
       .check(jsonPath("$.id").saveAs("BookedHearingRefIdx"))
       .check(jsonPath("$.cases[0].number").saveAs("SrvCaseNox"))
       .check(jsonPath("$.cases[0].name").saveAs("SrvCaseNamex"))
-      .check(jsonPath("$.participants[1].username").saveAs("IndParticipantNamex"))
-      .check(jsonPath("$.participants[1].id").saveAs("IndParticipantIdx"))
-      .check(jsonPath("$.participants[2].username").saveAs("RepParticipantNamex"))
-      .check(jsonPath("$.participants[2].id").saveAs("RepParticipantIdx")))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].username").saveAs("IndParticipantNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].id").saveAs("IndParticipantIdx"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Representative')].username").saveAs("RepParticipantNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Representative')].id").saveAs("RepParticipantIdx")))
       .pause(Environment.minTime,Environment.maxTime)
       .doIf("${BookedHearingRefIdx.exists()}") {
         exec(http("12.02.Admin.Portal.SubmitHearing").get(adminURL + "/api/user").headers(adminWebHeaders.headers_31).check(status.is(session => 200))).pause(Environment.minTime, Environment.maxTime)
@@ -165,6 +165,35 @@ object adminWebReq {
         .check(jsonPath("$.id").saveAs("ConferenceRefIdx"))
         .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
 
+  }
+
+  val setIndividualUserName = exec { session =>
+    session.set("ParticipantUserName", session("IndParticipantNamex").as[String])
+  }
+
+  val setRepresentativeUserName = exec { session =>
+    session.set("ParticipantUserName", session("RepParticipantNamex").as[String])
+  }
+
+  def ChangeUserPassword()={
+    exec(http("15.01.Admin.Portal.ChangeUserPassword").patch(adminURL +"/api/accounts/updateUser")
+      .headers(adminWebHeaders.headers_38).body(StringBody(""""${ParticipantUserName}""""))
+        .check(jsonPath("$.password").saveAs("ResetPassword"))
+        .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
+
+  }
+
+  def VerifyUser()={
+    exec(http("15.02.Admin.Portal.VerifyUser").get(adminURL +"/api/persons/username/hearings?username=${ParticipantUserName}")
+        .headers(adminWebHeaders.headers_39)
+        .check(jsonPath("$..hearing_id").saveAs("ConferenceRefIdx"))
+        .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def DeleteUser()={
+    exec(http("15.02.Admin.Portal.DeleteUser").delete(adminURL +"/api/persons/username/hearings?username=${ParticipantUserName}")
+      .headers(adminWebHeaders.headers_39)
+      .check(status.is(session => 204))).pause(Environment.minTime,Environment.maxTime)
   }
 
   def GetAudioLink()={
