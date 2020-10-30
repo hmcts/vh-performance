@@ -17,17 +17,12 @@
       "first_name": "Performance01",
       "middle_names": "",
       "last_name": "Judge${GenNox}",
-      "contact_email": "Performance01Judge${GenNox}@${appDomain}",
+      "contact_email": "performance01Judge${GenNox}@${appDomain}",
       "telephone_number": "",
-      "username": "Performance01Judge${GenNox}@${appDomain}",
+      "username": "performance01Judge${GenNox}@${appDomain}",
       "display_name": "Performance01 Judge${GenNox}",
       "case_role_name": "Judge",
-      "hearing_role_name": "Judge",
-      "house_number": null,
-      "street": null,
-      "postcode": null,
-      "city": null,
-      "county": null
+      "hearing_role_name": "Judge"
     },
     {
       "title": "Mr",
@@ -35,18 +30,12 @@
       "last_name": "Claimant${GenNoxx}",
       "contact_email": "Performance${GenNoxxx}Claimant${GenNoxx}@test.com",
       "telephone_number": "01231231231",
-      "username": "Performance${GenNoxxx}Claimant${GenNoxx}@hearings.reform.hmcts.net",
+      "username": "",
       "display_name": "Performance${GenNoxxx} Claimant${GenNoxx}",
       "case_role_name": "Claimant",
       "hearing_role_name": "Claimant LIP",
-      "reference": "",
       "representee": "",
-      "organisation_name": "organisation_${GenNoxx}",
-      "house_number": "123",
-      "street": "London Road",
-      "postcode": "SW1 1WS",
-      "city": "London",
-      "county": "London"
+      "organisation_name": "organisation_${GenNoxx}"
     },
     {
       "title": "Mr",
@@ -54,22 +43,17 @@
       "last_name": "Solicitor${GenNoxxx}",
       "contact_email": "Performance${GenNoxx}Solicitor${GenNoxxx}@test.com",
       "telephone_number": "01010101010",
-      "username": "Performance${GenNoxx}Solicitor${GenNoxxx}@hearings.reform.hmcts.net",
+      "username": "",
       "display_name": "Performance${GenNoxx} Solicitor${GenNoxxx}",
       "case_role_name": "Claimant",
       "hearing_role_name": "Representative",
-      "reference": "1",
       "representee": "Performance${GenNoxxx}Claimant${GenNoxx}",
-      "organisation_name": "organisation_${GenNoxxx}",
-      "house_number": "123",
-      "street": "London Road",
-      "postcode": "SW1 1WS",
-      "city": "London",
-      "county": "London"
+      "organisation_name": "organisation_${GenNoxxx}"
     }
   ],
   "hearing_room_name": "Perf Hearing Room${GenNox}",
   "other_information": "Perf Other information ${GenNox}",
   "questionnaire_not_required": false,
-  "audio_recording_required": true
+  "audio_recording_required": true,
+  "endpoints": []
 }

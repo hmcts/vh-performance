@@ -1,4 +1,7 @@
 package uk.gov.hmcts.reform.adminweb.scenarios
+import java.text.SimpleDateFormat
+import java.util.Calendar
+
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import uk.gov.hmcts.reform.adminweb.scenarios.utils.Environment
@@ -9,24 +12,28 @@ object adminWebReq {
   val AdminWebFeeder = adminWebFeeder.DynamicAdminFeeder
   val AdminWebcsvFeed = csv("data/credentials.csv").circular
   val AdminWebcsvUsers = csv("data/vhoUsers.csv").circular
+  val format = new SimpleDateFormat("yyyy-MM-dd 00:00:00.000")
+  val addDays = Calendar.getInstance()
+  addDays.add(Calendar.DATE, 3)
+  val endDateTimeStamp = ((format.format(addDays.getTime()).toString) + "Z").replace(" ", "T").toString
 
 
   def Home()= {
     feed(AdminWebFeeder)
-    .feed(AdminWebcsvFeed)
+      .feed(AdminWebcsvFeed)
       .feed(AdminWebcsvUsers)
       .exec(http("01.01.Admin.Portal.Home").get(adminURL + "/api/config").headers(adminWebHeaders.headers_0)
         .check(jsonPath("$.client_id").saveAs("clientIdx"))
         .check(jsonPath("$.tenant_id").saveAs("tenantIdx"))
         .check(regex("""redirect_uri":"https://(.*?)/""").saveAs("adminUri")))
-        .pause(Environment.minTime,Environment.maxTime)
+      .pause(Environment.minTime,Environment.maxTime)
 
       .exec(http("01.02.Admin.Portal.Home")
         .get(authURL + "/${tenantIdx}/oauth2/authorize?response_type=id_token&client_id=${clientIdx}&redirect_uri="+adminURL+"/home&state=40bdbd96-17ff-4d6b-93bc-828b316f2c2f&client-request-id=65ac9818-81db-48c9-82f9-9041327f3a46&x-client-SKU=Js&x-client-Ver=1.0.15&nonce=9a34b4ca-f00c-476d-b482-d868b0de901c")
         .headers(adminWebHeaders.headers_1).check(status.is(session => 200)))
-        .pause(Environment.minTime,Environment.maxTime)
+      .pause(Environment.minTime,Environment.maxTime)
 
-        .exec(http("01.03.Admin.Portal.Home")
+      .exec(http("01.03.Admin.Portal.Home")
         .get(authURL + "/${tenantIdx}/oauth2/authorize?response_type=id_token&client_id=${clientIdx}&redirect_uri="+adminURL+"/home&state=40bdbd96-17ff-4d6b-93bc-828b316f2c2f&client-request-id=65ac9818-81db-48c9-82f9-9041327f3a46&x-client-SKU=Js&x-client-Ver=1.0.15&nonce=9a34b4ca-f00c-476d-b482-d868b0de901c&sso_reload=true")
         .headers(adminWebHeaders.headers_1).check(status.is(session => 200))
         .check(regex("""apiCanary":"(.*?)",""").saveAs("apiCanaryIdx"))
@@ -35,11 +42,11 @@ object adminWebReq {
         .check(regex("""sessionId":"(.*?)",""").saveAs("sessionIdx"))
         .check(regex("""sCtx":"(.*?)",""").saveAs("CtxIdx"))
         .check(regex("""sFT":"(.*?)",""").saveAs("flowTokenx")))
-        .pause(Environment.minTime,Environment.maxTime)
+      .pause(Environment.minTime,Environment.maxTime)
 
       .exec(http("01.04.Admin.Portal.Home").post(authURL + "/common/GetCredentialType?mkt=en-GB")
         .headers(adminWebHeaders.headers_2).body(ElFileBody("data/BookLogin.json")).asJson)
-        .pause(Environment.minTime,Environment.maxTime)
+      .pause(Environment.minTime,Environment.maxTime)
   }
 
   def Login()= {
@@ -97,7 +104,8 @@ object adminWebReq {
   }
 
   def BookVideoHearing()={
-    exec(http("06.01.Admin.Portal.BookHearing").get(adminURL + "/api/user").headers(adminWebHeaders.headers_18).check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
+    feed(AdminWebFeeder)
+      .exec(http("06.01.Admin.Portal.BookHearing").get(adminURL + "/api/user").headers(adminWebHeaders.headers_18).check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
       .exec(http("06.02.Admin.Portal.BookHearing").get(adminURL + "/api/reference/types").headers(adminWebHeaders.headers_19).check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
   }
 
@@ -132,18 +140,50 @@ object adminWebReq {
       .body(ElFileBody("data/BookSubmitOne.json")).asJson
       .check(status.is(session => 201))
       .check(jsonPath("$.id").saveAs("BookedHearingRefIdx"))
+      .check(jsonPath("$.scheduled_date_time").saveAs("ScheduleDateTimex"))
+      .check(jsonPath("$.hearing_room_name").saveAs("HearingRoomNamex"))
+      .check(jsonPath("$.other_information").saveAs("OtherInfox"))
       .check(jsonPath("$.cases[0].number").saveAs("SrvCaseNox"))
       .check(jsonPath("$.cases[0].name").saveAs("SrvCaseNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Judge')].username").saveAs("JudParticipantNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Judge')].id").saveAs("JudParticipantIdx"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Judge')].first_name").saveAs("JudFirstNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Judge')].last_name").saveAs("JudLastNamex"))
       .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].username").saveAs("IndParticipantNamex"))
       .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].id").saveAs("IndParticipantIdx"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].first_name").saveAs("IndFirstNamex"))
+      .check(jsonPath("$.participants[?(@.user_role_name == 'Individual')].last_name").saveAs("IndLastNamex"))
       .check(jsonPath("$.participants[?(@.user_role_name == 'Representative')].username").saveAs("RepParticipantNamex"))
       .check(jsonPath("$.participants[?(@.user_role_name == 'Representative')].id").saveAs("RepParticipantIdx")))
       .pause(Environment.minTime,Environment.maxTime)
       .doIf("${BookedHearingRefIdx.exists()}") {
         exec(http("12.02.Admin.Portal.SubmitHearing").get(adminURL + "/api/user").headers(adminWebHeaders.headers_31).check(status.is(session => 200))).pause(Environment.minTime, Environment.maxTime)
-       .exec(http("12.03.Admin.Portal.SubmitHearing").get(adminURL + "/api/hearings/${BookedHearingRefIdx}").headers(adminWebHeaders.headers_32).check(status.is(session => 200))).pause(Environment.minTime, Environment.maxTime)
+          .exec(http("12.03.Admin.Portal.SubmitHearing").get(adminURL + "/api/hearings/${BookedHearingRefIdx}").headers(adminWebHeaders.headers_32).check(status.is(session => 200))).pause(Environment.minTime, Environment.maxTime)
       }
 
+  }
+
+  def RemoveParticipant()={
+    exec(http("12.02.Admin.Portal.RemoveParticipant").put(adminURL + "/api/hearings/${BookedHearingRefIdx}").headers(adminWebHeaders.headers_30)
+      .body(ElFileBody("data/BookRemoveParticipant.json")).asJson
+      .check(status.is(session => 200))
+      .check(jsonPath("$.id").saveAs("BookedHearingRefIdx")))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def MultiHearing()={
+    exec(http("12.03.Admin.Portal.MultiHearing").post(adminURL + "/api/hearings/${BookedHearingRefIdx}/clone").headers(adminWebHeaders.headers_30)
+      .body(StringBody("""{"start_date":"${ScheduleDateTimex}","end_date":"""" + endDateTimeStamp + """"}"""))
+      .check(status.is(session => 204)))
+      .pause(Environment.minTime,Environment.maxTime)
+  }
+
+  def CancelBooking()={
+    exec(http("12.04.Admin.Portal.CancelBooking").patch(adminURL + "/api/hearings/${BookedHearingRefIdx}").headers(adminWebHeaders.headers_30)
+      .body(ElFileBody("data/ConfirmCancelHearing.json")).asJson
+      .check(status.is(session => 200))
+      .check(jsonPath("$.success").saveAs("CancelResult")))
+      .pause(Environment.minTime,Environment.maxTime)
   }
 
   def BookingList()={
@@ -178,16 +218,16 @@ object adminWebReq {
   def ChangeUserPassword()={
     exec(http("15.01.Admin.Portal.ChangeUserPassword").patch(adminURL +"/api/accounts/updateUser")
       .headers(adminWebHeaders.headers_38).body(StringBody(""""${ParticipantUserName}""""))
-        .check(jsonPath("$.password").saveAs("ResetPassword"))
-        .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
+      .check(jsonPath("$.password").saveAs("ResetPassword"))
+      .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
 
   }
 
   def VerifyUser()={
     exec(http("15.02.Admin.Portal.VerifyUser").get(adminURL +"/api/persons/username/hearings?username=${ParticipantUserName}")
-        .headers(adminWebHeaders.headers_39)
-        .check(jsonPath("$..hearing_id").saveAs("ConferenceRefIdx"))
-        .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
+      .headers(adminWebHeaders.headers_39)
+      .check(jsonPath("$..hearing_id").saveAs("ConferenceRefIdx"))
+      .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
   }
 
   def DeleteUser()={
@@ -202,7 +242,7 @@ object adminWebReq {
         .headers(adminWebHeaders.headers_16).check(jsonPath("$[*].id").saveAs("audioRecordingIdx"))
         .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
       .exec(http("16.03.Admin.Portal.GetAudioLink").get(adminURL + "/api/audio/${audioRecordingIdx}")
-        .headers(adminWebHeaders.headers_16).check(jsonPath("$.audio_file_link").saveAs("audioFileLink"))
+        .headers(adminWebHeaders.headers_16).check(jsonPath("$.audio_file_links").saveAs("audioFileLink"))
         .check(status.is(session => 200))).pause(Environment.minTime,Environment.maxTime)
   }
 

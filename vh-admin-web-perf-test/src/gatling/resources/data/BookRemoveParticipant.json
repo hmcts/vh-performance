@@ -1,0 +1,41 @@
+{
+  "scheduled_date_time": "${ScheduleDateTimex}",
+  "scheduled_duration": 10,
+  "hearing_venue_name": "Birmingham Civil and Family Justice Centre",
+  "hearing_type_name": "Final Hearing",
+  "case": {
+    "number": "${SrvCaseNox}",
+    "name": "${SrvCaseNamex}"
+  },
+  "participants": [
+    {
+      "id": "${JudParticipantIdx}",
+      "title": "Judge",
+      "first_name": "${JudFirstNamex}",
+      "middle_names": "",
+      "last_name": "${JudLastNamex}",
+      "contact_email": "${JudParticipantNamex}",
+      "telephone_number": "",
+      "display_name": "${JudFirstNamex} ${JudLastNamex}",
+      "case_role_name": "Judge",
+      "hearing_role_name": "Judge"
+    },
+    {
+      "id": "${IndParticipantIdx}",
+      "title": "Mr",
+      "first_name": "${IndFirstNamex}",
+      "last_name": "${IndLastNamex}",
+      "contact_email": "${IndParticipantNamex}",
+      "telephone_number": "01231231231",
+      "display_name": "${IndFirstNamex} ${IndLastNamex}",
+      "case_role_name": "Claimant",
+      "hearing_role_name": "Claimant LIP",
+      "organisation_name": "organisation_30"
+    }
+  ],
+  "hearing_room_name": "${HearingRoomNamex}",
+  "other_information": "${OtherInfox}",
+  "questionnaire_not_required": false,
+  "audio_recording_required": true,
+  "endpoints": []
+}
