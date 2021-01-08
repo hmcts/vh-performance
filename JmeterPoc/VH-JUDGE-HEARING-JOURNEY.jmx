@@ -34,39 +34,24 @@
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="BASE_URL_1" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_1</stringProp>
+          <elementProp name="VideoWebUrl" elementType="Argument">
+            <stringProp name="Argument.name">VideoWebUrl</stringProp>
             <stringProp name="Argument.value"></stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="BASE_URL_2" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_2</stringProp>
+          <elementProp name="SipHearingUrl" elementType="Argument">
+            <stringProp name="Argument.name">SipHearingUrl</stringProp>
             <stringProp name="Argument.value"></stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="BASE_URL_3" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_3</stringProp>
+          <elementProp name="SipTestUrl" elementType="Argument">
+            <stringProp name="Argument.name">SipTestUrl</stringProp>
             <stringProp name="Argument.value"></stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="BASE_URL_4" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_4</stringProp>
+          <elementProp name="LoginBaseUrl" elementType="Argument">
+            <stringProp name="Argument.name">LoginBaseUrl</stringProp>
             <stringProp name="Argument.value">login.microsoftonline.com</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BASE_URL_5" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_5</stringProp>
-            <stringProp name="Argument.value">az416426.vo.msecnd.net</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BASE_URL_6" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_6</stringProp>
-            <stringProp name="Argument.value">aadcdn.msauth.net</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BASE_URL_7" elementType="Argument">
-            <stringProp name="Argument.name">BASE_URL_7</stringProp>
-            <stringProp name="Argument.value">login.live.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="UserLoginId" elementType="Argument">
@@ -101,7 +86,7 @@
           </elementProp>
           <elementProp name="clientConferencesUrl" elementType="Argument">
             <stringProp name="Argument.name">clientConferencesUrl</stringProp>
-            <stringProp name="Argument.value">api/client/v2/conferences</stringProp>
+            <stringProp name="Argument.value"></stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="httpPrefix" elementType="Argument">
@@ -117,11 +102,6 @@
           <elementProp name="hearbeatUID" elementType="Argument">
             <stringProp name="Argument.name">hearbeatUID</stringProp>
             <stringProp name="Argument.value">TestHbUID</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="tokenDir" elementType="Argument">
-            <stringProp name="Argument.name">tokenDir</stringProp>
-            <stringProp name="Argument.value">C:/JMeter Scripts/JmeterPerfTest/tokens</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="loginUrl" elementType="Argument">
@@ -164,9 +144,9 @@
             <stringProp name="Argument.value">C:/JMeter Scripts/JmeterPerfTest/logs</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="logoutUrl" elementType="Argument">
-            <stringProp name="Argument.name">logoutUrl</stringProp>
-            <stringProp name="Argument.value"></stringProp>
+          <elementProp name="tokenDir" elementType="Argument">
+            <stringProp name="Argument.name">tokenDir</stringProp>
+            <stringProp name="Argument.value">C:/JMeter Scripts/JmeterPerfTest/tokens</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -215,8 +195,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">25</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">750</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">4800</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">0</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
@@ -275,7 +255,7 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_4}</stringProp>
+            <stringProp name="HTTPSampler.domain">${LoginBaseUrl}</stringProp>
             <stringProp name="HTTPSampler.port">${PortNo}</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -365,7 +345,7 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -414,7 +394,7 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -495,7 +475,7 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -544,7 +524,7 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -592,11 +572,11 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${clientConferencesUrl}/${ParticipantUri}/request_token</stringProp>
+            <stringProp name="HTTPSampler.path">api/client/v2/conferences/${ParticipantUri}/request_token</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -645,7 +625,7 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -694,7 +674,7 @@
           <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Judge-s09-WR Event" enabled="true">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="parameters">${BASE_URL_2} ${connectionTime} ${sleepTime} ${itnum} </stringProp>
+            <stringProp name="parameters">${SipHearingUrl} ${connectionTime} ${sleepTime} ${itnum} </stringProp>
             <stringProp name="script">import com.launchdarkly.eventsource.EventSource;
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.MessageEvent;
@@ -837,7 +817,7 @@ public class SimpleEventHandler implements EventHandler {
 
 		if(retry){
 		 
-			String startUrl = &quot;https://${BASE_URL_1}/conferences/${ConferenceId}/start&quot;;
+			String startUrl = &quot;https://${VideoWebUrl}/conferences/${ConferenceId}/start&quot;;
 			def startConf = new URL(startUrl).openConnection();
 			String startBody = &quot;&quot;&quot;{&quot;layout&quot;:&quot;Dynamic&quot;}&quot;&quot;&quot;;			
 			startConf.setRequestMethod(&quot;POST&quot;)		
@@ -852,14 +832,14 @@ public class SimpleEventHandler implements EventHandler {
 			def startRC = startConf.getResponseCode();
 			logWriter.write(startUrl+&quot;=WR=StartRC=&quot;+startRC + newLine);
 
-			String conferencesUrl = &quot;https://${BASE_URL_1}/conferences/${ConferenceId}/participants&quot;;
+			String conferencesUrl = &quot;https://${VideoWebUrl}/conferences/${ConferenceId}/participants&quot;;
 			def confReq = new URL(conferencesUrl).openConnection();			
 			confReq.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer ${BearerToken}&quot;)
 			confReq.setRequestProperty(&quot;Accept&quot;, &quot;application/json&quot;)
 			def confRC = confReq.getResponseCode();
 			logWriter.write(&quot;WR=confRC=&quot;+confRC + newLine);
 
-			String participantsUrl = &quot;https://${BASE_URL_1}/${ConferenceId}/participants&quot;;
+			String participantsUrl = &quot;https://${VideoWebUrl}/${ConferenceId}/participants&quot;;
 			def partcipantsReq = new URL(participantsUrl).openConnection();			
 			partcipantsReq.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer ${BearerToken}&quot;)
 			partcipantsReq.setRequestProperty(&quot;Accept&quot;, &quot;application/json&quot;)
@@ -891,7 +871,6 @@ public class SimpleEventHandler implements EventHandler {
 			def relRC = relCon.getResponseCode();
 			logWriter.write(&quot;WR=relRC=&quot;+relRC + newLine);
 			
-//			TimeUnit.SECONDS.sleep(Integer.parseInt(args[2]));
 		}
 		int waitTime = 0;
 
@@ -935,55 +914,8 @@ public class SimpleEventHandler implements EventHandler {
 		eventSource.close();
 	}
 	
-//	logWriter.flush();
 	logWriter.close();
-
-//	int startTime = 1
-//	int refreshInterval = 40
-//	int hcInterval = 5
-//	int hcTime = hcInterval
-//	int refreshTime = refreshInterval
-//	long elapsedTime = 0
-//	int seqId = 0
-//	long startTimeMillis = System.currentTimeMillis();
-//	
-//	while(startTime &lt; 20)
-//	{
-//
-//		def videoApiToken = new URL(&quot;https://login.microsoftonline.com/fb6e0e22-0da3-4c35-972a-9d61eb256508/oauth2/token&quot;).openConnection();
-//		def params = &quot;grant_type=client_credentials&amp;client_id=42e93612-20f7-4e9f-b3d4-a9aa06819bce&amp;client_secret=VaTfrfs.%7EN32U4Dy_DJrsHI5-9_s2_6-l0&amp;resource=https%3A%2F%2Fvh-video-api-dev.azurewebsites.net&quot;;
-//		videoApiToken.setRequestMethod(&quot;POST&quot;)
-//		videoApiToken.setDoOutput(true)
-//		videoApiToken.setRequestProperty(&quot;Content-Type&quot;, &quot;application/x-www-form-urlencoded&quot;)
-//		videoApiToken.setRequestProperty(&quot;Accept&quot;, &quot;*/*&quot;)
-//		videoApiToken.getOutputStream().write(params.getBytes(&quot;UTF-8&quot;));
-//		def vaTokenRC = videoApiToken.getResponseCode();
-//		println(&quot;VidepApiTokenRC=&quot;+vaTokenRC);
-//		if(vaTokenRC.equals(200)) {
-//			def jsonString = videoApiToken.getInputStream().getText()
-//		    def slurper = new JsonSlurper();
-//		    def accessToken  = &quot;Bearer &quot;+ slurper.parseText(jsonString).access_token;
-//			println(&quot;AccessToken=&quot;+accessToken)
-//
-//			def hbUrl =&quot;https://vh-video-api-dev.azurewebsites.net//conferences/${ConferenceId}/participant/${JudgeId}/heartbeat&quot;
-//		     def postHB = new URL(hbUrl).openConnection();
-//		     File heartBeat = new File(&quot;c:/tmp/heartBeat.json&quot;)
-//			postHB.setRequestMethod(&quot;POST&quot;)
-//		postHB.setDoOutput(true)	
-//			postHB.setRequestProperty(&quot;Authorization&quot;, accessToken)
-//			postHB.setRequestProperty(&quot;content-type&quot;, &quot;application/json&quot;)
-//			postHB.setRequestProperty(&quot;Accept&quot;, &quot;*/*&quot;)
-//			postHB.getOutputStream().write(heartBeat.text.getBytes(&quot;UTF-8&quot;));
-//			def hbRC = postHB.getResponseCode();
-//			println(&quot;hbRC=&quot;+hbRC);
-//		}
-//		else {
-//			println(&quot;Failed to POST heart beat&quot;)
-//		} 
-//
-//		TimeUnit.SECONDS.sleep(1);
-//		startTime += 1;
-//	}</stringProp>
+</stringProp>
             <stringProp name="scriptLanguage">groovy</stringProp>
           </JSR223Sampler>
           <hashTree/>
@@ -1042,7 +974,7 @@ public class SimpleEventHandler implements EventHandler {
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -1103,7 +1035,7 @@ public class SimpleEventHandler implements EventHandler {
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -1135,7 +1067,7 @@ public class SimpleEventHandler implements EventHandler {
           <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Judge-s13-HR Event" enabled="true">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="parameters">${BASE_URL_2} ${connectionTime} ${hearingTime}</stringProp>
+            <stringProp name="parameters">${SipHearingUrl} ${connectionTime} ${hearingTime}</stringProp>
             <stringProp name="script">import com.launchdarkly.eventsource.EventSource;
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.MessageEvent;
@@ -1249,7 +1181,7 @@ public class SimpleEventHandler implements EventHandler {
 			elapsedTime= System.currentTimeMillis() - startTimeMillis;
 //			println(&quot;Timer=&quot;+(elapsedTime));
 			hcTime += hcInterval;			
-			String hcUrl = &quot;https://${BASE_URL_3}/virtual-court/api/v1/hearing/${ConferenceId}/heartbeat&quot;;
+			String hcUrl = &quot;https://${SipTestUrl}/virtual-court/api/v1/hearing/${ConferenceId}/heartbeat&quot;;
 			def hcReq = new URL(hcUrl).openConnection();		
 			String hcJson = new File(&quot;${dataDir}/healthcheck.json&quot;).text;	
 			hcJson = hcJson.replace(&quot;[UUID]&quot;,UUID.randomUUID().toString());
@@ -1274,7 +1206,7 @@ public class SimpleEventHandler implements EventHandler {
 			String params = &quot;grant_type=client_credentials&amp;client_id=${videoApiClientId}&quot;;
 			params += &quot;&amp;client_secret=&quot;+URLEncoder.encode(vars.get(&quot;videoApiClientSecret&quot;), &quot;UTF-8&quot;);
 			params += &quot;&amp;resource=https%3A%2F%2F${videoApiUrl}&quot;;
-			def videoApiToken = new URL(&quot;https://${BASE_URL_4}${loginUrl}&quot;).openConnection();
+			def videoApiToken = new URL(&quot;https://${LoginBaseUrl}${loginUrl}&quot;).openConnection();
 		
 			videoApiToken.setRequestMethod(&quot;POST&quot;)
 			videoApiToken.setDoOutput(true)
@@ -1347,11 +1279,11 @@ public class SimpleEventHandler implements EventHandler {
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${clientConferencesUrl}/${ParticipantUri}/participants/${ParticipantUuid}/calls/${CallUuid}/disconnect</stringProp>
+            <stringProp name="HTTPSampler.path">api/client/v2/conferences/${ParticipantUri}/participants/${ParticipantUuid}/calls/${CallUuid}/disconnect</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1391,11 +1323,11 @@ public class SimpleEventHandler implements EventHandler {
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.domain">${SipHearingUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${clientConferencesUrl}/${ParticipantUri}/release_token?token=${SelfTestToken}</stringProp>
+            <stringProp name="HTTPSampler.path">api/client/v2/conferences/${ParticipantUri}/release_token?token=${SelfTestToken}</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1420,11 +1352,144 @@ public class SimpleEventHandler implements EventHandler {
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s16-End" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s16-AuthToken" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="grant_type" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">password</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">grant_type</stringProp>
+                </elementProp>
+                <elementProp name="client_id" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${videoWebClientId}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">client_id</stringProp>
+                </elementProp>
+                <elementProp name="client_secret" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${videoWebClientSecret}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">client_secret</stringProp>
+                </elementProp>
+                <elementProp name="resource" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${videoWebClientId}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">resource</stringProp>
+                </elementProp>
+                <elementProp name="username" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${LoginId}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">username</stringProp>
+                </elementProp>
+                <elementProp name="password" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${UserPassword}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">password</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${LoginBaseUrl}</stringProp>
+            <stringProp name="HTTPSampler.port">${PortNo}</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">${loginUrl}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">navigate</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">en-GB,en-US;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">${scheme}://login.microsoftonline.com</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-User" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-User</stringProp>
+                  <stringProp name="Header.value">?1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+                </elementProp>
+                <elementProp name="Cache-Control" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">max-age=0</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">document</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$.access_token</stringProp>
+              <stringProp name="EXPECTED_VALUE">^[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$</stringProp>
+              <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname=" Access Token Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">BearerToken</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.access_token</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+              <stringProp name="Scope.variable">BearerToken</stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">TestToken</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s17-End" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -1461,11 +1526,11 @@ public class SimpleEventHandler implements EventHandler {
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s17-Logout" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s18-Logout" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -1516,11 +1581,11 @@ public class SimpleEventHandler implements EventHandler {
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s18-Config" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s19-Config" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.domain">${VideoWebUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -1545,23 +1610,23 @@ public class SimpleEventHandler implements EventHandler {
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s19-MsLogout" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Judge-s20-MsLogout" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="post_logout_redirect_uri" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">post_logout_redirect_uri</stringProp>
-                  <stringProp name="Argument.value">https://${BASE_URL_1}/logout</stringProp>
+                  <stringProp name="Argument.value">https://vh-video-web-dev.hearings.reform.hmcts.net/logout</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${BASE_URL_4}</stringProp>
+            <stringProp name="HTTPSampler.domain">${LoginBaseUrl}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${logoutUrl}</stringProp>
+            <stringProp name="HTTPSampler.path">fb6e0e22-0da3-4c35-972a-9d61eb256508/oauth2/logout</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
