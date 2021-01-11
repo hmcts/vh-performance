@@ -24,10 +24,14 @@ class MultiHearingScenario  extends Simulation {
               .exec(session =>{
                 session.set("representativeIndex",0)
               })
-              .repeat(5) {
+              .exec(session =>{
+                session.set("vhoIndex",0)
+              })
+              .repeat(6) {
                   feed(csvFeeder)
                   .exec(HearingsRequests.set_feeders())
                   .exec(auth.userauth, HearingsRequests.create_new_user())
+//                  .exec( HearingsRequests.update_password())
                   .exec(HearingsRequests.setUserName)
                   .exec(ServiceRequests.Home())
                   .exec(ServiceRequests.LoginReset())
@@ -57,6 +61,13 @@ class MultiHearingScenario  extends Simulation {
                       .doIfEquals(session => session("Role").as[String], "Observer"){
                         exec(HearingsRequests.incrementVar("observerIndex"))
                           .exec(HearingsRequests.setIndexVar("Observer","observerIndex"))
+                      }
+                      .doIfEquals(session => session("Role").as[String], "Vho"){
+                        exec(HearingsRequests.addUserToGroup("Internal"),
+                              HearingsRequests.addUserToGroup("VirtualRoomAdministrator"),
+                                HearingsRequests.addUserToGroup("vh_video_kinly_saml2_test1_users"))
+                          .exec(HearingsRequests.incrementVar("vhoIndex"))
+                          .exec(HearingsRequests.setIndexVar("Vho","vhoIndex"))
                       }
                   }
               }
