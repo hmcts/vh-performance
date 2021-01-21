@@ -1,8 +1,9 @@
 
 Declare @scheduledDateTime  as DateTime, @StartTime as DateTime, @EndTime as DateTime
 
-
-SET @scheduledDateTime = '2021-01-07 11:55:00' SET  @StartTime = '2021-01-07 11:55:00'  SET  @EndTime = '2021-01-07 16:55:00'
+ SET @scheduledDateTime = '2021-01-15 16:32:00' SET  @StartTime = '2021-01-15 16:32:00' SET  @EndTime = '2021-01-15 19:32:00'
+-- SET @scheduledDateTime = '2021-01-14 11:20:00' SET  @StartTime = '2021-01-14 11:20:00'  SET  @EndTime = '2021-01-14 23:20:00'
+--SET @scheduledDateTime = '2021-01-07 11:55:00' SET  @StartTime = '2021-01-07 11:55:00'  SET  @EndTime = '2021-01-07 16:55:00'
 -- SET  @scheduledDateTime = '2021-01-06 15:35:00'  SET  @StartTime =  '2021-01-06 15:35:00'   SET  @EndTime =  '2021-01-06 21:35:00'
 --	SET  @scheduledDateTime = '2021-01-06 10:46:00'  SET  @StartTime = '2021-01-06 10:46:00'  SET  @EndTime = '2021-01-06 14:46:00'
  -- SET  @scheduledDateTime = '2021-01-05 14:21:00'  SET  @StartTime = '2021-01-05 14:21:00' SET  @EndTime =  '2021-01-05 20:21:00'
@@ -16,6 +17,7 @@ SET @scheduledDateTime = '2021-01-07 11:55:00' SET  @StartTime = '2021-01-07 11:
  
 Drop table #ParticipantsFailedTransfer
 Drop table #Hearings
+ 
 
 select  c.id as ConferenceId,  c.casenumber, p.id as ParticipantId, p.displayname, 
 '0000-00-00 00:00:00.0000000' as Joined, '0000-00-00 00:00:00.0000000' as Disconnected, 
@@ -119,7 +121,7 @@ from #hearings
 where DisplayName  not like '%clerk%'
 and joined != '0000-00-00 00:00:00.0000000' and disconnected != '0000-00-00 00:00:00.0000000' 
 --and ParticipantId  not in ( select  ParticipantId from #ParticipantsFailedTransfer)
---and DateDiff(mi,convert(datetime, Joined),convert(datetime, Disconnected)) >= 0
+and DateDiff(mi,convert(datetime, Joined),convert(datetime, Disconnected)) >= 5
 order by TimeTaken
 
 select * from #hearings 
@@ -138,12 +140,12 @@ and  E.Reason = 'Civilian has failed to transfer'
 
 SELECT * FROM #HEARINGS WHERE DisplayName not  like '%clerk%' 
 
-select top 200 * from Conference order by scheduleddatetime  desc
+select top 100 * from Conference order by scheduleddatetime  desc
 
 SELECT max(disconnected) FROM #HEARINGS WHERE PARTICIPANTTRANSFERED = 0
 
 
-select * from event where conferenceid = '75606C00-541A-4038-B0D1-3640AA7577F2'  
+select * from event where conferenceid = '0C480887-40F1-4425-A086-40897AE07616'  
 
 C9D024C3-0B24-4670-83BA-09B6E9736636
 B5AC273C-FFCE-466E-9474-05F9AC14236B
