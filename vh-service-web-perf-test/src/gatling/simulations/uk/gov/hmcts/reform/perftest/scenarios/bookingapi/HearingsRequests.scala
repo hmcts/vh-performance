@@ -118,7 +118,7 @@ object HearingsRequests {
             """{
                   "first_name": "Performance${GenNos}",
                   "last_name": "${userType}${GenNo}",
-                  "recovery_email": "Performance${GenNos}.${userType}${GenNo}@test.com"
+                  "recovery_email": "Performance${GenNos}.${userType}${GenNo}@hmcts.net"
                   }"""))
           .check(jsonPath("$.user_id").saveAs("UserRefIdx"))
           .check(jsonPath("$.username").saveAs("UsernameOnex"))
@@ -155,7 +155,7 @@ object HearingsRequests {
             """{
                   "first_name": "${ParticipantFirstName}",
                   "last_name": "${ParticipantLastName}",
-                  "recovery_email": "${ParticipantFirstName}${ParticipantLastName}@test.com"
+                  "recovery_email": "${ParticipantFirstName}${ParticipantLastName}@hmcts.net"
                   }"""))
           .check(jsonPath("$.user_id").saveAs("UserRefIdx"))
           .check(jsonPath("$.username").saveAs("UsernameOnex"))

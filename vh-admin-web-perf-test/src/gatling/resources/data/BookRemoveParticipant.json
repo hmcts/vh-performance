@@ -2,7 +2,7 @@
   "scheduled_date_time": "${ScheduleDateTimex}",
   "scheduled_duration": 10,
   "hearing_venue_name": "Birmingham Civil and Family Justice Centre",
-  "hearing_type_name": "Final Hearing",
+  "hearing_type_name": "Hearing",
   "case": {
     "number": "${SrvCaseNox}",
     "name": "${SrvCaseNamex}"
@@ -28,8 +28,8 @@
       "contact_email": "${IndParticipantNamex}",
       "telephone_number": "01231231231",
       "display_name": "${IndFirstNamex} ${IndLastNamex}",
-      "case_role_name": "Claimant",
-      "hearing_role_name": "Claimant LIP",
+      "case_role_name": "Applicant",
+      "hearing_role_name": "Applicant LIP",
       "organisation_name": "organisation_30"
     }
   ],
